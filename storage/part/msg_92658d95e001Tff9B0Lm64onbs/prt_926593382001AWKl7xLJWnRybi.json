@@ -1,0 +1,26 @@
+{
+  "id": "prt_926593382001AWKl7xLJWnRybi",
+  "messageID": "msg_92658d95e001Tff9B0Lm64onbs",
+  "sessionID": "ses_6d9a8155bffeGjJ0q3doyWXUMD",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_13461118",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/digital_pet.py",
+      "oldString": "    def update_display(self):\n        self.hunger_label.config(text=f\"Hunger: {self.hunger}\")\n        self.thirst_label.config(text=f\"Thirst: {self.thirst}\")\n        self.happiness_label.config(text=f\"Happiness: {self.happiness}\")\n\n        # Change pet color based on happiness\n        if self.happiness > 70:\n            color = 'yellow'\n        elif self.happiness > 30:\n            color = 'orange'\n        else:\n            color = 'red'\n\n        self.pet_canvas.itemconfig(self.pet_id, fill=color)",
+      "newString": "    def update_display(self):\n        # Update progress bars\n        self.update_progress_bar(self.hunger_bar, self.hunger)\n        self.update_progress_bar(self.thirst_bar, self.thirst)\n        self.update_progress_bar(self.happiness_bar, self.happiness)\n\n        # Change pet color based on happiness using Breeze colors\n        if self.happiness > 70:\n            color = self.colors['pet_happy']\n        elif self.happiness > 30:\n            color = self.colors['pet_okay']\n        else:\n            color = self.colors['pet_sad']\n\n        self.pet_canvas.itemconfig(self.pet_id, fill=color)\n\n    def update_progress_bar(self, canvas, value):\n        \"\"\"Update a progress bar with new value\"\"\"\n        canvas.delete(\"all\")  # Clear previous content\n\n        # Background\n        canvas.create_rectangle(0, 0, 200, 20, fill=self.colors['progress_bg'], outline='')\n\n        # Progress fill\n        fill_width = (value / 100) * 196\n        if fill_width > 0:\n            canvas.create_rectangle(2, 2, fill_width + 2, 18, fill=self.colors['progress_fg'],\n                                   outline='', width=0)"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/digital_pet.py\n===================================================================\n--- /home/noah/digital_pet.py\n+++ /home/noah/digital_pet.py\n@@ -176,22 +176,36 @@\n     self.thirst = max(0, self.thirst - 5)\n     self.update_display()\n \n def update_display(self):\n-    self.hunger_label.config(text=f\"Hunger: {self.hunger}\")\n-    self.thirst_label.config(text=f\"Thirst: {self.thirst}\")\n-    self.happiness_label.config(text=f\"Happiness: {self.happiness}\")\n+    # Update progress bars\n+    self.update_progress_bar(self.hunger_bar, self.hunger)\n+    self.update_progress_bar(self.thirst_bar, self.thirst)\n+    self.update_progress_bar(self.happiness_bar, self.happiness)\n \n-    # Change pet color based on happiness\n+    # Change pet color based on happiness using Breeze colors\n     if self.happiness > 70:\n-        color = 'yellow'\n+        color = self.colors['pet_happy']\n     elif self.happiness > 30:\n-        color = 'orange'\n+        color = self.colors['pet_okay']\n     else:\n-        color = 'red'\n+        color = self.colors['pet_sad']\n \n     self.pet_canvas.itemconfig(self.pet_id, fill=color)\n \n+def update_progress_bar(self, canvas, value):\n+    \"\"\"Update a progress bar with new value\"\"\"\n+    canvas.delete(\"all\")  # Clear previous content\n+\n+    # Background\n+    canvas.create_rectangle(0, 0, 200, 20, fill=self.colors['progress_bg'], outline='')\n+\n+    # Progress fill\n+    fill_width = (value / 100) * 196\n+    if fill_width > 0:\n+        canvas.create_rectangle(2, 2, fill_width + 2, 18, fill=self.colors['progress_fg'],\n+                               outline='', width=0)\n+\n def save_state(self):\n     state = {\n         'hunger': self.hunger,\n         'thirst': self.thirst,\n"
+    },
+    "title": "home/noah/digital_pet.py",
+    "time": {
+      "start": 1757285004164,
+      "end": 1757285004172
+    }
+  }
+}

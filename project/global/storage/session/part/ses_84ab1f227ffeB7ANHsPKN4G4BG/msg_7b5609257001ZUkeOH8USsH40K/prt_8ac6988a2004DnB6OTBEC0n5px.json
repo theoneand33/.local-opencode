@@ -1,0 +1,1 @@
+{"id":"prt_8ac6988a2004DnB6OTBEC0n5px","messageID":"msg_7b5609257001ZUkeOH8USsH40K","sessionID":"ses_84ab1f227ffeB7ANHsPKN4G4BG","type":"text","text":"when i have installed propscan and then run it it doesnt work and outputs /home/noah/.local/share/propscan-venv/bin/python: No module named propscan.__main__; 'propscan' is a package and cannot be directly executed"}

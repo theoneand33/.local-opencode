@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264dcf19001ik9G8wl3mxHp1j",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_9fed5753baeb48bbbddbe675",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/config.json",
+      "content": "{\n  \"scan_directories\": [\"/usr/bin\", \"/usr/local/bin\", \"/opt\", \"/home\"],\n  \"exclude_directories\": [\"/proc\", \"/sys\", \"/dev\", \"/tmp\"],\n  \"proprietary_keywords\": [\n    \"proprietary\", \"commercial\", \"closed-source\", \"license\",\n    \"trial\", \"demo\", \"shareware\", \"freemium\"\n  ],\n  \"proprietary_companies\": [\n    \"microsoft\", \"google\", \"adobe\", \"oracle\", \"apple\", \"amazon\",\n    \"facebook\", \"meta\", \"nvidia\", \"amd\", \"intel\", \"vmware\",\n    \"autodesk\", \"mathworks\", \"wolfram\", \"spotify\", \"slack\",\n    \"dropbox\", \"teamviewer\", \"zoom\", \"skype\", \"discord\"\n  ],\n  \"known_proprietary_packages\": {\n    \"google-chrome-stable\": \"proprietary\",\n    \"slack-desktop\": \"proprietary\",\n    \"teamviewer\": \"proprietary\",\n    \"zoom\": \"proprietary\",\n    \"skypeforlinux\": \"proprietary\",\n    \"spotify-client\": \"proprietary\",\n    \"discord\": \"proprietary\",\n    \"steam\": \"proprietary\",\n    \"microsoft-edge-stable\": \"proprietary\",\n    \"vscode\": \"proprietary\",\n    \"intellij-idea\": \"proprietary\",\n    \"pycharm\": \"proprietary\",\n    \"webstorm\": \"proprietary\",\n    \"datagrip\": \"proprietary\",\n    \"goland\": \"proprietary\",\n    \"clion\": \"proprietary\",\n    \"rubymine\": \"proprietary\",\n    \"phpstorm\": \"proprietary\",\n    \"matlab\": \"proprietary\",\n    \"mathematica\": \"proprietary\",\n    \"adobe-reader\": \"proprietary\",\n    \"adobe-flashplugin\": \"proprietary\",\n    \"dropbox\": \"proprietary\",\n    \"virtualbox\": \"proprietary\",\n    \"vmware-workstation\": \"proprietary\",\n    \"nvidia-driver\": \"proprietary\",\n    \"amd-driver\": \"proprietary\",\n    \"cuda\": \"proprietary\",\n    \"rocm\": \"proprietary\"\n  },\n  \"output_format\": \"table\",\n  \"verbose\": false\n}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/config.json",
+      "exists": false
+    },
+    "title": "home/noah/config.json",
+    "time": {
+      "start": 1757284257564,
+      "end": 1757284257878
+    }
+  }
+}

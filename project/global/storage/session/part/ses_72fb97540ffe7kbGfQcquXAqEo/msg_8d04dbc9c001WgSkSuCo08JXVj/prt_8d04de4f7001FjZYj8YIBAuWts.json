@@ -1,0 +1,27 @@
+{
+  "id": "prt_8d04de4f7001FjZYj8YIBAuWts",
+  "messageID": "msg_8d04dbc9c001WgSkSuCo08JXVj",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_91145650",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd degoogle-site && pnpm astro add vue",
+      "timeout": 60000,
+      "description": "Add Vue integration to Astro"
+    },
+    "output": "\n> degoogle-site@0.0.1 astro /home/noah/degoogle-site\n> astro add vue\n\n\u001b[36m⠋\u001b[39m Resolving packages...\n\u001b[36m⠙\u001b[39m Resolving packages...\n\u001b[36m⠹\u001b[39m Resolving packages...\n\u001b[36m⠸\u001b[39m Resolving packages...\n\u001b[36m⠼\u001b[39m Resolving packages...\n\u001b[36m⠴\u001b[39m Resolving packages...\n\u001b[36m⠦\u001b[39m Resolving packages...\n\u001b[36m⠧\u001b[39m Resolving packages...\n\u001b[36m⠇\u001b[39m Resolving packages...\n\u001b[36m⠇\u001b[39m Resolving packages...\n\u001b[36m⠏\u001b[39m Resolving packages...\n\u001b[36m⠋\u001b[39m Resolving packages...\n\u001b[32m✔\u001b[39m Resolving packages...\n\n  Astro will run the following command:\n  If you skip this step, you can always run it yourself later\n\n ╭───────────────────────────────────────────╮\n │ pnpm add @astrojs/vue@^5.1.0 vue@^3.5.19  │\n ╰───────────────────────────────────────────╯\n\n\u001b[?25l\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mContinue?\u001b[22m \u001b[90m›\u001b[39m \u001b[90m(Y/n)\u001b[39m",
+    "metadata": {
+      "output": "\n> degoogle-site@0.0.1 astro /home/noah/degoogle-site\n> astro add vue\n\n\u001b[36m⠋\u001b[39m Resolving packages...\n\u001b[36m⠙\u001b[39m Resolving packages...\n\u001b[36m⠹\u001b[39m Resolving packages...\n\u001b[36m⠸\u001b[39m Resolving packages...\n\u001b[36m⠼\u001b[39m Resolving packages...\n\u001b[36m⠴\u001b[39m Resolving packages...\n\u001b[36m⠦\u001b[39m Resolving packages...\n\u001b[36m⠧\u001b[39m Resolving packages...\n\u001b[36m⠇\u001b[39m Resolving packages...\n\u001b[36m⠇\u001b[39m Resolving packages...\n\u001b[36m⠏\u001b[39m Resolving packages...\n\u001b[36m⠋\u001b[39m Resolving packages...\n\u001b[32m✔\u001b[39m Resolving packages...\n\n  Astro will run the following command:\n  If you skip this step, you can always run it yourself later\n\n ╭───────────────────────────────────────────╮\n │ pnpm add @astrojs/vue@^5.1.0 vue@^3.5.19  │\n ╰───────────────────────────────────────────╯\n\n\u001b[?25l\u001b[2K\u001b[1G\u001b[36m?\u001b[39m \u001b[1mContinue?\u001b[22m \u001b[90m›\u001b[39m \u001b[90m(Y/n)\u001b[39m",
+      "exit": null,
+      "description": "Add Vue integration to Astro"
+    },
+    "title": "cd degoogle-site && pnpm astro add vue",
+    "time": {
+      "start": 1755841422603,
+      "end": 1755841449164
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_926513f1b001LIimwfM7dX7t7K",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_265566c1b368436486a66037",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "def scan_filesystem(self, scan_dirs: List[str] = None) -> List[SoftwareInfo]:\n        \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n        if scan_dirs is None:\n            scan_dirs = self.config.get('scan_directories', ['/usr/bin', '/usr/local/bin', '/opt', '/home'])\n        \n        results = []\n        \n        for directory in scan_dirs:\n            if not os.path.exists(directory):\n                continue\n            \n            try:\n                for root, dirs, files in os.walk(directory):\n                    # Skip hidden directories and excluded directories\n                    dirs[:] = [d for d in dirs if not d.startswith('.') and d not in self.exclude_directories]\n                    \n                    for file in files:\n                        file_path = os.path.join(root, file)\n                        if self._is_executable(file_path):\n                            license_type = self._analyze_binary(file_path)\n                            if license_type == 'proprietary':\n                                results.append(SoftwareInfo(\n                                    name=file,\n                                    version='',\n                                    license_type=license_type,\n                                    source='file_system',\n                                    path=file_path\n                                ))\n            except PermissionError:\n                continue\n        \n        return results",
+      "newString": "def scan_filesystem(self, scan_dirs: List[str] = None) -> List[SoftwareInfo]:\n        \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n        if scan_dirs is None:\n            scan_dirs = self.config.get('scan_directories', ['/usr/bin', '/usr/local/bin', '/opt', '/home'])\n        \n        # Add Flatpak installation directories if they exist\n        flatpak_dirs = [\n            '/var/lib/flatpak/app',\n            '/var/lib/flatpak/runtime',\n            os.path.expanduser('~/.local/share/flatpak/app'),\n            os.path.expanduser('~/.local/share/flatpak/runtime')\n        ]\n        \n        for flatpak_dir in flatpak_dirs:\n            if os.path.exists(flatpak_dir) and flatpak_dir not in scan_dirs:\n                scan_dirs.append(flatpak_dir)\n        \n        results = []\n        \n        for directory in scan_dirs:\n            if not os.path.exists(directory):\n                continue\n            \n            try:\n                for root, dirs, files in os.walk(directory):\n                    # Skip hidden directories and excluded directories\n                    dirs[:] = [d for d in dirs if not d.startswith('.') and d not in self.exclude_directories]\n                    \n                    for file in files:\n                        file_path = os.path.join(root, file)\n                        if self._is_executable(file_path):\n                            license_type = self._analyze_binary(file_path)\n                            if license_type == 'proprietary':\n                                results.append(SoftwareInfo(\n                                    name=file,\n                                    version='',\n                                    license_type=license_type,\n                                    source='file_system',\n                                    path=file_path\n                                ))\n            except PermissionError:\n                continue\n        \n        return results"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary-scanner.py\n===================================================================\n--- /home/noah/proprietary-scanner.py\n+++ /home/noah/proprietary-scanner.py\n@@ -371,8 +371,20 @@\n \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n if scan_dirs is None:\n     scan_dirs = self.config.get('scan_directories', ['/usr/bin', '/usr/local/bin', '/opt', '/home'])\n \n+# Add Flatpak installation directories if they exist\n+flatpak_dirs = [\n+    '/var/lib/flatpak/app',\n+    '/var/lib/flatpak/runtime',\n+    os.path.expanduser('~/.local/share/flatpak/app'),\n+    os.path.expanduser('~/.local/share/flatpak/runtime')\n+]\n+\n+for flatpak_dir in flatpak_dirs:\n+    if os.path.exists(flatpak_dir) and flatpak_dir not in scan_dirs:\n+        scan_dirs.append(flatpak_dir)\n+\n results = []\n \n for directory in scan_dirs:\n     if not os.path.exists(directory):\n"
+    },
+    "title": "home/noah/proprietary-scanner.py",
+    "time": {
+      "start": 1757284482845,
+      "end": 1757284482858
+    }
+  }
+}

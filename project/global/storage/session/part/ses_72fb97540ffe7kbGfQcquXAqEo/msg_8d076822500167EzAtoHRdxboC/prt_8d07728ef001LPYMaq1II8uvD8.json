@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d07728ef001LPYMaq1II8uvD8",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_17730560",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/styles/global.css",
+      "oldString": "/* DEBUG: Make all text bright red to see if CSS is loading */\np-text {\n  color: #ff0000 !important;\n  background-color: yellow !important;\n  padding: 2px !important;\n  border: 2px solid red !important;\n}\n\np-heading {\n  color: #00ff00 !important;\n  background-color: blue !important;\n  padding: 2px !important;\n  border: 2px solid green !important;\n}",
+      "newString": "/* Custom component styles for better contrast */\n.custom-text {\n  color: rgb(209, 213, 219) !important; /* gray-300 */\n}\n\n.custom-heading {\n  color: rgb(96, 165, 250) !important; /* blue-400 */\n}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/styles/global.css\n===================================================================\n--- /home/noah/degoogle-site/src/styles/global.css\n+++ /home/noah/degoogle-site/src/styles/global.css\n@@ -88,21 +88,15 @@\n * {\n   color: inherit;\n }\n \n-/* DEBUG: Make all text bright red to see if CSS is loading */\n-p-text {\n-  color: #ff0000 !important;\n-  background-color: yellow !important;\n-  padding: 2px !important;\n-  border: 2px solid red !important;\n+/* Custom component styles for better contrast */\n+.custom-text {\n+  color: rgb(209, 213, 219) !important; /* gray-300 */\n }\n \n-p-heading {\n-  color: #00ff00 !important;\n-  background-color: blue !important;\n-  padding: 2px !important;\n-  border: 2px solid green !important;\n+.custom-heading {\n+  color: rgb(96, 165, 250) !important; /* blue-400 */\n }\n \n /* Specific overrides for common Porsche classes */\n [class*=\"p-color-\"] {\n"
+    },
+    "title": "degoogle-site/src/styles/global.css",
+    "time": {
+      "start": 1755844126960,
+      "end": 1755844126964
+    }
+  }
+}

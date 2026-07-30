@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a241d48e001w60RkYrScFXv7S",
+  "messageID": "msg_9a241bf6e001HI0aQNE434gaDb",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_eeac882ed25c4530979394a7",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "oldString": "\t\t\t\t\t\t<button class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400\">",
+      "newString": "\t\t\t\t\t\t<button class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400\">"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/layouts/Layout.astro\n+++ /home/noah/open-source-alternatives/src/layouts/Layout.astro\n@@ -58,9 +58,9 @@\n \t<ThemeToggle />\n </div>\n <div class=\"md:hidden flex items-center space-x-2\">\n \t<ThemeToggle />\n-\t<button class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400\">\n+\t<button class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400\">\n \t\t<svg class=\"w-6 h-6\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n \t\t\t<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M4 6h16M4 12h16M4 18h16\"></path>\n \t\t</svg>\n \t</button>\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759363847311,
+      "end": 1759363847313
+    }
+  }
+}

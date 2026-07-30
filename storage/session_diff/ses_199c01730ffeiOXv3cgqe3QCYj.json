@@ -1,0 +1,156 @@
+[
+  {
+    "file": "public/flash/boxhead2play.swf",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/flash/qwop.swf",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/flash/run2.swf",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/ageofwar-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/boxhead-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/fancypants-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/learntofly2-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/qwop-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/run2-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/run3-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/strikeforceheroes-cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/age-of-war.astro",
+    "patch": "Index: src/pages/games/age-of-war.astro\n===================================================================\n--- src/pages/games/age-of-war.astro\t\n+++ src/pages/games/age-of-war.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Age of War\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Age of War superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/ageofwar.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/boxhead-2play.astro",
+    "patch": "Index: src/pages/games/boxhead-2play.astro\n===================================================================\n--- src/pages/games/boxhead-2play.astro\t\n+++ src/pages/games/boxhead-2play.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Boxhead 2Play\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Boxhead 2Play superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/boxhead2play.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/fancy-pants-adventure.astro",
+    "patch": "Index: src/pages/games/fancy-pants-adventure.astro\n===================================================================\n--- src/pages/games/fancy-pants-adventure.astro\t\n+++ src/pages/games/fancy-pants-adventure.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Fancy Pants Adventure\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Fancy Pants Adventure superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/fancypants.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/learn-to-fly-2.astro",
+    "patch": "Index: src/pages/games/learn-to-fly-2.astro\n===================================================================\n--- src/pages/games/learn-to-fly-2.astro\t\n+++ src/pages/games/learn-to-fly-2.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Learn to Fly 2\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Learn to Fly 2 superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/learntofly2.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/qwop.astro",
+    "patch": "Index: src/pages/games/qwop.astro\n===================================================================\n--- src/pages/games/qwop.astro\t\n+++ src/pages/games/qwop.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"QWOP\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play QWOP superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/qwop.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/run2.astro",
+    "patch": "Index: src/pages/games/run2.astro\n===================================================================\n--- src/pages/games/run2.astro\t\n+++ src/pages/games/run2.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Run 2\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Run 2 superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/run2.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/run3.astro",
+    "patch": "Index: src/pages/games/run3.astro\n===================================================================\n--- src/pages/games/run3.astro\t\n+++ src/pages/games/run3.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Run 3\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Run 3 superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/run3.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/stick-war.astro",
+    "patch": "Index: src/pages/games/stick-war.astro\n===================================================================\n--- src/pages/games/stick-war.astro\t\n+++ src/pages/games/stick-war.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Stick War\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Stick War superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/stickwar.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/strike-force-heroes.astro",
+    "patch": "Index: src/pages/games/strike-force-heroes.astro\n===================================================================\n--- src/pages/games/strike-force-heroes.astro\t\n+++ src/pages/games/strike-force-heroes.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Strike Force Heroes\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Strike Force Heroes superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/strikeforceheroes.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/super-mario-flash-2.astro",
+    "patch": "Index: src/pages/games/super-mario-flash-2.astro\n===================================================================\n--- src/pages/games/super-mario-flash-2.astro\t\n+++ src/pages/games/super-mario-flash-2.astro\t\n@@ -0,0 +1,43 @@\n+---\n+const Game = \"Super Mario Flash 2\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+<html lang=\"en\">\n+  <head>\n+    <meta charset=\"UTF-8\" />\n+    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n+    <meta name=\"description\" content=\"Play Super Mario Flash 2 superfun online. - superfun and ready to play!\" />\n+    <title>{Game}</title>\n+    <script defer src=\"/_vercel/insights/script.js\"></script>\n+  </head>\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div id=\"container\" style=\"border: #ccc 0px solid; height: 100%; width: 100%\"></div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/supermarioflash2.swf\");\n+        })();\n+      </script>\n+    </div>\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+  </Layout>\n+</html>\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/index.astro",
+    "patch": "Index: src/pages/index.astro\n===================================================================\n--- src/pages/index.astro\t\n+++ src/pages/index.astro\t\n@@ -1,107 +1,157 @@\n ---\n import Layout from \"../layout/layout-home.astro\";\n import Gametile from \"../components/gametile.astro\";\n const pageTitle = \"Home - Superfun Games\";\n const games = [\n   {\n     Game: \"Gun Mayhem 2\",\n     Path: \"/games/gun-mayhem2\",\n     Image: \"/images/gm2cover.png\",\n   },\n   {\n     Game: \"Madness: Project Nexus\",\n     Path: \"/games/madness-project-nexus\",\n     Image: \"/images/madness-cover.png\",\n   },\n   { Game: \"Hobo 2\", Path: \"/games/hobo2\", Image: \"/images/hobo2cover.jpg\" },\n   {\n     Game: \"Riddle School 2\",\n     Path: \"/games/riddle-school2\",\n     Image: \"/images/Riddle-School-2_logo.png\",\n   },\n   { Game: \"Vex 3\", Path: \"/games/vex3\", Image: \"/images/vex-3cover.jpg\" },\n   { Game: \"Tetris\", Path: \"/games/tetris\", Image: \"/images/tetriscover.avif\" },\n   {\n     Game: \"The Impossible Quiz 2\",\n     Path: \"/games/theimpossiblequiz2\",\n     Image: \"/images/impossiblequiz2cover.jpg\",\n   },\n   {\n     Game: \"Super Mario Flash\",\n     Path: \"/games/supermarioflash\",\n     Image: \"/images/supermarioflashcover.png\",\n   },\n   {\n     Game: \"Minesweeper\",\n     Path: \"/games/minesweeper\",\n     Image: \"/images/minesweepercover.jpg\",\n   },\n   {\n     Game: \"Bloons TD 5\",\n     Path: \"/games/bloonstd5\",\n     Image: \"/images/bloonstd5cover.png\",\n   },\n   { Game: \"Hobo 7\", Path: \"/games/hobo7\", Image: \"/images/hobo7cover.webp\" },\n   { Game: \"Doom\", Path: \"/games/doom\", Image: \"/images/doomcover.jpg\" },\n   {\n     Game: \"Happy Wheels\",\n     Path: \"/games/happywheels\",\n     Image: \"/images/happywheelscover.jpeg\",\n   },\n   {\n     Game: \"Geometry Dash\",\n     Path: \"/games/geometry-dash\",\n     Image: \"/images/geometrydashcover.png\",\n   },\n   {\n     Game: \"Riddle School 3\",\n     Path: \"/games/riddle-school3\",\n     Image: \"/images/riddle-school-3-cover.jpg\",\n   },\n   {\n     Game: \"Riddle School 4\",\n     Path: \"/games/riddle-school4\",\n     Image: \"/images/riddle-school-4-cover.jpg\",\n   },\n   {\n     Game: \"Riddle School 5\",\n     Path: \"/games/riddle-school5\",\n     Image: \"/images/riddleschool5-cover.jpg\",\n   },\n   {\n     Game: \"Plants vs Zombies\",\n     Path: \"/games/plants-vs-zombies\",\n     Image: \"/images/plants-vs-zombies-cover.jpg\",\n   },\n   {\n     Game: \"Geography Game USA\",\n     Path: \"/games/geography-game\",\n     Image: \"/images/geography-game-cover.jpg\",\n   },\n   {\n     Game: \"Pac-Man\",\n     Path: \"/games/pacman\",\n     Image: \"/images/pacman-cover.png\",\n   },\n   {\n     Game: \"Ultimate Flash Sonic\",\n     Path: \"/games/ultimate-flash-sonic\",\n     Image: \"/images/sonic-cover.png\",\n   },\n   {\n     Game: \"Super Mario 63\",\n     Path: \"/games/super-mario-63\",\n     Image: \"/images/sm63-cover.png\",\n   },\n+  {\n+    Game: \"Stick War\",\n+    Path: \"/games/stick-war\",\n+    Image: \"/images/stickwarcover.webp\",\n+  },\n+  {\n+    Game: \"Age of War\",\n+    Path: \"/games/age-of-war\",\n+    Image: \"/images/ageofwar-cover.png\",\n+  },\n+  {\n+    Game: \"Run 2\",\n+    Path: \"/games/run2\",\n+    Image: \"/images/run2-cover.png\",\n+  },\n+  {\n+    Game: \"Run 3\",\n+    Path: \"/games/run3\",\n+    Image: \"/images/run3-cover.png\",\n+  },\n+  {\n+    Game: \"Learn to Fly 2\",\n+    Path: \"/games/learn-to-fly-2\",\n+    Image: \"/images/learntofly2-cover.png\",\n+  },\n+  {\n+    Game: \"Strike Force Heroes\",\n+    Path: \"/games/strike-force-heroes\",\n+    Image: \"/images/strikeforceheroes-cover.png\",\n+  },\n+  {\n+    Game: \"QWOP\",\n+    Path: \"/games/qwop\",\n+    Image: \"/images/qwop-cover.png\",\n+  },\n+  {\n+    Game: \"Fancy Pants Adventure\",\n+    Path: \"/games/fancy-pants-adventure\",\n+    Image: \"/images/fancypants-cover.png\",\n+  },\n+  {\n+    Game: \"Boxhead 2Play\",\n+    Path: \"/games/boxhead-2play\",\n+    Image: \"/images/boxhead-cover.png\",\n+  },\n+  {\n+    Game: \"Super Mario Flash 2\",\n+    Path: \"/games/super-mario-flash-2\",\n+    Image: \"/images/supermarioflash2cover.png\",\n+  },\n ];\n ---\n \n <Layout pageTitle={pageTitle}>\n   <h1 class=\"text-xl font-bold mb-4 m-5\">\n     Welcome to the best free Unblocked Games website\n   </h1>\n \n   <div class=\"games-grid\">\n     {games.map((g) => <Gametile Game={g.Game} Path={g.Path} Image={g.Image} />)}\n   </div>\n </Layout>\n",
+    "additions": 50,
+    "deletions": 0,
+    "status": "modified"
+  }
+]

@@ -1,0 +1,109 @@
+{
+  "id": "prt_9264b89f1001gOyh3CIId1LJdK",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "todowrite",
+  "callID": "call_317e9f7d1beb4113ace752ad",
+  "state": {
+    "status": "completed",
+    "input": {
+      "todos": [
+        {
+          "content": "Design the CLI tool structure and command-line interface",
+          "status": "pending",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Implement package manager detection (apt, rpm, pacman, etc.)",
+          "status": "pending",
+          "priority": "high",
+          "id": "2"
+        },
+        {
+          "content": "Create proprietary software database/license detection logic",
+          "status": "pending",
+          "priority": "high",
+          "id": "3"
+        },
+        {
+          "content": "Add file system scanning for binary detection",
+          "status": "pending",
+          "priority": "medium",
+          "id": "4"
+        },
+        {
+          "content": "Implement output formatting (JSON, CSV, table)",
+          "status": "pending",
+          "priority": "medium",
+          "id": "5"
+        },
+        {
+          "content": "Add configuration file support",
+          "status": "pending",
+          "priority": "low",
+          "id": "6"
+        },
+        {
+          "content": "Create documentation and usage examples",
+          "status": "pending",
+          "priority": "low",
+          "id": "7"
+        }
+      ]
+    },
+    "output": "[\n  {\n    \"content\": \"Design the CLI tool structure and command-line interface\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"1\"\n  },\n  {\n    \"content\": \"Implement package manager detection (apt, rpm, pacman, etc.)\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"2\"\n  },\n  {\n    \"content\": \"Create proprietary software database/license detection logic\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"3\"\n  },\n  {\n    \"content\": \"Add file system scanning for binary detection\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"4\"\n  },\n  {\n    \"content\": \"Implement output formatting (JSON, CSV, table)\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"5\"\n  },\n  {\n    \"content\": \"Add configuration file support\",\n    \"status\": \"pending\",\n    \"priority\": \"low\",\n    \"id\": \"6\"\n  },\n  {\n    \"content\": \"Create documentation and usage examples\",\n    \"status\": \"pending\",\n    \"priority\": \"low\",\n    \"id\": \"7\"\n  }\n]",
+    "metadata": {
+      "todos": [
+        {
+          "content": "Design the CLI tool structure and command-line interface",
+          "status": "pending",
+          "priority": "high",
+          "id": "1"
+        },
+        {
+          "content": "Implement package manager detection (apt, rpm, pacman, etc.)",
+          "status": "pending",
+          "priority": "high",
+          "id": "2"
+        },
+        {
+          "content": "Create proprietary software database/license detection logic",
+          "status": "pending",
+          "priority": "high",
+          "id": "3"
+        },
+        {
+          "content": "Add file system scanning for binary detection",
+          "status": "pending",
+          "priority": "medium",
+          "id": "4"
+        },
+        {
+          "content": "Implement output formatting (JSON, CSV, table)",
+          "status": "pending",
+          "priority": "medium",
+          "id": "5"
+        },
+        {
+          "content": "Add configuration file support",
+          "status": "pending",
+          "priority": "low",
+          "id": "6"
+        },
+        {
+          "content": "Create documentation and usage examples",
+          "status": "pending",
+          "priority": "low",
+          "id": "7"
+        }
+      ]
+    },
+    "title": "7 todos",
+    "time": {
+      "start": 1757284108788,
+      "end": 1757284108788
+    }
+  }
+}

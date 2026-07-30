@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04f657e001Fze3t820Kll5Gb",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_86019516",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/astro.config.mjs",
+      "oldString": "  integrations: [react(), vue()],",
+      "newString": "  integrations: [\n    react(),\n    vue({\n      template: {\n        compilerOptions: {\n          isCustomElement: (tag) => {\n            return tag.startsWith('p-');\n          },\n        },\n      },\n    }),\n  ],"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/astro.config.mjs\n===================================================================\n--- /home/noah/degoogle-site/astro.config.mjs\n+++ /home/noah/degoogle-site/astro.config.mjs\n@@ -7,9 +7,20 @@\n import vue from '@astrojs/vue';\n \n // https://astro.build/config\n export default defineConfig({\n-  integrations: [react(), vue()],\n+  integrations: [\n+    react(),\n+    vue({\n+      template: {\n+        compilerOptions: {\n+          isCustomElement: (tag) => {\n+            return tag.startsWith('p-');\n+          },\n+        },\n+      },\n+    }),\n+  ],\n \n   vite: {\n     plugins: [tailwindcss()]\n   }\n"
+    },
+    "title": "degoogle-site/astro.config.mjs",
+    "time": {
+      "start": 1755841521025,
+      "end": 1755841521032
+    }
+  }
+}

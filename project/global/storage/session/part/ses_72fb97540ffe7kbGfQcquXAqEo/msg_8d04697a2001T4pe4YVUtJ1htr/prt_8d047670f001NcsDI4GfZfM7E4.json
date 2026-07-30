@@ -1,0 +1,27 @@
+{
+  "id": "prt_8d047670f001NcsDI4GfZfM7E4",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_98740661",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd degoogle-site && pnpm dev",
+      "timeout": 30000,
+      "description": "Start the Astro development server"
+    },
+    "output": "\n> degoogle-site@0.0.1 dev /home/noah/degoogle-site\n> astro dev\n\n17:36:38 [types] Generated 0ms\n17:36:38 [content] Syncing content\n17:36:38 [content] Synced content\n\n astro  v5.13.2 ready in 538 ms\n\n┃ Local    http://localhost:4321/\n┃ Network  use --host to expose\n\n17:36:38 watching for file changes...\n",
+    "metadata": {
+      "output": "\n> degoogle-site@0.0.1 dev /home/noah/degoogle-site\n> astro dev\n\n17:36:38 [types] Generated 0ms\n17:36:38 [content] Syncing content\n17:36:38 [content] Synced content\n\n astro  v5.13.2 ready in 538 ms\n\n┃ Local    http://localhost:4321/\n┃ Network  use --host to expose\n\n17:36:38 watching for file changes...\n",
+      "exit": null,
+      "description": "Start the Astro development server"
+    },
+    "title": "cd degoogle-site && pnpm dev",
+    "time": {
+      "start": 1755840997138,
+      "end": 1755841027201
+    }
+  }
+}

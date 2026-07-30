@@ -1,0 +1,23 @@
+{
+  "id": "prt_8d054f8b5001xt7VAucHtWmfT0",
+  "messageID": "msg_8d054afd7001uFOwr7mJjxtOAe",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_15464577",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/astro.config.mjs"
+    },
+    "output": "<file>\n00001| // @ts-check\n00002| import { defineConfig } from 'astro/config';\n00003| \n00004| import react from '@astrojs/react';\n00005| import tailwindcss from '@tailwindcss/vite';\n00006| \n00007| import vue from '@astrojs/vue';\n00008| \n00009| // https://astro.build/config\n00010| export default defineConfig({\n00011|   integrations: [\n00012|     react(),\n00013|     vue({\n00014|       template: {\n00015|         compilerOptions: {\n00016|           isCustomElement: (tag) => {\n00017|             return tag.startsWith('p-');\n00018|           },\n00019|         },\n00020|       },\n00021|     }),\n00022|   ],\n00023| \n00024|   vite: {\n00025|     plugins: [tailwindcss()]\n00026|   }\n00027| });\n</file>",
+    "metadata": {
+      "preview": "// @ts-check\nimport { defineConfig } from 'astro/config';\n\nimport react from '@astrojs/react';\nimport tailwindcss from '@tailwindcss/vite';\n\nimport vue from '@astrojs/vue';\n\n// https://astro.build/config\nexport default defineConfig({\n  integrations: [\n    react(),\n    vue({\n      template: {\n        compilerOptions: {\n          isCustomElement: (tag) => {\n            return tag.startsWith('p-');\n          },\n        },\n      },"
+    },
+    "title": "degoogle-site/astro.config.mjs",
+    "time": {
+      "start": 1755841886390,
+      "end": 1755841886401
+    }
+  }
+}

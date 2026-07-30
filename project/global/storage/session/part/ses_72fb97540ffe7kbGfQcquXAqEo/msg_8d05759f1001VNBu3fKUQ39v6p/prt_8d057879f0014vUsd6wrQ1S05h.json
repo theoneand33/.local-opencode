@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d057879f0014vUsd6wrQ1S05h",
+  "messageID": "msg_8d05759f1001VNBu3fKUQ39v6p",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_42304746",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheHeader.vue",
+      "oldString": "<template>\n  <header class=\"bg-white p-4 shadow-sm border-b border-gray-200\">\n    <div class=\"container mx-auto flex justify-between items-center\">\n      <div class=\"flex items-center space-x-4\">\n        <p-wordmark />\n        <p-heading tag=\"h1\" size=\"large\">DeGoogle Guide</p-heading>\n      </div>\n      <nav class=\"space-x-6\">\n        <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n        <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n        <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n      </nav>\n    </div>\n  </header>\n</template>",
+      "newString": "<template>\n  <header class=\"bg-gray-800 p-4 shadow-sm border-b border-gray-700\">\n    <div class=\"container mx-auto flex justify-between items-center\">\n      <div class=\"flex items-center space-x-4\">\n        <p-wordmark />\n        <p-heading tag=\"h1\" size=\"large\" class=\"text-blue-400\">DeGoogle Guide</p-heading>\n      </div>\n      <nav class=\"space-x-6\">\n        <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n        <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n        <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n      </nav>\n    </div>\n  </header>\n</template>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheHeader.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheHeader.vue\n+++ /home/noah/degoogle-site/src/components/PorscheHeader.vue\n@@ -1,10 +1,10 @@\n <template>\n-  <header class=\"bg-white p-4 shadow-sm border-b border-gray-200\">\n+  <header class=\"bg-gray-800 p-4 shadow-sm border-b border-gray-700\">\n     <div class=\"container mx-auto flex justify-between items-center\">\n       <div class=\"flex items-center space-x-4\">\n         <p-wordmark />\n-        <p-heading tag=\"h1\" size=\"large\">DeGoogle Guide</p-heading>\n+        <p-heading tag=\"h1\" size=\"large\" class=\"text-blue-400\">DeGoogle Guide</p-heading>\n       </div>\n       <nav class=\"space-x-6\">\n         <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n         <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheHeader.vue",
+    "time": {
+      "start": 1755842054050,
+      "end": 1755842054106
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05f82d6001OTC2P6fb5Siohz",
+  "messageID": "msg_8d05ef998001ER07th3KUhD7HB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_67465843",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-4 text-blue-400\">Premium Design System</p-heading>\n      <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto text-gray-300\">\n        This site is built with the Porsche Design System, delivering a premium, consistent user experience\n        with optimized performance and accessibility.\n      </p-text>",
+      "newString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</p-heading>\n      <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n        This site is built with the Porsche Design System, delivering a premium, consistent user experience\n        with optimized performance and accessibility.\n      </p-text>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -34,10 +34,10 @@\n </section>\n \n <section class=\"py-12 bg-gray-800\">\n   <div class=\"container mx-auto text-center\">\n-    <p-heading tag=\"h2\" size=\"large\" class=\"mb-4 text-blue-400\">Premium Design System</p-heading>\n-    <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto text-gray-300\">\n+    <p-heading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</p-heading>\n+    <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n       This site is built with the Porsche Design System, delivering a premium, consistent user experience\n       with optimized performance and accessibility.\n     </p-text>\n   </div>\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755842577114,
+      "end": 1755842577123
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "prt_9a23cf808002i6zcU5EbmmyBgK",
+  "messageID": "msg_9a23ceb500016DBXer1aBvlIb8",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "text",
+  "text": "\n\nPerfect! I've confirmed that the VSCodium information I added to the website is accurate and up-to-date. Here's what I verified from the official sources:\n\n## ✅ **VSCodium Information Verified**\n\n### **Key Facts Confirmed:**\n- **Official Website**: `https://vscodium.com` ✓\n- **GitHub Repository**: `https://github.com/VSCodium/vscodium` ✓\n- **License**: MIT (truly open source) ✓\n- **Community**: 28.7k stars, 1.4k forks, 122 contributors ✓\n- **Description**: \"Free/Libre Open Source Software Binaries of VS Code\" ✓\n\n### **Why VSCodium is the Perfect Alternative:**\n1. **No Telemetry**: All Microsoft tracking disabled by default\n2. **MIT License**: Truly free software, not restrictive like Microsoft's license\n3. **Community-Driven**: Built and maintained by the open source community\n4. **Same Features**: All VSCode functionality without proprietary elements\n5. **Cross-Platform**: Available for Windows, macOS, and Linux\n6. **Package Manager Support**: Available in Homebrew, WinGet, Chocolatey, Snap, etc.\n\n### **Installation Options Available:**\n- **Mac**: `brew install --cask vscodium`\n- **Windows**: `winget install vscodium` or `choco install vscodium`\n- **Linux**: `snap install codium --classic` or various package managers\n\nThe change from VS Code to VSCodium is now complete and accurately represents a truly open source alternative that aligns perfectly with the website's mission of promoting software freedom and transparency.",
+  "time": {
+    "start": 1759363543928,
+    "end": 1759363543928
+  }
+}

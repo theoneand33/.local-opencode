@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d0473279001E5ESsFML2mWlvq",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_94918662",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "---\n\n---\n\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width\" />\n\t\t<meta name=\"generator\" content={Astro.generator} />\n\t\t<title>Astro</title>\n\t</head>\n\t<body>\n\t\t<h1>Astro</h1>\n\t</body>\n</html>",
+      "newString": "---\nimport Layout from '../layouts/Layout.astro';\nimport Hero from '../components/Hero.tsx';\nimport ServiceCard from '../components/ServiceCard.tsx';\n---\n\n<Layout title=\"DeGoogle Guide - Take Back Your Privacy\">\n  <Hero client:load />\n  <section class=\"py-12\">\n    <h2 class=\"text-3xl font-bold mb-8 text-center\">Why De-Google?</h2>\n    <div class=\"grid md:grid-cols-2 lg:grid-cols-3 gap-6\">\n      <ServiceCard\n        title=\"Privacy Concerns\"\n        description=\"Google tracks your every move across services. De-Googling helps protect your personal data.\"\n        icon=\"🔒\"\n        client:load\n      />\n      <ServiceCard\n        title=\"Data Ownership\"\n        description=\"Take control of your data instead of letting Google monetize it without your consent.\"\n        icon=\"📊\"\n        client:load\n      />\n      <ServiceCard\n        title=\"Digital Freedom\"\n        description=\"Break free from vendor lock-in and choose services that align with your values.\"\n        icon=\"🕊️\"\n        client:load\n      />\n    </div>\n  </section>\n</Layout>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -1,16 +1,32 @@\n ---\n-\n+import Layout from '../layouts/Layout.astro';\n+import Hero from '../components/Hero.tsx';\n+import ServiceCard from '../components/ServiceCard.tsx';\n ---\n \n-<html lang=\"en\">\n-\t<head>\n-\t\t<meta charset=\"utf-8\" />\n-\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n-\t\t<meta name=\"viewport\" content=\"width=device-width\" />\n-\t\t<meta name=\"generator\" content={Astro.generator} />\n-\t\t<title>Astro</title>\n-\t</head>\n-\t<body>\n-\t\t<h1>Astro</h1>\n-\t</body>\n-</html>\n+<Layout title=\"DeGoogle Guide - Take Back Your Privacy\">\n+  <Hero client:load />\n+  <section class=\"py-12\">\n+    <h2 class=\"text-3xl font-bold mb-8 text-center\">Why De-Google?</h2>\n+    <div class=\"grid md:grid-cols-2 lg:grid-cols-3 gap-6\">\n+      <ServiceCard\n+        title=\"Privacy Concerns\"\n+        description=\"Google tracks your every move across services. De-Googling helps protect your personal data.\"\n+        icon=\"🔒\"\n+        client:load\n+      />\n+      <ServiceCard\n+        title=\"Data Ownership\"\n+        description=\"Take control of your data instead of letting Google monetize it without your consent.\"\n+        icon=\"📊\"\n+        client:load\n+      />\n+      <ServiceCard\n+        title=\"Digital Freedom\"\n+        description=\"Break free from vendor lock-in and choose services that align with your values.\"\n+        icon=\"🕊️\"\n+        client:load\n+      />\n+    </div>\n+  </section>\n+</Layout>\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755840983678,
+      "end": 1755840983696
+    }
+  }
+}

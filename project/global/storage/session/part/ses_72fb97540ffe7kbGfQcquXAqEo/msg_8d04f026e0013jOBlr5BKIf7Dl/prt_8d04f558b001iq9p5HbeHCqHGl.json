@@ -1,0 +1,23 @@
+{
+  "id": "prt_8d04f558b001iq9p5HbeHCqHGl",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_20582293",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/package.json"
+    },
+    "output": "<file>\n00001| {\n00002|   \"name\": \"degoogle-site\",\n00003|   \"type\": \"module\",\n00004|   \"version\": \"0.0.1\",\n00005|   \"scripts\": {\n00006|     \"dev\": \"astro dev\",\n00007|     \"build\": \"astro build\",\n00008|     \"preview\": \"astro preview\",\n00009|     \"astro\": \"astro\"\n00010|   },\n00011|   \"dependencies\": {\n00012|     \"@astrojs/react\": \"^4.3.0\",\n00013|     \"@astrojs/vue\": \"^5.1.0\",\n00014|     \"@porsche-design-system/components-js\": \"^3.29.0\",\n00015|     \"@tailwindcss/vite\": \"^4.1.12\",\n00016|     \"@types/react\": \"^19.1.10\",\n00017|     \"@types/react-dom\": \"^19.1.7\",\n00018|     \"astro\": \"^5.13.2\",\n00019|     \"react\": \"^19.1.1\",\n00020|     \"react-dom\": \"^19.1.1\",\n00021|     \"tailwindcss\": \"^4.1.12\",\n00022|     \"vue\": \"^3.5.19\"\n00023|   }\n00024| }\n</file>",
+    "metadata": {
+      "preview": "{\n  \"name\": \"degoogle-site\",\n  \"type\": \"module\",\n  \"version\": \"0.0.1\",\n  \"scripts\": {\n    \"dev\": \"astro dev\",\n    \"build\": \"astro build\",\n    \"preview\": \"astro preview\",\n    \"astro\": \"astro\"\n  },\n  \"dependencies\": {\n    \"@astrojs/react\": \"^4.3.0\",\n    \"@astrojs/vue\": \"^5.1.0\",\n    \"@porsche-design-system/components-js\": \"^3.29.0\",\n    \"@tailwindcss/vite\": \"^4.1.12\",\n    \"@types/react\": \"^19.1.10\",\n    \"@types/react-dom\": \"^19.1.7\",\n    \"astro\": \"^5.13.2\",\n    \"react\": \"^19.1.1\",\n    \"react-dom\": \"^19.1.1\","
+    },
+    "title": "degoogle-site/package.json",
+    "time": {
+      "start": 1755841516940,
+      "end": 1755841516942
+    }
+  }
+}

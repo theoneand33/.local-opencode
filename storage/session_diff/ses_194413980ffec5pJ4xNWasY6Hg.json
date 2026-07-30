@@ -1,0 +1,9 @@
+[
+  {
+    "file": ".forgejo/workflows/opencode.yml",
+    "patch": "Index: .forgejo/workflows/opencode.yml\n===================================================================\n--- .forgejo/workflows/opencode.yml\t\n+++ .forgejo/workflows/opencode.yml\t\n@@ -0,0 +1,43 @@\n+name: opencode\n+\n+on:\n+  issue_comment:\n+    types: [created]\n+  pull_request_review_comment:\n+    types: [created]\n+\n+jobs:\n+  opencode:\n+    if: |\n+      contains(github.event.comment.body, '@opencode') ||\n+      contains(github.event.comment.body, ' /oc') ||\n+      startsWith(github.event.comment.body, '/oc') ||\n+      contains(github.event.comment.body, ' /opencode') ||\n+      startsWith(github.event.comment.body, '/opencode')\n+    runs-on: ubuntu-latest\n+    permissions:\n+      contents: read\n+      pull-requests: write\n+      issues: write\n+    steps:\n+      - name: Checkout repository\n+        uses: actions/checkout@v4\n+        with:\n+          persist-credentials: false\n+\n+      - name: Install opencode\n+        shell: bash\n+        run: curl -fsSL https://opencode.ai/install | bash\n+\n+      - name: Add opencode to PATH\n+        shell: bash\n+        run: echo \"$HOME/.opencode/bin\" >> $GITHUB_PATH\n+\n+      - name: Run opencode\n+        shell: bash\n+        run: opencode github run\n+        env:\n+          MODEL: openrouter/deepseek/deepseek-v4-flash-free:medium\n+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}\n+          USE_GITHUB_TOKEN: \"true\"\n+          MENTIONS: \"@opencode,/oc,/opencode\"\n",
+    "additions": 43,
+    "deletions": 0,
+    "status": "added"
+  }
+]

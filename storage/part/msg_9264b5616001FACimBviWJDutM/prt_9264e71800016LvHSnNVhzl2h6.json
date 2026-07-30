@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264e71800016LvHSnNVhzl2h6",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_1a50dc4b9d7f4ddeb8ba289e",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "def _determine_license(self, package_name: str, maintainer_or_vendor: str) -> str:\n        \"\"\"Determine if a package is proprietary based on name and maintainer/vendor.\"\"\"\n        package_name_lower = package_name.lower()\n        maintainer_lower = maintainer_or_vendor.lower()\n        \n        # Check against known proprietary packages\n        if package_name_lower in self.known_proprietary_packages:\n            return 'proprietary'\n        \n        # Check for proprietary keywords in package name\n        for keyword in self.proprietary_keywords:\n            if keyword in package_name_lower:\n                return 'proprietary'\n        \n        # Check maintainer/vendor for proprietary indicators\n        proprietary_companies = [\n            'microsoft', 'google', 'adobe', 'oracle', 'apple', 'amazon',\n            'facebook', 'meta', 'nvidia', 'amd', 'intel', 'vmware',\n            'autodesk', 'mathworks', 'wolfram', 'spotify', 'slack',\n            'dropbox', 'teamviewer', 'zoom', 'skype', 'discord'\n        ]\n        \n        for company in proprietary_companies:\n            if company in maintainer_lower:\n                return 'proprietary'\n        \n        return 'open-source'",
+      "newString": "def _determine_license(self, package_name: str, maintainer_or_vendor: str) -> str:\n        \"\"\"Determine if a package is proprietary based on name and maintainer/vendor.\"\"\"\n        package_name_lower = package_name.lower()\n        maintainer_lower = maintainer_or_vendor.lower()\n        \n        # Check against known proprietary packages\n        if package_name_lower in self.known_proprietary_packages:\n            return 'proprietary'\n        \n        # Check for proprietary keywords in package name\n        for keyword in self.proprietary_keywords:\n            if keyword in package_name_lower:\n                return 'proprietary'\n        \n        # Check maintainer/vendor for proprietary indicators\n        for company in self.proprietary_companies:\n            if company in maintainer_lower:\n                return 'proprietary'\n        \n        return 'open-source'"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary-scanner.py\n===================================================================\n--- /home/noah/proprietary-scanner.py\n+++ /home/noah/proprietary-scanner.py\n@@ -312,16 +312,9 @@\n     if keyword in package_name_lower:\n         return 'proprietary'\n \n # Check maintainer/vendor for proprietary indicators\n-proprietary_companies = [\n-    'microsoft', 'google', 'adobe', 'oracle', 'apple', 'amazon',\n-    'facebook', 'meta', 'nvidia', 'amd', 'intel', 'vmware',\n-    'autodesk', 'mathworks', 'wolfram', 'spotify', 'slack',\n-    'dropbox', 'teamviewer', 'zoom', 'skype', 'discord'\n-]\n-\n-for company in proprietary_companies:\n+for company in self.proprietary_companies:\n     if company in maintainer_lower:\n         return 'proprietary'\n \n return 'open-source'\n"
+    },
+    "title": "home/noah/proprietary-scanner.py",
+    "time": {
+      "start": 1757284299139,
+      "end": 1757284299153
+    }
+  }
+}

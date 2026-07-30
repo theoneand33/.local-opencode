@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d0526e4600173jnADFRm3zov4",
+  "messageID": "msg_8d0521a4900172cMEUwWYvGYr4",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_76821483",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "  <section class=\"py-12 bg-gray-800\">\n    <div class=\"container mx-auto text-center\">\n      <h2 class=\"text-3xl font-bold mb-4\">Experience Porsche Design System</h2>\n      <p class=\"text-gray-300 mb-6\">See how the Porsche Design System enhances our de-Googling guide with premium components and consistent design.</p>\n      <a href=\"/porsche-demo\" class=\"bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg inline-block\">\n        View Porsche Demo\n      </a>\n    </div>\n  </section>",
+      "newString": "  <section class=\"py-12 bg-gray-800\">\n    <div class=\"container mx-auto text-center\">\n      <h2 class=\"text-3xl font-bold mb-4\">Experience Porsche Design System</h2>\n      <p class=\"text-gray-300 mb-6\">See how the Porsche Design System enhances our de-Googling guide with premium components and consistent design. Now with improved contrast and accessibility!</p>\n      <a href=\"/porsche-demo\" class=\"bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg inline-block\">\n        View Porsche Demo\n      </a>\n    </div>\n  </section>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -32,9 +32,9 @@\n \n <section class=\"py-12 bg-gray-800\">\n   <div class=\"container mx-auto text-center\">\n     <h2 class=\"text-3xl font-bold mb-4\">Experience Porsche Design System</h2>\n-    <p class=\"text-gray-300 mb-6\">See how the Porsche Design System enhances our de-Googling guide with premium components and consistent design.</p>\n+    <p class=\"text-gray-300 mb-6\">See how the Porsche Design System enhances our de-Googling guide with premium components and consistent design. Now with improved contrast and accessibility!</p>\n     <a href=\"/porsche-demo\" class=\"bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg inline-block\">\n       View Porsche Demo\n     </a>\n   </div>\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755841719880,
+      "end": 1755841719883
+    }
+  }
+}

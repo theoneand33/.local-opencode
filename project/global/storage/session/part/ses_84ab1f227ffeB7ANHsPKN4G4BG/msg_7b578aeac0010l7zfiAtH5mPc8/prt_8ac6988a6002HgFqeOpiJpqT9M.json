@@ -1,0 +1,1 @@
+{"id":"prt_8ac6988a6002HgFqeOpiJpqT9M","messageID":"msg_7b578aeac0010l7zfiAtH5mPc8","sessionID":"ses_84ab1f227ffeB7ANHsPKN4G4BG","type":"text","text":"The issue is that PropScan is incorrectly identifying FOSS (Free and Open Source Software) as proprietary. Let me examine the proprietary software database and the core scanning logic to understand why this is happening."}

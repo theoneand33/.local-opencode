@@ -1,0 +1,21 @@
+{
+  "id": "prt_9264de1e7001oW8awX2Xa9fKaC",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_1eeec4107b054867be66a9b8",
+  "state": {
+    "status": "error",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "import argparse\nimport json\nimport csv\nimport os\nimport subprocess\nimport sys\nfrom typing import Dict, List, Optional, Tuple\nfrom pathlib import Path\nfrom dataclasses import dataclass, asdict",
+      "newString": "import argparse\nimport json\nimport csv\nimport os\nimport subprocess\nimport sys\nfrom typing import Dict, List, Optional, Tuple\nfrom pathlib import Path\nfrom dataclasses import dataclass, asdict"
+    },
+    "error": "Error: oldString and newString must be different",
+    "time": {
+      "start": 1757284262380,
+      "end": 1757284262380
+    }
+  }
+}

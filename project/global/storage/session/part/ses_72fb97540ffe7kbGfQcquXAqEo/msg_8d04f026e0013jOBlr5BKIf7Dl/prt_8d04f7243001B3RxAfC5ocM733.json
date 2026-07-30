@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04f7243001B3RxAfC5ocM733",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_67928107",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/layouts/Layout.astro",
+      "oldString": "---\nimport '../styles/global.css';\n\nexport interface Props {\n  title: string;\n}\n\nconst { title } = Astro.props;\n---",
+      "newString": "---\nimport '../styles/global.css';\nimport { getComponentChunkLinks, getFontFaceStyles, getFontLinks, getIconLinks, getInitialStyles, getLoaderScript, getMetaTagsAndIconLinks } from '@porsche-design-system/components-js/partials';\n\nexport interface Props {\n  title: string;\n}\n\nconst { title } = Astro.props;\n---"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/degoogle-site/src/layouts/Layout.astro\n+++ /home/noah/degoogle-site/src/layouts/Layout.astro\n@@ -1,6 +1,7 @@\n ---\n import '../styles/global.css';\n+import { getComponentChunkLinks, getFontFaceStyles, getFontLinks, getIconLinks, getInitialStyles, getLoaderScript, getMetaTagsAndIconLinks } from '@porsche-design-system/components-js/partials';\n \n export interface Props {\n   title: string;\n }\n"
+    },
+    "title": "degoogle-site/src/layouts/Layout.astro",
+    "time": {
+      "start": 1755841524292,
+      "end": 1755841524295
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "id": "prt_9264eb91a0019xez7MG0yia0xe",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_9bf22c2132184f4da755cef2",
+  "state": {
+    "status": "error",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "parser.add_argument(\n        '--output', '-o',\n        choices=['table', 'json', 'csv'],\n        default='table',\n        help='Output format (default: table)'\n    )",
+      "newString": "parser.add_argument(\n        '--output', '-o',\n        choices=['table', 'json', 'csv'],\n        default='table',\n        help='Output format (default: table)'\n    )"
+    },
+    "error": "Error: oldString and newString must be different",
+    "time": {
+      "start": 1757284317469,
+      "end": 1757284317471
+    }
+  }
+}

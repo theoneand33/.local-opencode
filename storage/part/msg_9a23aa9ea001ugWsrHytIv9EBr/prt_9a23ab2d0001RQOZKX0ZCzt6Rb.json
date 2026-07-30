@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23ab2d0001RQOZKX0ZCzt6Rb",
+  "messageID": "msg_9a23aa9ea001ugWsrHytIv9EBr",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "grep",
+  "callID": "call_5132cf11cecf41afa64c1d93",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "/home/noah/open-source-alternatives/src/data",
+      "pattern": "vscode"
+    },
+    "output": "Found 2 matches\n/home/noah/open-source-alternatives/src/data/software.ts:\n  Line 158:     id: \"vscode\",\n  Line 165:     github: \"https://github.com/microsoft/vscode\",",
+    "metadata": {
+      "matches": 2,
+      "truncated": false
+    },
+    "title": "vscode",
+    "time": {
+      "start": 1759363379937,
+      "end": 1759363379959
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+  "id": "prt_8d0532c35001jkRK60RfJ9aLbg",
+  "messageID": "msg_8d0531e08001iNIAKWyNLk4lBf",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "todowrite",
+  "callID": "call_46487121",
+  "state": {
+    "status": "completed",
+    "input": {
+      "todos": [
+        {
+          "content": "Update main layout to use Porsche Design System",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "update_main_layout"
+        },
+        {
+          "content": "Update all pages to use Porsche components",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_pages"
+        },
+        {
+          "content": "Remove separate Porsche demo page",
+          "status": "pending",
+          "priority": "medium",
+          "id": "remove_demo_page"
+        },
+        {
+          "content": "Update navigation and remove demo link",
+          "status": "pending",
+          "priority": "medium",
+          "id": "update_navigation"
+        }
+      ]
+    },
+    "output": "[\n  {\n    \"content\": \"Update main layout to use Porsche Design System\",\n    \"status\": \"in_progress\",\n    \"priority\": \"high\",\n    \"id\": \"update_main_layout\"\n  },\n  {\n    \"content\": \"Update all pages to use Porsche components\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"update_pages\"\n  },\n  {\n    \"content\": \"Remove separate Porsche demo page\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"remove_demo_page\"\n  },\n  {\n    \"content\": \"Update navigation and remove demo link\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"update_navigation\"\n  }\n]",
+    "metadata": {
+      "todos": [
+        {
+          "content": "Update main layout to use Porsche Design System",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "update_main_layout"
+        },
+        {
+          "content": "Update all pages to use Porsche components",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_pages"
+        },
+        {
+          "content": "Remove separate Porsche demo page",
+          "status": "pending",
+          "priority": "medium",
+          "id": "remove_demo_page"
+        },
+        {
+          "content": "Update navigation and remove demo link",
+          "status": "pending",
+          "priority": "medium",
+          "id": "update_navigation"
+        }
+      ]
+    },
+    "title": "4 todos",
+    "time": {
+      "start": 1755841768503,
+      "end": 1755841768504
+    }
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "id": "prt_9a232ada4001zedbKTO7WztPI1",
+  "messageID": "msg_9a2328e9f001UjK171p4iXNiMX",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_348d129e59e14916a21a5c23",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/tailwind.config.js"
+    },
+    "output": "<file>\n00001| /** @type {import('tailwindcss').Config} */\n00002| export default {\n00003|   content: [\"./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}\"],\n00004|   theme: {\n00005|     extend: {\n00006|       colors: {\n00007|         primary: {\n00008|           50: \"#eff6ff\",\n00009|           100: \"#dbeafe\",\n00010|           200: \"#bfdbfe\",\n00011|           300: \"#93c5fd\",\n00012|           400: \"#60a5fa\",\n00013|           500: \"#3b82f6\",\n00014|           600: \"#2563eb\",\n00015|           700: \"#1d4ed8\",\n00016|           800: \"#1e40af\",\n00017|           900: \"#1e3a8a\",\n00018|         },\n00019|         secondary: {\n00020|           50: \"#f8fafc\",\n00021|           100: \"#f1f5f9\",\n00022|           200: \"#e2e8f0\",\n00023|           300: \"#cbd5e1\",\n00024|           400: \"#94a3b8\",\n00025|           500: \"#64748b\",\n00026|           600: \"#475569\",\n00027|           700: \"#334155\",\n00028|           800: \"#1e293b\",\n00029|           900: \"#0f172a\",\n00030|         },\n00031|       },\n00032|       fontFamily: {\n00033|         sans: [\"Inter\", \"system-ui\", \"sans-serif\"],\n00034|       },\n00035|     },\n00036|   },\n00037|   plugins: [],\n00038| };\n00039| \n</file>",
+    "metadata": {
+      "preview": "/** @type {import('tailwindcss').Config} */\nexport default {\n  content: [\"./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}\"],\n  theme: {\n    extend: {\n      colors: {\n        primary: {\n          50: \"#eff6ff\",\n          100: \"#dbeafe\",\n          200: \"#bfdbfe\",\n          300: \"#93c5fd\",\n          400: \"#60a5fa\",\n          500: \"#3b82f6\",\n          600: \"#2563eb\",\n          700: \"#1d4ed8\",\n          800: \"#1e40af\",\n          900: \"#1e3a8a\",\n        },\n        secondary: {\n          50: \"#f8fafc\","
+    },
+    "title": "home/noah/open-source-alternatives/tailwind.config.js",
+    "time": {
+      "start": 1759362854310,
+      "end": 1759362854317
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d053529c0019BiVOUL7IlZbU5",
+  "messageID": "msg_8d0531e08001iNIAKWyNLk4lBf",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_56305201",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheFooter.vue",
+      "content": "<template>\n  <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n    <div class=\"container mx-auto\">\n      <div class=\"grid md:grid-cols-3 gap-8\">\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n          <p-text>\n            Take control of your digital privacy and reduce your reliance on Google services.\n          </p-text>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Quick Links</p-heading>\n          <div class=\"space-y-2\">\n            <p-link href=\"/\" variant=\"secondary\">Home</p-link><br>\n            <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link><br>\n            <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n          </div>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">About</p-heading>\n          <p-text>\n            Built with Porsche Design System for a premium, consistent user experience.\n          </p-text>\n        </div>\n      </div>\n      <div class=\"mt-8 pt-4 border-t border-gray-200 text-center\">\n        <p-text>&copy; 2024 DeGoogle Guide. Take back your privacy.</p-text>\n      </div>\n    </div>\n  </footer>\n</template>\n\n<script setup lang=\"ts\">\n// Porsche Design System components will be automatically recognized\n</script>\n\n<style scoped>\n/* Additional styling if needed */\n</style>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/degoogle-site/src/components/PorscheFooter.vue",
+      "exists": false
+    },
+    "title": "degoogle-site/src/components/PorscheFooter.vue",
+    "time": {
+      "start": 1755841778340,
+      "end": 1755841778355
+    }
+  }
+}

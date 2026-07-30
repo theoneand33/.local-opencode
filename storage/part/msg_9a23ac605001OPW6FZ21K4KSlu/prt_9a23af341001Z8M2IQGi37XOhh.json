@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23af341001Z8M2IQGi37XOhh",
+  "messageID": "msg_9a23ac605001OPW6FZ21K4KSlu",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_024a60d256af42b8a3fd6b78",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "oldString": "  {\n    id: \"vscode\",\n    name: \"Visual Studio Code\",\n    description:\n      \"Lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.\",\n    category: \"Code Editor\",\n    license: \"MIT\",\n    website: \"https://code.visualstudio.com\",\n    github: \"https://github.com/microsoft/vscode\",\n    tags: [\"code editor\", \"development\", \"ide\"],\n    featured: false,\n    replaces: \"Sublime Text\",\n  },",
+      "newString": "  {\n    id: \"vscodium\",\n    name: \"VSCodium\",\n    description:\n      \"Free/Libre Open Source Software Binaries of VSCode. Community-driven, without Microsoft's telemetry and tracking.\",\n    category: \"Code Editor\",\n    license: \"MIT\",\n    website: \"https://vscodium.com\",\n    github: \"https://github.com/VSCodium/vscodium\",\n    tags: [\"code editor\", \"development\", \"ide\", \"privacy\"],\n    featured: true,\n    replaces: \"Visual Studio Code\",\n  },"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/data/software.ts\n===================================================================\n--- /home/noah/open-source-alternatives/src/data/software.ts\n+++ /home/noah/open-source-alternatives/src/data/software.ts\n@@ -154,19 +154,19 @@\n   featured: true,\n   replaces: \"Adobe Audition\",\n },\n {\n-  id: \"vscode\",\n-  name: \"Visual Studio Code\",\n+  id: \"vscodium\",\n+  name: \"VSCodium\",\n   description:\n-    \"Lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.\",\n+    \"Free/Libre Open Source Software Binaries of VSCode. Community-driven, without Microsoft's telemetry and tracking.\",\n   category: \"Code Editor\",\n   license: \"MIT\",\n-  website: \"https://code.visualstudio.com\",\n-  github: \"https://github.com/microsoft/vscode\",\n-  tags: [\"code editor\", \"development\", \"ide\"],\n-  featured: false,\n-  replaces: \"Sublime Text\",\n+  website: \"https://vscodium.com\",\n+  github: \"https://github.com/VSCodium/vscodium\",\n+  tags: [\"code editor\", \"development\", \"ide\", \"privacy\"],\n+  featured: true,\n+  replaces: \"Visual Studio Code\",\n },\n {\n   id: \"godot\",\n   name: \"Godot Engine\",\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759363396418,
+      "end": 1759363396742
+    }
+  }
+}

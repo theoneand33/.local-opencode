@@ -1,0 +1,26 @@
+{
+  "id": "prt_8ac6c5db5001w0IGuaLvJm6BuS",
+  "messageID": "msg_8ac6c1098001gUKqgKLHabBdmG",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_6754ac61ea4a493f9f9d36ec",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/speech-to-text-app/requirements.txt",
+      "content": "PyGObject\npyaudio\nopenai-whisper\nrequests\npykeylogger\npynput\npython-dotenv"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/speech-to-text-app/requirements.txt",
+      "exists": false
+    },
+    "title": "speech-to-text-app/requirements.txt",
+    "time": {
+      "start": 1755239439814,
+      "end": 1755239439820
+    }
+  }
+}

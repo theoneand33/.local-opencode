@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a2440d6300126kSQrIV1yTHLr",
+  "messageID": "msg_9a243c884001getdv8IQZkumRM",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_8f5c917358af4640ba790119",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "oldString": "\t\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Software Alternatives</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">13</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Categories</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">100%</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Open Source</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">Free</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Forever</div>",
+      "newString": "\t\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Software Alternatives</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">13</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Categories</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">100%</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Open Source</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">Free</div>\n\t\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Forever</div>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/pages/index.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/pages/index.astro\n+++ /home/noah/open-source-alternatives/src/pages/index.astro\n@@ -40,21 +40,21 @@\n \t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n \t\t<div class=\"grid grid-cols-2 lg:grid-cols-4 gap-8\">\n \t\t\t<div class=\"text-center\">\n \t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">{softwareData.length}+</div>\n-\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Software Alternatives</div>\n+\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Software Alternatives</div>\n \t\t\t</div>\n \t\t\t<div class=\"text-center\">\n \t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">13</div>\n-\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Categories</div>\n+\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Categories</div>\n \t\t\t</div>\n \t\t\t<div class=\"text-center\">\n \t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">100%</div>\n-\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Open Source</div>\n+\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Open Source</div>\n \t\t\t</div>\n \t\t\t<div class=\"text-center\">\n \t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">Free</div>\n-\t\t\t\t<div class=\"text-secondary-600 dark:text-dark-textSecondary\">Forever</div>\n+\t\t\t\t<div class=\"text-secondary-600 dark:text-secondary-400\">Forever</div>\n \t\t\t</div>\n \t\t</div>\n \t</div>\n </section>\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759363992932,
+      "end": 1759363992947
+    }
+  }
+}

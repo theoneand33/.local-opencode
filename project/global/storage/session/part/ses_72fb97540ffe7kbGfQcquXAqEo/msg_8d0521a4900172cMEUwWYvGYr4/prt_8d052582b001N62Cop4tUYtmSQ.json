@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d052582b001N62Cop4tUYtmSQ",
+  "messageID": "msg_8d0521a4900172cMEUwWYvGYr4",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_16625915",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheServiceCard.vue",
+      "oldString": "<template>\n  <div class=\"bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700\">\n    <div class=\"text-4xl mb-4\">{{ icon }}</div>\n    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2\">{{ title }}</p-heading>\n    <p-text>{{ description }}</p-text>\n  </div>\n</template>",
+      "newString": "<template>\n  <div class=\"bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition\">\n    <div class=\"text-4xl mb-4\">{{ icon }}</div>\n    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2\">{{ title }}</p-heading>\n    <p-text>{{ description }}</p-text>\n  </div>\n</template>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheServiceCard.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheServiceCard.vue\n+++ /home/noah/degoogle-site/src/components/PorscheServiceCard.vue\n@@ -1,6 +1,6 @@\n <template>\n-  <div class=\"bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700\">\n+  <div class=\"bg-white p-6 rounded-lg shadow-sm border border-gray-200 hover:shadow-md transition\">\n     <div class=\"text-4xl mb-4\">{{ icon }}</div>\n     <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2\">{{ title }}</p-heading>\n     <p-text>{{ description }}</p-text>\n   </div>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheServiceCard.vue",
+    "time": {
+      "start": 1755841714220,
+      "end": 1755841714231
+    }
+  }
+}

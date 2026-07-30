@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a24070e2001GAJgoyoqE6kY3q",
+  "messageID": "msg_9a2404662001UG3rvW61yYs5UE",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_81d9dff386d4483ead1508de",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t::-webkit-scrollbar-track {\n\t\t@apply bg-secondary-100 dark:bg-dark-surface;\n\t}\n\n\t::-webkit-scrollbar-thumb {\n\t\t@apply bg-secondary-300 dark:bg-dark-border rounded-full;\n\t}\n\n\t::-webkit-scrollbar-thumb:hover {\n\t\t@apply bg-secondary-400 dark:bg-secondary-600;\n\t}",
+      "newString": "\t::-webkit-scrollbar-track {\n\t\t@apply bg-secondary-100 dark:bg-secondary-800;\n\t}\n\n\t::-webkit-scrollbar-thumb {\n\t\t@apply bg-secondary-300 dark:bg-secondary-600 rounded-full;\n\t}\n\n\t::-webkit-scrollbar-thumb:hover {\n\t\t@apply bg-secondary-400 dark:bg-secondary-500;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -129,17 +129,17 @@\n   width: 8px;\n }\n \n ::-webkit-scrollbar-track {\n-  @apply bg-secondary-100 dark:bg-dark-surface;\n+  @apply bg-secondary-100 dark:bg-secondary-800;\n }\n \n ::-webkit-scrollbar-thumb {\n-  @apply bg-secondary-300 dark:bg-dark-border rounded-full;\n+  @apply bg-secondary-300 dark:bg-secondary-600 rounded-full;\n }\n \n ::-webkit-scrollbar-thumb:hover {\n-  @apply bg-secondary-400 dark:bg-secondary-600;\n+  @apply bg-secondary-400 dark:bg-secondary-500;\n }\n \n /* Dark mode transitions */\n * {\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363756259,
+      "end": 1759363756435
+    }
+  }
+}

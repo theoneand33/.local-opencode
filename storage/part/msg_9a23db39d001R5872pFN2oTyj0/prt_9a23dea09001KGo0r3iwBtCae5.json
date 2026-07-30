@@ -1,0 +1,11 @@
+{
+  "id": "prt_9a23dea09001KGo0r3iwBtCae5",
+  "messageID": "msg_9a23db39d001R5872pFN2oTyj0",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "text",
+  "text": "\n\nPerfect! I've added Zed IDE to the software database. Here's what I've included:\n\n## 🚀 **Zed IDE Added**\n\n### **Key Details:**\n- **Name**: Zed\n- **Category**: Code Editor\n- **License**: Apache-2.0 (open source)\n- **Website**: `https://zed.dev`\n- **GitHub**: `https://github.com/zed-industries/zed`\n- **Featured**: Yes (highlighted as a top alternative)\n- **Replaces**: Sublime Text / VS Code\n\n### **Why Zed is an Excellent Addition:**\n1. **High Performance**: Built for speed and efficiency\n2. **Multiplayer**: Real-time collaborative editing\n3. **Modern Architecture**: From the creators of Atom and Tree-sitter\n4. **Ergonomic Design**: Optimized for developer workflow\n5. **Open Source**: Apache-2.0 license\n6. **Cross-Platform**: Available on macOS, Linux, and Windows\n\n### **Tags Added:**\n- `code editor` - Core functionality\n- `development` - Primary use case\n- `ide` - Advanced features\n- `performance` - Key selling point\n- `collaborative` - Unique multiplayer feature\n\nZed represents the new generation of code editors that combines performance, modern design, and collaborative features, making it a perfect addition to the open source alternatives directory alongside VSCodium.",
+  "time": {
+    "start": 1759363599075,
+    "end": 1759363599075
+  }
+}

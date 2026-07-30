@@ -1,0 +1,26 @@
+{
+  "id": "prt_8acdc682c001FD3ywbL8zzLJDr",
+  "messageID": "msg_8acdc3011001DHcRqhgHK267VA",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_dc83c4332e444ed9a581d7e7",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "sudo du -sh /var/tmp",
+      "description": "Check var/tmp directory size"
+    },
+    "output": "",
+    "metadata": {
+      "output": "",
+      "exit": 1,
+      "description": "Check var/tmp directory size"
+    },
+    "title": "sudo du -sh /var/tmp",
+    "time": {
+      "start": 1755246782517,
+      "end": 1755246827316
+    }
+  }
+}

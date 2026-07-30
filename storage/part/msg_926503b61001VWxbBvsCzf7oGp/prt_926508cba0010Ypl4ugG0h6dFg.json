@@ -1,0 +1,26 @@
+{
+  "id": "prt_926508cba0010Ypl4ugG0h6dFg",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_c2883ea38b834045a4f5ccd3",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "try:\n            if package_manager in ['apt', 'apt-get']:\n                results.extend(self._scan_apt_packages())\n            elif package_manager in ['dnf', 'yum']:\n                results.extend(self._scan_rpm_packages())\n            elif package_manager == 'pacman':\n                results.extend(self._scan_pacman_packages())\n            elif package_manager == 'rpm':\n                results.extend(self._scan_rpm_packages())\n            elif package_manager == 'zypper':\n                results.extend(self._scan_zypper_packages())\n            elif package_manager == 'emerge':\n                results.extend(self._scan_emerge_packages())\n            elif package_manager == 'xbps-install':\n                results.extend(self._scan_xbps_packages())\n        except Exception as e:\n            print(f\"Error scanning packages: {e}\", file=sys.stderr)",
+      "newString": "try:\n            if package_manager in ['apt', 'apt-get']:\n                results.extend(self._scan_apt_packages())\n            elif package_manager in ['dnf', 'yum']:\n                results.extend(self._scan_rpm_packages())\n            elif package_manager == 'pacman':\n                results.extend(self._scan_pacman_packages())\n            elif package_manager == 'rpm':\n                results.extend(self._scan_rpm_packages())\n            elif package_manager == 'zypper':\n                results.extend(self._scan_zypper_packages())\n            elif package_manager == 'emerge':\n                results.extend(self._scan_emerge_packages())\n            elif package_manager == 'xbps-install':\n                results.extend(self._scan_xbps_packages())\n            elif package_manager == 'flatpak':\n                results.extend(self._scan_flatpak_packages())\n        except Exception as e:\n            print(f\"Error scanning packages: {e}\", file=sys.stderr)"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary-scanner.py\n===================================================================\n--- /home/noah/proprietary-scanner.py\n+++ /home/noah/proprietary-scanner.py\n@@ -135,8 +135,10 @@\n     elif package_manager == 'emerge':\n         results.extend(self._scan_emerge_packages())\n     elif package_manager == 'xbps-install':\n         results.extend(self._scan_xbps_packages())\n+    elif package_manager == 'flatpak':\n+        results.extend(self._scan_flatpak_packages())\n except Exception as e:\n     print(f\"Error scanning packages: {e}\", file=sys.stderr)\n \n return results\n"
+    },
+    "title": "home/noah/proprietary-scanner.py",
+    "time": {
+      "start": 1757284437182,
+      "end": 1757284437187
+    }
+  }
+}

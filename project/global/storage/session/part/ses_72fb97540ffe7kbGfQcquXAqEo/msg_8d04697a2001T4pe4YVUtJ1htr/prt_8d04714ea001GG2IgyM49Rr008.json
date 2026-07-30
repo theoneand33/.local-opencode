@@ -1,0 +1,73 @@
+{
+  "id": "prt_8d04714ea001GG2IgyM49Rr008",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "todowrite",
+  "callID": "call_79839326",
+  "state": {
+    "status": "completed",
+    "input": {
+      "todos": [
+        {
+          "content": "Initialize new Astro project with pnpm",
+          "status": "completed",
+          "priority": "high",
+          "id": "init_astro"
+        },
+        {
+          "content": "Add React and TypeScript integrations to Astro",
+          "status": "completed",
+          "priority": "high",
+          "id": "add_integrations"
+        },
+        {
+          "content": "Integrate Tailwind CSS for styling",
+          "status": "completed",
+          "priority": "high",
+          "id": "setup_tailwind"
+        },
+        {
+          "content": "Create pages and components for de-Googling content",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "create_pages"
+        }
+      ]
+    },
+    "output": "[\n  {\n    \"content\": \"Initialize new Astro project with pnpm\",\n    \"status\": \"completed\",\n    \"priority\": \"high\",\n    \"id\": \"init_astro\"\n  },\n  {\n    \"content\": \"Add React and TypeScript integrations to Astro\",\n    \"status\": \"completed\",\n    \"priority\": \"high\",\n    \"id\": \"add_integrations\"\n  },\n  {\n    \"content\": \"Integrate Tailwind CSS for styling\",\n    \"status\": \"completed\",\n    \"priority\": \"high\",\n    \"id\": \"setup_tailwind\"\n  },\n  {\n    \"content\": \"Create pages and components for de-Googling content\",\n    \"status\": \"in_progress\",\n    \"priority\": \"medium\",\n    \"id\": \"create_pages\"\n  }\n]",
+    "metadata": {
+      "todos": [
+        {
+          "content": "Initialize new Astro project with pnpm",
+          "status": "completed",
+          "priority": "high",
+          "id": "init_astro"
+        },
+        {
+          "content": "Add React and TypeScript integrations to Astro",
+          "status": "completed",
+          "priority": "high",
+          "id": "add_integrations"
+        },
+        {
+          "content": "Integrate Tailwind CSS for styling",
+          "status": "completed",
+          "priority": "high",
+          "id": "setup_tailwind"
+        },
+        {
+          "content": "Create pages and components for de-Googling content",
+          "status": "in_progress",
+          "priority": "medium",
+          "id": "create_pages"
+        }
+      ]
+    },
+    "title": "1 todos",
+    "time": {
+      "start": 1755840976110,
+      "end": 1755840976111
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a224e98d001kS3qxgGfX1HNrX",
+  "messageID": "msg_9a224d88e001NUz9zx844O4Mu6",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "grep",
+  "callID": "call_854869964b824fb5a9603c84",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "/home/noah/open-source-alternatives/src/data",
+      "pattern": "export.*getFeaturedSoftware"
+    },
+    "output": "Found 1 matches\n/home/noah/open-source-alternatives/src/data/software.ts:\n  Line 231: export function getFeaturedSoftware(): Software[] {",
+    "metadata": {
+      "matches": 1,
+      "truncated": false
+    },
+    "title": "export.*getFeaturedSoftware",
+    "time": {
+      "start": 1759361952161,
+      "end": 1759361952171
+    }
+  }
+}

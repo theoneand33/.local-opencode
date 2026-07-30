@@ -1,0 +1,11 @@
+{
+  "id": "prt_9264ed8b3001O1ye1q0HBB394N",
+  "messageID": "msg_9264e03f90017zbMKyqyqpJGYO",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "text",
+  "text": "The tool now uses accurate license-based detection for both packages and Flatpak apps. It categorizes software as free or proprietary based on license types (e.g., GPL, MIT, BSD are free; proprietary or unknown are flagged).\n\nUpdated results:\n- Proprietary packages: 11 (with \"None\" or unknown licenses)\n- Free packages: 22\n- Proprietary Flatpak apps: 6 (e.g., Vivaldi, Obsidian with proprietary licenses)\n- Free Flatpak apps: 63\n\nRun `./proprietary_scanner.sh` for the full scan. This provides a more precise identification of proprietary software.",
+  "time": {
+    "start": 1757284326476,
+    "end": 1757284326476
+  }
+}

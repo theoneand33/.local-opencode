@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23aa894001zk87N4h6x6CJ7i",
+  "messageID": "msg_9a23a6558001EqclL50GyLESds",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_06546a53aaa94578a0132518",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "limit": 20,
+      "offset": 100
+    },
+    "output": "<file>\n00101|     tags: [\"notes\", \"knowledge base\", \"markdown\"],\n00102|     featured: false,\n00103|     replaces: \"Notion\",\n00104|   },\n00105|   {\n00106|     id: \"logseq\",\n00107|     name: \"Logseq\",\n00108|     description:\n00109|       \"A privacy-first, open-source knowledge base that works on local files. Connect your thoughts, customize your workflow.\",\n00110|     category: \"Productivity\",\n00111|     license: \"AGPL-3.0\",\n00112|     website: \"https://logseq.com\",\n00113|     github: \"https://github.com/logseq/logseq\",\n00114|     tags: [\"notes\", \"knowledge base\", \"markdown\", \"privacy\"],\n00115|     featured: true,\n00116|     replaces: \"Notion\",\n00117|   },\n00118|   {\n00119|     id: \"kdenlive\",\n00120|     name: \"Kdenlive\",\n\n(File has more lines. Use 'offset' parameter to read beyond line 120)\n</file>",
+    "metadata": {
+      "preview": "    tags: [\"notes\", \"knowledge base\", \"markdown\"],\n    featured: false,\n    replaces: \"Notion\",\n  },\n  {\n    id: \"logseq\",\n    name: \"Logseq\",\n    description:\n      \"A privacy-first, open-source knowledge base that works on local files. Connect your thoughts, customize your workflow.\",\n    category: \"Productivity\",\n    license: \"AGPL-3.0\",\n    website: \"https://logseq.com\",\n    github: \"https://github.com/logseq/logseq\",\n    tags: [\"notes\", \"knowledge base\", \"markdown\", \"privacy\"],\n    featured: true,\n    replaces: \"Notion\",\n  },\n  {\n    id: \"kdenlive\",\n    name: \"Kdenlive\","
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759363377301,
+      "end": 1759363377303
+    }
+  }
+}

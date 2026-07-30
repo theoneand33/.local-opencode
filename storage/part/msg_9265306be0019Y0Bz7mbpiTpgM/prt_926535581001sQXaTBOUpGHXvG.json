@@ -1,0 +1,11 @@
+{
+  "id": "prt_926535581001sQXaTBOUpGHXvG",
+  "messageID": "msg_9265306be0019Y0Bz7mbpiTpgM",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "text",
+  "text": "The tool now only displays proprietary software, hiding free software listings for a cleaner output.\n\nScan results:\n- 11 potentially proprietary packages (with \"None\" or unknown licenses)\n- 2 proprietary Flatpak apps (Vivaldi and Obsidian with proprietary licenses)\n\nRun `./proprietary_scanner.sh` to see the proprietary software on your system. This focuses the output on what you're scanning for.",
+  "time": {
+    "start": 1757284620367,
+    "end": 1757284620367
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "id": "prt_8d047e292001K2ELEFdWzIb8Fa",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "text",
+  "text": "Your de-Googling website is now live! 🚀\n\n**Project created with:**\n- ✅ Astro (static site generator)\n- ✅ React (for interactive components)\n- ✅ TypeScript (type safety)\n- ✅ Tailwind CSS (modern styling)\n\n**Website features:**\n- Modern dark theme design\n- Hero section explaining de-Googling\n- Service alternatives page (Gmail → ProtonMail, Search → DuckDuckGo, etc.)\n- Practical tips for reducing Google dependency\n- Responsive layout with Tailwind styling\n\n**View your site at:** http://localhost:4321/\n\nThe development server is running and will auto-reload when you make changes. Navigate to `/alternatives` and `/tips` to see all the content!",
+  "time": {
+    "start": 1755841029445,
+    "end": 1755841029445
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prt_9a233d624001qbZPIabDOKNqbS",
+  "messageID": "msg_9a233c5b00013ko1Qmoi4XREzN",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_76a01187edb647219e637e1e",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "limit": 30
+    },
+    "output": "<file>\n00001| ---\n00002| export interface Props {\n00003| \ttitle: string;\n00004| \tdescription?: string;\n00005| \timage?: string;\n00006| }\n00007| \n00008| const { title, description = \"Discover the best open source alternatives to popular proprietary software\", image = \"/og-image.jpg\" } = Astro.props;\n00009| ---\n00010| \n00011| <!doctype html>\n00012| <html lang=\"en\">\n00013| \t<head>\n00014| \t\t<meta charset=\"UTF-8\" />\n00015| \t\t<meta name=\"description\" content={description} />\n00016| \t\t<meta name=\"viewport\" content=\"width=device-width\" />\n00017| \t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n00018| \t\t<meta name=\"generator\" content={Astro.generator} />\n00019| \t\t<title>{title}</title>\n00020| \t\t\n00021| \t\t<!-- Preload Inter font -->\n00022| \t\t<link rel=\"preconnect\" href=\"https://fonts.googleapis.com\">\n00023| \t\t<link rel=\"preconnect\" href=\"https://fonts.gstatic.com\" crossorigin>\n00024| \t\t<link href=\"https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap\" rel=\"stylesheet\">\n00025| \t\t\n00026| \t\t<!-- Open Graph / Twitter -->\n00027| \t\t<meta property=\"og:title\" content={title} />\n00028| \t\t<meta property=\"og:description\" content={description} />\n00029| \t\t<meta property=\"og:image\" content={image} />\n00030| \t\t<meta property=\"og:type\" content=\"website\" />\n\n(File has more lines. Use 'offset' parameter to read beyond line 30)\n</file>",
+    "metadata": {
+      "preview": "---\nexport interface Props {\n\ttitle: string;\n\tdescription?: string;\n\timage?: string;\n}\n\nconst { title, description = \"Discover the best open source alternatives to popular proprietary software\", image = \"/og-image.jpg\" } = Astro.props;\n---\n\n<!doctype html>\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"UTF-8\" />\n\t\t<meta name=\"description\" content={description} />\n\t\t<meta name=\"viewport\" content=\"width=device-width\" />\n\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n\t\t<meta name=\"generator\" content={Astro.generator} />\n\t\t<title>{title}</title>\n\t\t"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759362930217,
+      "end": 1759362930218
+    }
+  }
+}

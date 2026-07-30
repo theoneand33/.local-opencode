@@ -1,0 +1,11 @@
+{
+  "id": "prt_8d07b7c6f0016bfHsBPqbBy0jn",
+  "messageID": "msg_8d07b4bc3001sJCGPevhpJEaNB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "reasoning",
+  "text": "Perfect! I've fixed the issue by importing `computed` from Vue in both components.",
+  "time": {
+    "start": 1755844410479,
+    "end": 1755844412198
+  }
+}

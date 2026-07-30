@@ -1,0 +1,12 @@
+{
+  "id": "prt_9a23e17670020qaIZzuc65FFHG",
+  "type": "text",
+  "text": "fix 13:06:26 [ERROR] The `bg-dark-bg` class does not exist. If `bg-dark-bg` is a custom class, make sure it is defined within a `@layer` directive.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/csssyntax-error/\n  Stack trace:\n    at Input.error (/home/noah/open-source-alternatives/node_modules/postcss/lib/input.js:135:16)\n    [...] See full stack trace in the browser, or rerun with --verbose.",
+  "synthetic": false,
+  "time": {
+    "start": 0,
+    "end": 0
+  },
+  "messageID": "msg_9a23e176700127P2TISom5rEX7",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk"
+}

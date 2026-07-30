@@ -1,0 +1,23 @@
+{
+  "id": "prt_9a208aa49001wKU8vyUwo1dUXD",
+  "messageID": "msg_9a20879430011gnvaepXwOdVw4",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_cee13530d83e40cc84e0e16e",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro"
+    },
+    "output": "<file>\n00001| ---\n00002| \n00003| ---\n00004| \n00005| <html lang=\"en\">\n00006| \t<head>\n00007| \t\t<meta charset=\"utf-8\" />\n00008| \t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n00009| \t\t<meta name=\"viewport\" content=\"width=device-width\" />\n00010| \t\t<meta name=\"generator\" content={Astro.generator} />\n00011| \t\t<title>Astro</title>\n00012| \t</head>\n00013| \t<body>\n00014| \t\t<h1>Astro</h1>\n00015| \t</body>\n00016| </html>\n00017| \n</file>",
+    "metadata": {
+      "preview": "---\n\n---\n\n<html lang=\"en\">\n\t<head>\n\t\t<meta charset=\"utf-8\" />\n\t\t<link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n\t\t<meta name=\"viewport\" content=\"width=device-width\" />\n\t\t<meta name=\"generator\" content={Astro.generator} />\n\t\t<title>Astro</title>\n\t</head>\n\t<body>\n\t\t<h1>Astro</h1>\n\t</body>\n</html>\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759360100939,
+      "end": 1759360100940
+    }
+  }
+}

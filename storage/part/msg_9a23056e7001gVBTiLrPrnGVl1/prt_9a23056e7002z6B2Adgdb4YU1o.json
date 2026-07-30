@@ -1,0 +1,12 @@
+{
+  "id": "prt_9a23056e7002z6B2Adgdb4YU1o",
+  "type": "text",
+  "text": "fix 12:51:15 [ERROR] [GetStaticPathsRequired] `getStaticPaths()` function is required for dynamic routes. Make sure that you `export` a `getStaticPaths` function from your dynamic route.\n  Hint:\n    See https://docs.astro.build/en/guides/routing/#dynamic-routes for more information on dynamic routes.\n    \n    \tIf you meant for this route to be server-rendered, set `export const prerender = false;` in the page.\n  Error reference:\n    https://docs.astro.build/en/reference/errors/get-static-paths-required/\n  Stack trace:\n    at validateDynamicRouteModule (file:///home/noah/open-source-alternatives/node_modules/astro/dist/core/routing/validation.js:19:11)\n    [...] See full stack trace in the browser, or rerun with --verbose.",
+  "synthetic": false,
+  "time": {
+    "start": 0,
+    "end": 0
+  },
+  "messageID": "msg_9a23056e7001gVBTiLrPrnGVl1",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk"
+}

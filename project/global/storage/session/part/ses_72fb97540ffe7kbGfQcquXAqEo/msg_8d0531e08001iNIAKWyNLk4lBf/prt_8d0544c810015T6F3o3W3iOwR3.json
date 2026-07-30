@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d0544c810015T6F3o3W3iOwR3",
+  "messageID": "msg_8d0531e08001iNIAKWyNLk4lBf",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_59003362",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/styles/global.css",
+      "oldString": "@import \"tailwindcss\";",
+      "newString": "@import \"tailwindcss\";\n\n/* Porsche Design System Integration Styles */\nbody {\n  font-family: inherit; /* Let Porsche Design System handle typography */\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/styles/global.css\n===================================================================\n--- /home/noah/degoogle-site/src/styles/global.css\n+++ /home/noah/degoogle-site/src/styles/global.css\n@@ -1,1 +1,12 @@\n-@import \"tailwindcss\";\n\\ No newline at end of file\n+@import \"tailwindcss\";\n+\n+/* Porsche Design System Integration Styles */\n+body {\n+  font-family: inherit; /* Let Porsche Design System handle typography */\n+}\n+\n+.container {\n+  max-width: 1200px;\n+  margin: 0 auto;\n+  padding: 0 1rem;\n+}\n\\ No newline at end of file\n"
+    },
+    "title": "degoogle-site/src/styles/global.css",
+    "time": {
+      "start": 1755841842307,
+      "end": 1755841842310
+    }
+  }
+}

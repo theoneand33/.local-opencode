@@ -1,0 +1,26 @@
+{
+  "id": "prt_926532aba001J3gQyojTOyLbTR",
+  "messageID": "msg_9265306be0019Y0Bz7mbpiTpgM",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_44628158",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd /home/noah && ./proprietary_scanner.sh",
+      "description": "Test the script that only shows proprietary software"
+    },
+    "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages and Flatpak apps for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n- illogical-impulse-audio (None)\n- illogical-impulse-backlight (None)\n- illogical-impulse-basic (None)\n- illogical-impulse-fonts-themes (None)\n- illogical-impulse-hyprland (None)\n- illogical-impulse-kde (None)\n- illogical-impulse-portal (None)\n- illogical-impulse-python (None)\n- illogical-impulse-screencapture (None)\n- illogical-impulse-toolkit (None)\n- illogical-impulse-widgets (None)\n\n\nFlatpak detected. Scanning installed applications...\nInstalled Flatpak applications: 69\n\nPotentially proprietary Flatpak applications:\n- com.vivaldi.Vivaldi (LicenseRef-proprietary)\n- md.obsidian.Obsidian (LicenseRef-proprietary=https://obsidian.md/eula)\n\n\nScan complete.\n\nNote: This tool flags packages not from official repositories and all Flatpak apps.\nUnofficial packages and Flatpak apps may include proprietary software. Check licenses manually for accuracy.\n",
+    "metadata": {
+      "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages and Flatpak apps for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n- illogical-impulse-audio (None)\n- illogical-impulse-backlight (None)\n- illogical-impulse-basic (None)\n- illogical-impulse-fonts-themes (None)\n- illogical-impulse-hyprland (None)\n- illogical-impulse-kde (None)\n- illogical-impulse-portal (None)\n- illogical-impulse-python (None)\n- illogical-impulse-screencapture (None)\n- illogical-impulse-toolkit (None)\n- illogical-impulse-widgets (None)\n\n\nFlatpak detected. Scanning installed applications...\nInstalled Flatpak applications: 69\n\nPotentially proprietary Flatpak applications:\n- com.vivaldi.Vivaldi (LicenseRef-proprietary)\n- md.obsidian.Obsidian (LicenseRef-proprietary=https://obsidian.md/eula)\n\n\nScan complete.\n\nNote: This tool flags packages not from official repositories and all Flatpak apps.\nUnofficial packages and Flatpak apps may include proprietary software. Check licenses manually for accuracy.\n",
+      "exit": 0,
+      "description": "Test the script that only shows proprietary software"
+    },
+    "title": "cd /home/noah && ./proprietary_scanner.sh",
+    "time": {
+      "start": 1757284608706,
+      "end": 1757284618018
+    }
+  }
+}

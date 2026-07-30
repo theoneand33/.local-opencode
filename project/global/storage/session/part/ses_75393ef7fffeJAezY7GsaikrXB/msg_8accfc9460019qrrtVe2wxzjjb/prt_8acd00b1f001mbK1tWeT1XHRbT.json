@@ -1,0 +1,26 @@
+{
+  "id": "prt_8acd00b1f001mbK1tWeT1XHRbT",
+  "messageID": "msg_8accfc9460019qrrtVe2wxzjjb",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_44b3cacac4774661b37f737b",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/speech-to-text-app/install.sh",
+      "content": "#!/bin/bash\n\necho \"Installing Speech to Text App for Linux (Arch Linux)\"\n\n# Check if running as root\nif [ \"$EUID\" -eq 0 ]; then\n    echo \"Please don't run as root. Use sudo for pacman commands only.\"\n    exit 1\nfi\n\necho \"Installing system dependencies...\"\nsudo pacman -Syu --noconfirm\nsudo pacman -S --noconfirm python python-pip python-gobject gtk3 portaudio\n\necho \"Installing Python dependencies...\"\npip install --user -r requirements.txt\n\necho \"Setting up environment file...\"\nif [ ! -f .env ]; then\n    cp .env.example .env\n    echo \"Created .env file. Please edit it with your OpenAI API key if you want to use API mode.\"\nfi\n\necho \"Making main.py executable...\"\nchmod +x main.py\n\necho \"Installation complete!\"\necho \"Run './main.py' to start the application.\"\necho \"\"\necho \"Note: For offline mode, models will be downloaded automatically when first used.\"\necho \"For API mode, edit the .env file with your OpenAI API key.\""
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/speech-to-text-app/install.sh",
+      "exists": false
+    },
+    "title": "speech-to-text-app/install.sh",
+    "time": {
+      "start": 1755245972261,
+      "end": 1755245972263
+    }
+  }
+}

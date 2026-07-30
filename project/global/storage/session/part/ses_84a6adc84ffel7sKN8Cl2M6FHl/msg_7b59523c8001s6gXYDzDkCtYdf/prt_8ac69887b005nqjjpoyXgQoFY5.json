@@ -1,0 +1,1 @@
+{"id":"prt_8ac69887b005nqjjpoyXgQoFY5","messageID":"msg_7b59523c8001s6gXYDzDkCtYdf","sessionID":"ses_84a6adc84ffel7sKN8Cl2M6FHl","type":"text","text":"The issue is that there's still `p7zip-rar` in the database, and the matching logic in `core.py:218` uses partial matching. Let me check the exact matching logic:"}

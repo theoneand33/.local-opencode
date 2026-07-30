@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23e40de001Q9HGhBryv5wnH3",
+  "messageID": "msg_9a23e24110012rOAmVLimVhoZ4",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "grep",
+  "callID": "call_3e5dfdcfdb5c4d06ada0554d",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "/home/noah/open-source-alternatives/src",
+      "pattern": "bg-dark-bg"
+    },
+    "output": "Found 1 matches\n/home/noah/open-source-alternatives/src/global.css:\n  Line 15:     @apply bg-dark-bg text-dark-text;",
+    "metadata": {
+      "matches": 1,
+      "truncated": false
+    },
+    "title": "bg-dark-bg",
+    "time": {
+      "start": 1759363612907,
+      "end": 1759363612911
+    }
+  }
+}

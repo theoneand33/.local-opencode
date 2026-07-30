@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04738e4001G9xFCu2JfC3Sxd",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_48409328",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/Hero.tsx",
+      "content": "import React from 'react';\n\nconst Hero: React.FC = () => {\n  return (\n    <section class=\"bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20\">\n      <div class=\"container mx-auto text-center\">\n        <h1 class=\"text-5xl font-bold mb-4\">De-Google Your Life</h1>\n        <p class=\"text-xl mb-8 max-w-2xl mx-auto\">\n          Take control of your digital privacy. Discover how to reduce your reliance on Google services\n          and embrace a more private, independent online experience.\n        </p>\n        <a\n          href=\"/alternatives\"\n          class=\"bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition\"\n        >\n          Get Started\n        </a>\n      </div>\n    </section>\n  );\n};\n\nexport default Hero;"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/degoogle-site/src/components/Hero.tsx",
+      "exists": false
+    },
+    "title": "degoogle-site/src/components/Hero.tsx",
+    "time": {
+      "start": 1755840985322,
+      "end": 1755840985335
+    }
+  }
+}

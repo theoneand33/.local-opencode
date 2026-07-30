@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d0550bde001j5bov00R4HJmP7",
+  "messageID": "msg_8d054afd7001uFOwr7mJjxtOAe",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_49606172",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheFooter.vue",
+      "oldString": "<template>\n  <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n    <div class=\"container mx-auto\">\n      <div class=\"grid md:grid-cols-3 gap-8\">\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n          <p-text>\n            Take control of your digital privacy and reduce your reliance on Google services.\n          </p-text>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Quick Links</p-heading>\n          <div class=\"space-y-2\">\n            <div><p-link href=\"/\" variant=\"secondary\">Home</p-link></div>\n            <div><p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link></div>\n            <div><p-link href=\"/tips\" variant=\"secondary\">Tips</p-link></div>\n          </div>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">About</p-heading>\n          <p-text>\n            Built with Porsche Design System for a premium, consistent user experience.\n          </p-text>\n        </div>\n      </div>\n      <div class=\"mt-8 pt-4 border-t border-gray-200 text-center\">\n        <p-text>&copy; 2024 DeGoogle Guide. Take back your privacy.</p-text>\n      </div>\n    </div>\n  </footer>\n</template>",
+      "newString": "<template>\n  <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n    <div class=\"container mx-auto\">\n      <div class=\"text-center\">\n        <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n        <p-text class=\"mb-4\">\n          Take control of your digital privacy and reduce your reliance on Google services.\n        </p-text>\n        <p-text>&copy; 2024 DeGoogle Guide. Take back your privacy.</p-text>\n      </div>\n    </div>\n  </footer>\n</template>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheFooter.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheFooter.vue\n+++ /home/noah/degoogle-site/src/components/PorscheFooter.vue\n@@ -1,30 +1,12 @@\n <template>\n   <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n     <div class=\"container mx-auto\">\n-      <div class=\"grid md:grid-cols-3 gap-8\">\n-        <div>\n-          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n-          <p-text>\n-            Take control of your digital privacy and reduce your reliance on Google services.\n-          </p-text>\n-        </div>\n-        <div>\n-          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Quick Links</p-heading>\n-          <div class=\"space-y-2\">\n-            <div><p-link href=\"/\" variant=\"secondary\">Home</p-link></div>\n-            <div><p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link></div>\n-            <div><p-link href=\"/tips\" variant=\"secondary\">Tips</p-link></div>\n-          </div>\n-        </div>\n-        <div>\n-          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">About</p-heading>\n-          <p-text>\n-            Built with Porsche Design System for a premium, consistent user experience.\n-          </p-text>\n-        </div>\n-      </div>\n-      <div class=\"mt-8 pt-4 border-t border-gray-200 text-center\">\n+      <div class=\"text-center\">\n+        <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n+        <p-text class=\"mb-4\">\n+          Take control of your digital privacy and reduce your reliance on Google services.\n+        </p-text>\n         <p-text>&copy; 2024 DeGoogle Guide. Take back your privacy.</p-text>\n       </div>\n     </div>\n   </footer>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheFooter.vue",
+    "time": {
+      "start": 1755841891317,
+      "end": 1755841891325
+    }
+  }
+}

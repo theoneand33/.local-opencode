@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04f83e5001wd4ldbr6pAvqV3",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_01772436",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/layouts/Layout.astro",
+      "oldString": "    <footer class=\"bg-gray-900 p-4 mt-8 border-t border-gray-700\">\n      <div class=\"container mx-auto text-center text-gray-400\">\n        <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n      </div>\n    </footer>\n  </body>\n</html>",
+      "newString": "    <footer class=\"bg-gray-900 p-4 mt-8 border-t border-gray-700\">\n      <div class=\"container mx-auto text-center text-gray-400\">\n        <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n      </div>\n    </footer>\n    <Fragment set:html={getLoaderScript()} />\n  </body>\n</html>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/degoogle-site/src/layouts/Layout.astro\n+++ /home/noah/degoogle-site/src/layouts/Layout.astro\n@@ -43,6 +43,7 @@\n       <div class=\"container mx-auto text-center text-gray-400\">\n         <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n       </div>\n     </footer>\n+    <Fragment set:html={getLoaderScript()} />\n   </body>\n </html>\n\\ No newline at end of file\n"
+    },
+    "title": "degoogle-site/src/layouts/Layout.astro",
+    "time": {
+      "start": 1755841528807,
+      "end": 1755841528809
+    }
+  }
+}

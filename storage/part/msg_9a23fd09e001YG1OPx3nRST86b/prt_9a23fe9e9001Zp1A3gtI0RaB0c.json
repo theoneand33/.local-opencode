@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23fe9e9001Zp1A3gtI0RaB0c",
+  "messageID": "msg_9a23fd09e001YG1OPx3nRST86b",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_b941df9c7f7348a981e12851",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.featured-section {\n\t\t@apply bg-secondary-50;\n\t}\n\t\n\t.dark .featured-section {\n\t\t@apply bg-dark-surface;\n\t}",
+      "newString": "\t.featured-section {\n\t\t@apply bg-secondary-50;\n\t}\n\t\n\t.dark .featured-section {\n\t\t@apply bg-secondary-900;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -81,9 +81,9 @@\n   @apply bg-secondary-50;\n }\n \n .dark .featured-section {\n-  @apply bg-dark-surface;\n+  @apply bg-secondary-900;\n }\n \n .input-field {\n   @apply bg-white border-secondary-300 text-secondary-900 placeholder-secondary-500;\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363721708,
+      "end": 1759363722125
+    }
+  }
+}

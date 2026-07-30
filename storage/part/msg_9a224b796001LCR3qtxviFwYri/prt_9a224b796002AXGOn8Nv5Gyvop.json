@@ -1,0 +1,12 @@
+{
+  "id": "prt_9a224b796002AXGOn8Nv5Gyvop",
+  "type": "text",
+  "text": "fix 12:38:33 [ERROR] getFeaturedSoftware is not defined\n  Stack trace:\n    at /home/noah/open-source-alternatives/src/pages/index.astro:6:9\n    [...] See full stack trace in the browser, or rerun with --verbose.",
+  "synthetic": false,
+  "time": {
+    "start": 0,
+    "end": 0
+  },
+  "messageID": "msg_9a224b796001LCR3qtxviFwYri",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk"
+}

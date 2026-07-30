@@ -1,0 +1,26 @@
+{
+  "id": "prt_92653251a0010Tw0WYNP3lwEoA",
+  "messageID": "msg_9265306be0019Y0Bz7mbpiTpgM",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_23027867",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary_scanner.sh",
+      "oldString": "    if [[ $flatpak_count -gt 0 ]]; then\n        proprietary_flatpak=()\n        free_flatpak=()\n        for app in $flatpak_apps; do\n            license=$(flatpak info \"$app\" 2>/dev/null | grep \"License:\" | awk '{print $2}')\n            if [[ -z \"$license\" ]]; then\n                license=\"Unknown\"\n            fi\n            if is_free_license \"$license\"; then\n                free_flatpak+=(\"$app ($license)\")\n            else\n                proprietary_flatpak+=(\"$app ($license)\")\n            fi\n        done\n\n        if [[ ${#proprietary_flatpak[@]} -gt 0 ]]; then\n            echo \"Potentially proprietary Flatpak applications:\"\n            for app in \"${proprietary_flatpak[@]}\"; do\n                echo \"- $app\"\n            done\n            echo \"\"\n        fi\n\n        if [[ ${#free_flatpak[@]} -gt 0 ]]; then\n            echo \"Free software Flatpak applications:\"\n            for app in \"${free_flatpak[@]}\"; do\n                echo \"- $app\"\n            done\n            echo \"\"\n        fi\n    else\n        echo \"No Flatpak applications installed.\"\n    fi",
+      "newString": "    if [[ $flatpak_count -gt 0 ]]; then\n        proprietary_flatpak=()\n        for app in $flatpak_apps; do\n            license=$(flatpak info \"$app\" 2>/dev/null | grep \"License:\" | awk '{print $2}')\n            if [[ -z \"$license\" ]]; then\n                license=\"Unknown\"\n            fi\n            if ! is_free_license \"$license\"; then\n                proprietary_flatpak+=(\"$app ($license)\")\n            fi\n        done\n\n        if [[ ${#proprietary_flatpak[@]} -gt 0 ]]; then\n            echo \"Potentially proprietary Flatpak applications:\"\n            for app in \"${proprietary_flatpak[@]}\"; do\n                echo \"- $app\"\n            done\n            echo \"\"\n        else\n            echo \"No proprietary Flatpak applications found.\"\n            echo \"\"\n        fi\n    else\n        echo \"No Flatpak applications installed.\"\n        echo \"\"\n    fi"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary_scanner.sh\n===================================================================\n--- /home/noah/proprietary_scanner.sh\n+++ /home/noah/proprietary_scanner.sh\n@@ -65,17 +65,14 @@\n     echo \"\"\n \n     if [[ $flatpak_count -gt 0 ]]; then\n         proprietary_flatpak=()\n-        free_flatpak=()\n         for app in $flatpak_apps; do\n             license=$(flatpak info \"$app\" 2>/dev/null | grep \"License:\" | awk '{print $2}')\n             if [[ -z \"$license\" ]]; then\n                 license=\"Unknown\"\n             fi\n-            if is_free_license \"$license\"; then\n-                free_flatpak+=(\"$app ($license)\")\n-            else\n+            if ! is_free_license \"$license\"; then\n                 proprietary_flatpak+=(\"$app ($license)\")\n             fi\n         done\n \n@@ -84,19 +81,15 @@\n             for app in \"${proprietary_flatpak[@]}\"; do\n                 echo \"- $app\"\n             done\n             echo \"\"\n-        fi\n-\n-        if [[ ${#free_flatpak[@]} -gt 0 ]]; then\n-            echo \"Free software Flatpak applications:\"\n-            for app in \"${free_flatpak[@]}\"; do\n-                echo \"- $app\"\n-            done\n+        else\n+            echo \"No proprietary Flatpak applications found.\"\n             echo \"\"\n         fi\n     else\n         echo \"No Flatpak applications installed.\"\n+        echo \"\"\n     fi\n else\n     echo \"Flatpak not installed or not in PATH.\"\n fi\n"
+    },
+    "title": "home/noah/proprietary_scanner.sh",
+    "time": {
+      "start": 1757284607259,
+      "end": 1757284607264
+    }
+  }
+}

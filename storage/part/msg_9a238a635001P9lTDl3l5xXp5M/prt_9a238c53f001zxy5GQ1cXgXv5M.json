@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a238c53f001zxy5GQ1cXgXv5M",
+  "messageID": "msg_9a238a635001P9lTDl3l5xXp5M",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_1980a0e3a1ca4db0a85f0b97",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "oldString": "<!-- Featured Software -->\n\t<section id=\"featured\" class=\"py-20 bg-secondary-50\">\n\t\t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n\t\t\t<div class=\"text-center mb-12\">\n\t\t\t\t<h2 class=\"text-3xl lg:text-4xl font-bold text-secondary-900 mb-4\">\n\t\t\t\t\tFeatured Alternatives\n\t\t\t\t</h2>\n\t\t\t\t<p class=\"text-xl text-secondary-600 max-w-2xl mx-auto\">\n\t\t\t\t\tHand-picked open source software that rivals or exceeds their proprietary counterparts.",
+      "newString": "<!-- Featured Software -->\n\t<section id=\"featured\" class=\"featured-section py-20\">\n\t\t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n\t\t\t<div class=\"text-center mb-12\">\n\t\t\t\t<h2 class=\"text-3xl lg:text-4xl font-bold text-secondary-900 mb-4 dark:text-dark-text\">\n\t\t\t\t\tFeatured Alternatives\n\t\t\t\t</h2>\n\t\t\t\t<p class=\"text-xl text-secondary-600 max-w-2xl mx-auto dark:text-dark-textSecondary\">\n\t\t\t\t\tHand-picked open source software that rivals or exceeds their proprietary counterparts."
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/pages/index.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/pages/index.astro\n+++ /home/noah/open-source-alternatives/src/pages/index.astro\n@@ -59,15 +59,15 @@\n \t</div>\n </section>\n \n <!-- Featured Software -->\n-<section id=\"featured\" class=\"py-20 bg-secondary-50\">\n+<section id=\"featured\" class=\"featured-section py-20\">\n \t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n \t\t<div class=\"text-center mb-12\">\n-\t\t\t<h2 class=\"text-3xl lg:text-4xl font-bold text-secondary-900 mb-4\">\n+\t\t\t<h2 class=\"text-3xl lg:text-4xl font-bold text-secondary-900 mb-4 dark:text-dark-text\">\n \t\t\t\tFeatured Alternatives\n \t\t\t</h2>\n-\t\t\t<p class=\"text-xl text-secondary-600 max-w-2xl mx-auto\">\n+\t\t\t<p class=\"text-xl text-secondary-600 max-w-2xl mx-auto dark:text-dark-textSecondary\">\n \t\t\t\tHand-picked open source software that rivals or exceeds their proprietary counterparts.\n \t\t\t</p>\n \t\t</div>\n \t\t\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759363253568,
+      "end": 1759363253570
+    }
+  }
+}

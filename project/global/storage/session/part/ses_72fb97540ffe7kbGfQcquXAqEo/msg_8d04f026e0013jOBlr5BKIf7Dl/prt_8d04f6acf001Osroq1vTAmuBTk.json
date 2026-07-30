@@ -1,0 +1,23 @@
+{
+  "id": "prt_8d04f6acf001Osroq1vTAmuBTk",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_24038112",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/layouts/Layout.astro"
+    },
+    "output": "<file>\n00001| ---\n00002| import '../styles/global.css';\n00003| \n00004| export interface Props {\n00005|   title: string;\n00006| }\n00007| \n00008| const { title } = Astro.props;\n00009| ---\n00010| \n00011| <!doctype html>\n00012| <html lang=\"en\">\n00013|   <head>\n00014|     <meta charset=\"UTF-8\" />\n00015|     <meta name=\"description\" content=\"A modern guide to de-Googling your digital life\" />\n00016|     <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n00017|     <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n00018|     <meta name=\"generator\" content={Astro.generator} />\n00019|     <title>{title}</title>\n00020|   </head>\n00021|   <body class=\"bg-gray-900 text-white min-h-screen\">\n00022|     <header class=\"bg-gray-900 p-4 shadow-sm border-b border-gray-700\">\n00023|       <div class=\"container mx-auto flex justify-between items-center\">\n00024|         <h1 class=\"text-2xl font-bold text-blue-400\">DeGoogle Guide</h1>\n00025|         <nav class=\"space-x-6\">\n00026|           <a href=\"/\" class=\"text-gray-400 hover:text-white transition font-medium\">Home</a>\n00027|           <a href=\"/alternatives\" class=\"text-gray-400 hover:text-white transition font-medium\">Alternatives</a>\n00028|           <a href=\"/tips\" class=\"text-gray-400 hover:text-white transition font-medium\">Tips</a>\n00029|         </nav>\n00030|       </div>\n00031|     </header>\n00032|     <main class=\"container mx-auto p-4\">\n00033|       <slot />\n00034|     </main>\n00035|     <footer class=\"bg-gray-900 p-4 mt-8 border-t border-gray-700\">\n00036|       <div class=\"container mx-auto text-center text-gray-400\">\n00037|         <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n00038|       </div>\n00039|     </footer>\n00040|   </body>\n00041| </html>\n</file>",
+    "metadata": {
+      "preview": "---\nimport '../styles/global.css';\n\nexport interface Props {\n  title: string;\n}\n\nconst { title } = Astro.props;\n---\n\n<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"description\" content=\"A modern guide to de-Googling your digital life\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <meta name=\"generator\" content={Astro.generator} />\n    <title>{title}</title>\n  </head>"
+    },
+    "title": "degoogle-site/src/layouts/Layout.astro",
+    "time": {
+      "start": 1755841522385,
+      "end": 1755841522398
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d076dce7001fRqEr2dHIDgYe1",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_26544015",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/CustomText.vue",
+      "content": "<template>\n  <span :class=\"textClass\" :style=\"textStyle\">\n    <slot></slot>\n  </span>\n</template>\n\n<script setup lang=\"ts\">\ninterface Props {\n  size?: 'small' | 'medium' | 'large';\n  color?: 'primary' | 'secondary' | 'accent' | 'muted';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  size: 'medium',\n  color: 'primary',\n  weight: 'normal'\n});\n\nconst sizeClasses = {\n  small: 'text-sm',\n  medium: 'text-base',\n  large: 'text-lg'\n};\n\nconst colorClasses = {\n  primary: 'text-gray-300',\n  secondary: 'text-gray-400',\n  accent: 'text-blue-400',\n  muted: 'text-gray-500'\n};\n\nconst weightClasses = {\n  normal: 'font-normal',\n  medium: 'font-medium',\n  semibold: 'font-semibold',\n  bold: 'font-bold'\n};\n\nconst textClass = computed(() => [\n  sizeClasses[props.size],\n  colorClasses[props.color],\n  weightClasses[props.weight]\n]);\n\nconst textStyle = computed(() => ({\n  color: getColorValue(props.color)\n}));\n\nfunction getColorValue(color: string) {\n  const colors = {\n    primary: 'rgb(209, 213, 219)', // gray-300\n    secondary: 'rgb(156, 163, 175)', // gray-400\n    accent: 'rgb(96, 165, 250)', // blue-400\n    muted: 'rgb(107, 114, 128)' // gray-500\n  };\n  return colors[color as keyof typeof colors] || colors.primary;\n}\n</script>\n\n<style scoped>\n/* Ensure the styles are applied */\nspan {\n  color: inherit !important;\n}\n</style>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "filepath": "/home/noah/degoogle-site/src/components/CustomText.vue",
+      "exists": false
+    },
+    "title": "degoogle-site/src/components/CustomText.vue",
+    "time": {
+      "start": 1755844107497,
+      "end": 1755844107516
+    }
+  }
+}

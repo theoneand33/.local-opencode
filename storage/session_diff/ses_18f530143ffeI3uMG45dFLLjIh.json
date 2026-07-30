@@ -1,0 +1,9 @@
+[
+  {
+    "file": "src/pages/games/run3.astro",
+    "patch": "Index: src/pages/games/run3.astro\n===================================================================\n--- src/pages/games/run3.astro\t\n+++ src/pages/games/run3.astro\t\n@@ -1,39 +1,24 @@\n ---\n const Game = \"Run 3\";\n import Layout from \"../../layout/layout.astro\";\n ---\n \n <Layout Game={Game}>\n   <div style=\"text-align: center\">\n-    <div\n-      id=\"container\"\n-      style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n-    >\n-    </div>\n-    <script src=\"/ruffle/ruffle.js\" is:inline></script>\n     <script data-astro-rerun is:inline>\n-      window.RufflePlayer = window.RufflePlayer || {};\n-      (function () {\n-        var container = document.getElementById(\"container\");\n-        if (!container) return;\n-        var ruffle = window.RufflePlayer.newest();\n-        if (!ruffle) return;\n-        container.innerHTML = \"\";\n-        var player = ruffle.createPlayer();\n-        container.appendChild(player);\n-        player.style.height = \"96vh\";\n-        player.style.width = \"98vw\";\n-        player.load(\"/flash/run3.swf\");\n-      })();\n+      var s = document.createElement(\"script\");\n+      s.src = \"https://archive.org/download/run-3-archive/Run%203%20Archive/HTML5%20Versions/26088.js\";\n+      s.onerror = function() { console.error(\"Run3 load failed\"); };\n+      document.body.appendChild(s);\n     </script>\n   </div>\n   <script type=\"text/javascript\">\n     atOptions = {\n       key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n       format: \"iframe\",\n       height: 250,\n       width: 300,\n       params: {},\n     };\n   </script>\n </Layout>\n",
+    "additions": 4,
+    "deletions": 19,
+    "status": "modified"
+  }
+]

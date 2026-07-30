@@ -1,0 +1,23 @@
+{
+  "id": "prt_8d054cbbe001K1d9nGQ5Nab7pX",
+  "messageID": "msg_8d054afd7001uFOwr7mJjxtOAe",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_20897237",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheFooter.vue"
+    },
+    "output": "<file>\n00001| <template>\n00002|   <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n00003|     <div class=\"container mx-auto\">\n00004|       <div class=\"grid md:grid-cols-3 gap-8\">\n00005|         <div>\n00006|           <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n00007|           <p-text>\n00008|             Take control of your digital privacy and reduce your reliance on Google services.\n00009|           </p-text>\n00010|         </div>\n00011|         <div>\n00012|           <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Quick Links</p-heading>\n00013|           <div class=\"space-y-2\">\n00014|             <p-link href=\"/\" variant=\"secondary\">Home</p-link><br>\n00015|             <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link><br>\n00016|             <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n00017|           </div>\n00018|         </div>\n00019|         <div>\n00020|           <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">About</p-heading>\n00021|           <p-text>\n00022|             Built with Porsche Design System for a premium, consistent user experience.\n00023|           </p-text>\n00024|         </div>\n00025|       </div>\n00026|       <div class=\"mt-8 pt-4 border-t border-gray-200 text-center\">\n00027|         <p-text>&copy; 2024 DeGoogle Guide. Take back your privacy.</p-text>\n00028|       </div>\n00029|     </div>\n00030|   </footer>\n00031| </template>\n00032| \n00033| <script setup lang=\"ts\">\n00034| // Porsche Design System components will be automatically recognized\n00035| </script>\n00036| \n00037| <style scoped>\n00038| /* Additional styling if needed */\n00039| </style>\n</file>",
+    "metadata": {
+      "preview": "<template>\n  <footer class=\"bg-gray-100 p-8 mt-12 border-t border-gray-200\">\n    <div class=\"container mx-auto\">\n      <div class=\"grid md:grid-cols-3 gap-8\">\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">DeGoogle Guide</p-heading>\n          <p-text>\n            Take control of your digital privacy and reduce your reliance on Google services.\n          </p-text>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Quick Links</p-heading>\n          <div class=\"space-y-2\">\n            <p-link href=\"/\" variant=\"secondary\">Home</p-link><br>\n            <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link><br>\n            <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n          </div>\n        </div>\n        <div>\n          <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">About</p-heading>"
+    },
+    "title": "degoogle-site/src/components/PorscheFooter.vue",
+    "time": {
+      "start": 1755841874880,
+      "end": 1755841874882
+    }
+  }
+}

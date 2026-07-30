@@ -1,0 +1,26 @@
+{
+  "id": "prt_8accd0a3b001nPAsBN3vR7hi2v",
+  "messageID": "msg_8acccf6ac001PCUcuM9fJ1cffp",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_3c8312406b1a4bc282b5bcb6",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/speech-to-text-app/.env.example",
+      "content": "OPENAI_API_KEY=your_openai_api_key_here"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/speech-to-text-app/.env.example",
+      "exists": false
+    },
+    "title": "speech-to-text-app/.env.example",
+    "time": {
+      "start": 1755245775437,
+      "end": 1755245775438
+    }
+  }
+}

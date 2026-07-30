@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23553bb00194q8BDku6RrefV",
+  "messageID": "msg_9a2354452001Gue3PCmJez4ZrU",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_ff1546b5cd1049ed8a08514e",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "limit": 30,
+      "offset": 90
+    },
+    "output": "<file>\n00091| \t\t\t\t\t\t\t\t</svg>\n00092| \t\t\t\t\t\t\t</a>\n00093| \t\t\t\t\t\t</div>\n00094| \t\t\t\t\t</div>\n00095| \t\t\t\t\t<div>\n00096| \t\t\t\t\t\t<h3 class=\"font-semibold text-secondary-900 mb-4\">Explore</h3>\n00097| \t\t\t\t\t\t<ul class=\"space-y-2\">\n00098| \t\t\t\t\t\t\t<li><a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Categories</a></li>\n00099| \t\t\t\t\t\t\t<li><a href=\"/popular\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Popular</a></li>\n00100| \t\t\t\t\t\t\t<li><a href=\"/recent\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Recent</a></li>\n00101| \t\t\t\t\t\t</ul>\n00102| \t\t\t\t\t</div>\n00103| \t\t\t\t\t<div>\n00104| \t\t\t\t\t\t<h3 class=\"font-semibold text-secondary-900 mb-4\">Community</h3>\n00105| \t\t\t\t\t\t<ul class=\"space-y-2\">\n00106| \t\t\t\t\t\t\t<li><a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Contribute</a></li>\n00107| \t\t\t\t\t\t\t<li><a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">About</a></li>\n00108| \t\t\t\t\t\t\t<li><a href=\"/contact\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Contact</a></li>\n00109| \t\t\t\t\t\t</ul>\n00110| \t\t\t\t\t</div>\n00111| \t\t\t\t</div>\n00112| \t\t\t\t<div class=\"mt-8 pt-8 border-t border-secondary-200 text-center text-secondary-500 text-sm\">\n00113| \t\t\t\t\t<p>&copy; 2024 OpenAlt. Built with ❤️ for the open source community.</p>\n00114| \t\t\t\t</div>\n00115| \t\t\t</div>\n00116| \t\t</footer>\n00117| \t</body>\n00118| </html>\n</file>",
+    "metadata": {
+      "preview": "\t\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<h3 class=\"font-semibold text-secondary-900 mb-4\">Explore</h3>\n\t\t\t\t\t\t<ul class=\"space-y-2\">\n\t\t\t\t\t\t\t<li><a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Categories</a></li>\n\t\t\t\t\t\t\t<li><a href=\"/popular\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Popular</a></li>\n\t\t\t\t\t\t\t<li><a href=\"/recent\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Recent</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<h3 class=\"font-semibold text-secondary-900 mb-4\">Community</h3>\n\t\t\t\t\t\t<ul class=\"space-y-2\">\n\t\t\t\t\t\t\t<li><a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Contribute</a></li>\n\t\t\t\t\t\t\t<li><a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">About</a></li>\n\t\t\t\t\t\t\t<li><a href=\"/contact\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Contact</a></li>\n\t\t\t\t\t\t</ul>\n\t\t\t\t\t</div>"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759363027901,
+      "end": 1759363027904
+    }
+  }
+}

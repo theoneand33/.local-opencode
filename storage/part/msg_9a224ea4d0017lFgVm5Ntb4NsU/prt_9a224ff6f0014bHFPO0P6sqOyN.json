@@ -1,0 +1,21 @@
+{
+  "id": "prt_9a224ff6f0014bHFPO0P6sqOyN",
+  "messageID": "msg_9a224ea4d0017lFgVm5Ntb4NsU",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_e0e34527e2d84792879ee5fb",
+  "state": {
+    "status": "error",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "oldString": "---\nimport Layout from '../layouts/Layout.astro';\nimport SoftwareCard from '../components/SoftwareCard.astro';\nimport { getFeaturedSoftware, softwareData } from '../data/software';\n\nconst featuredSoftware = getFeaturedSoftware();\nconst allSoftware = softwareData.slice(0, 6);\n---",
+      "newString": "---\nimport Layout from '../layouts/Layout.astro';\nimport SoftwareCard from '../components/SoftwareCard.astro';\nimport { getFeaturedSoftware, softwareData } from '../data/software';\n\nconst featuredSoftware = getFeaturedSoftware();\nconst allSoftware = softwareData.slice(0, 6);\n---"
+    },
+    "error": "Error: oldString and newString must be different",
+    "time": {
+      "start": 1759361957748,
+      "end": 1759361957748
+    }
+  }
+}

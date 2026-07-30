@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d076fe5d001Dx6rdyg0gOQ230",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_14893071",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "---\nimport Layout from '../layouts/Layout.astro';\nimport PorscheHero from '../components/PorscheHero.vue';\nimport PorscheServiceCard from '../components/PorscheServiceCard.vue';\n---",
+      "newString": "---\nimport Layout from '../layouts/Layout.astro';\nimport PorscheHero from '../components/PorscheHero.vue';\nimport PorscheServiceCard from '../components/PorscheServiceCard.vue';\nimport CustomHeading from '../components/CustomHeading.vue';\nimport CustomText from '../components/CustomText.vue';\n---"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -1,8 +1,10 @@\n ---\n import Layout from '../layouts/Layout.astro';\n import PorscheHero from '../components/PorscheHero.vue';\n import PorscheServiceCard from '../components/PorscheServiceCard.vue';\n+import CustomHeading from '../components/CustomHeading.vue';\n+import CustomText from '../components/CustomText.vue';\n ---\n \n <Layout title=\"DeGoogle Guide - Take Back Your Privacy\">\n   <PorscheHero client:load />\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755844116069,
+      "end": 1755844116072
+    }
+  }
+}

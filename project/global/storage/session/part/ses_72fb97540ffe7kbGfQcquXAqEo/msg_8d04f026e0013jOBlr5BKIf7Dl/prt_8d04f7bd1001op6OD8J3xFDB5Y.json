@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04f7bd1001op6OD8J3xFDB5Y",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_91564179",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/layouts/Layout.astro",
+      "oldString": "  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"description\" content=\"A modern guide to de-Googling your digital life\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n    <meta name=\"generator\" content={Astro.generator} />\n    <title>{title}</title>\n  </head>",
+      "newString": "  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"description\" content=\"A modern guide to de-Googling your digital life\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"generator\" content={Astro.generator} />\n    <title>{title}</title>\n    <!-- Porsche Design System partials for optimal performance -->\n    <Fragment set:html={getInitialStyles()} />\n    <Fragment set:html={getFontFaceStyles()} />\n    <Fragment set:html={getFontLinks()} />\n    <Fragment set:html={getComponentChunkLinks()} />\n    <Fragment set:html={getIconLinks()} />\n    <Fragment set:html={getMetaTagsAndIconLinks({ appTitle: 'DeGoogle Guide' })} />\n  </head>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/degoogle-site/src/layouts/Layout.astro\n+++ /home/noah/degoogle-site/src/layouts/Layout.astro\n@@ -14,11 +14,17 @@\n <head>\n   <meta charset=\"UTF-8\" />\n   <meta name=\"description\" content=\"A modern guide to de-Googling your digital life\" />\n   <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n-  <link rel=\"icon\" type=\"image/svg+xml\" href=\"/favicon.svg\" />\n   <meta name=\"generator\" content={Astro.generator} />\n   <title>{title}</title>\n+  <!-- Porsche Design System partials for optimal performance -->\n+  <Fragment set:html={getInitialStyles()} />\n+  <Fragment set:html={getFontFaceStyles()} />\n+  <Fragment set:html={getFontLinks()} />\n+  <Fragment set:html={getComponentChunkLinks()} />\n+  <Fragment set:html={getIconLinks()} />\n+  <Fragment set:html={getMetaTagsAndIconLinks({ appTitle: 'DeGoogle Guide' })} />\n </head>\n <body class=\"bg-gray-900 text-white min-h-screen\">\n   <header class=\"bg-gray-900 p-4 shadow-sm border-b border-gray-700\">\n     <div class=\"container mx-auto flex justify-between items-center\">\n"
+    },
+    "title": "degoogle-site/src/layouts/Layout.astro",
+    "time": {
+      "start": 1755841526738,
+      "end": 1755841526744
+    }
+  }
+}

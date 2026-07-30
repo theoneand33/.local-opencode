@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a24044bb001u5UzDzD5YkooUz",
+  "messageID": "msg_9a24027d00010YTDFdSBfLF6B5",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_e03c7ca61cb0486f8f4d842f",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.focus-ring {\n\t\t@apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;\n\t}\n\n\t.dark .focus-ring {\n\t\t@apply focus:ring-offset-dark-surface;\n\t}",
+      "newString": "\t.focus-ring {\n\t\t@apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;\n\t}\n\n\t.dark .focus-ring {\n\t\t@apply focus:ring-offset-secondary-900;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -115,9 +115,9 @@\n   @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;\n }\n \n .dark .focus-ring {\n-  @apply focus:ring-offset-dark-surface;\n+  @apply focus:ring-offset-secondary-900;\n }\n \n /* Smooth transitions */\n .transition-smooth {\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363744957,
+      "end": 1759363745127
+    }
+  }
+}

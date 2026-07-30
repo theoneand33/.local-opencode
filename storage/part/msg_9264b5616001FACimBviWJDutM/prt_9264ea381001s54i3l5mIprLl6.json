@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264ea381001s54i3l5mIprLl6",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_09f455aa211f42f98cf1c9d9",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "parser.add_argument(\n        '--verbose', '-v',\n        action='store_true',\n        help='Enable verbose output'\n    )",
+      "newString": "parser.add_argument(\n        '--verbose', '-v',\n        action='store_true',\n        help='Enable verbose output'\n    )\n    \n    parser.add_argument(\n        '--config', '-c',\n        default='config.json',\n        help='Configuration file path (default: config.json)'\n    )"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary-scanner.py\n===================================================================\n--- /home/noah/proprietary-scanner.py\n+++ /home/noah/proprietary-scanner.py\n@@ -433,8 +433,14 @@\n     action='store_true',\n     help='Enable verbose output'\n )\n \n+parser.add_argument(\n+    '--config', '-c',\n+    default='config.json',\n+    help='Configuration file path (default: config.json)'\n+)\n+\n args = parser.parse_args()\n \n # Check if running as root for filesystem scanning\n if args.filesystem and os.geteuid() != 0:\n"
+    },
+    "title": "home/noah/proprietary-scanner.py",
+    "time": {
+      "start": 1757284311941,
+      "end": 1757284311949
+    }
+  }
+}

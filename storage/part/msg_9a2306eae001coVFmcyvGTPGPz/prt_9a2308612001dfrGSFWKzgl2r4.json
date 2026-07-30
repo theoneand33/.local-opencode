@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a2308612001dfrGSFWKzgl2r4",
+  "messageID": "msg_9a2306eae001coVFmcyvGTPGPz",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_38e9699b404f470faa9ddab2",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/categories/[category].astro",
+      "oldString": "---\nimport Layout from '../../layouts/Layout.astro';\nimport SoftwareCard from '../../components/SoftwareCard.astro';\nimport { categories, getSoftwareByCategory } from '../../data/software';\n\nconst { category } = Astro.params;\n\n// Find the category name from the slug\nconst categoryName = categories.find(cat => \n\tcat.toLowerCase().replace(' ', '-') === category\n);\n\nif (!categoryName) {\n\treturn Astro.redirect('/categories');\n}\n\nconst softwareList = getSoftwareByCategory(categoryName);\n---",
+      "newString": "---\nimport Layout from '../../layouts/Layout.astro';\nimport SoftwareCard from '../../components/SoftwareCard.astro';\nimport { categories, getSoftwareByCategory } from '../../data/software';\n\nexport function getStaticPaths() {\n\treturn categories.map((category) => ({\n\t\tparams: { category: category.toLowerCase().replace(' ', '-') },\n\t\tprops: { \n\t\t\tcategoryName: category,\n\t\t\tsoftwareList: getSoftwareByCategory(category)\n\t\t}\n\t}));\n}\n\nconst { category } = Astro.params;\nconst { categoryName, softwareList } = Astro.props;\n---"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/pages/categories/[category].astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/pages/categories/[category].astro\n+++ /home/noah/open-source-alternatives/src/pages/categories/[category].astro\n@@ -2,20 +2,20 @@\n import Layout from '../../layouts/Layout.astro';\n import SoftwareCard from '../../components/SoftwareCard.astro';\n import { categories, getSoftwareByCategory } from '../../data/software';\n \n-const { category } = Astro.params;\n-\n-// Find the category name from the slug\n-const categoryName = categories.find(cat => \n-\tcat.toLowerCase().replace(' ', '-') === category\n-);\n-\n-if (!categoryName) {\n-\treturn Astro.redirect('/categories');\n+export function getStaticPaths() {\n+\treturn categories.map((category) => ({\n+\t\tparams: { category: category.toLowerCase().replace(' ', '-') },\n+\t\tprops: { \n+\t\t\tcategoryName: category,\n+\t\t\tsoftwareList: getSoftwareByCategory(category)\n+\t\t}\n+\t}));\n }\n \n-const softwareList = getSoftwareByCategory(categoryName);\n+const { category } = Astro.params;\n+const { categoryName, softwareList } = Astro.props;\n ---\n \n <Layout title={`${categoryName} Alternatives - Open Source Software`}>\n \t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16\">\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/categories/[category].astro",
+    "time": {
+      "start": 1759362713108,
+      "end": 1759362713133
+    }
+  }
+}

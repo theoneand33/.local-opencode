@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04f94f7001odbqg5swrMjRwJ",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_28741682",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheHeader.vue",
+      "content": "<template>\n  <header class=\"bg-gray-900 p-4 shadow-sm border-b border-gray-700\">\n    <div class=\"container mx-auto flex justify-between items-center\">\n      <div class=\"flex items-center space-x-4\">\n        <p-wordmark />\n        <h1 class=\"text-2xl font-bold text-blue-400\">DeGoogle Guide</h1>\n      </div>\n      <nav class=\"space-x-6\">\n        <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n        <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n        <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n      </nav>\n    </div>\n  </header>\n</template>\n\n<script setup lang=\"ts\">\n// Porsche Design System components will be automatically recognized\n// as custom elements due to the configuration in astro.config.mjs\n</script>\n\n<style scoped>\n/* Additional styling if needed */\n</style>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/degoogle-site/src/components/PorscheHeader.vue",
+      "exists": false
+    },
+    "title": "degoogle-site/src/components/PorscheHeader.vue",
+    "time": {
+      "start": 1755841533177,
+      "end": 1755841547204
+    }
+  }
+}

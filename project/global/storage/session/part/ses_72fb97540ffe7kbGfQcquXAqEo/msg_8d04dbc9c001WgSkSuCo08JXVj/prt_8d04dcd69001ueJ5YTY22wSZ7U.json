@@ -1,0 +1,27 @@
+{
+  "id": "prt_8d04dcd69001ueJ5YTY22wSZ7U",
+  "messageID": "msg_8d04dbc9c001WgSkSuCo08JXVj",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_86032611",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd degoogle-site && pnpm add @porsche-design-system/components-js",
+      "timeout": 60000,
+      "description": "Install Porsche Design System components"
+    },
+    "output": "Progress: resolved 0, reused 1, downloaded 0, added 0\nProgress: resolved 8, reused 8, downloaded 0, added 0\nProgress: resolved 9, reused 8, downloaded 0, added 0\nProgress: resolved 242, reused 177, downloaded 0, added 0\nPackages: +1\n+\nProgress: resolved 436, reused 358, downloaded 1, added 1, done\n\ndependencies:\n+ @porsche-design-system/components-js 3.29.0\n\n╭ Warning ─────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│   Ignored build scripts: @tailwindcss/oxide.                                 │\n│   Run \"pnpm approve-builds\" to pick which dependencies should be allowed     │\n│   to run scripts.                                                            │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\nDone in 4.4s using pnpm v10.15.0\n",
+    "metadata": {
+      "output": "Progress: resolved 0, reused 1, downloaded 0, added 0\nProgress: resolved 8, reused 8, downloaded 0, added 0\nProgress: resolved 9, reused 8, downloaded 0, added 0\nProgress: resolved 242, reused 177, downloaded 0, added 0\nPackages: +1\n+\nProgress: resolved 436, reused 358, downloaded 1, added 1, done\n\ndependencies:\n+ @porsche-design-system/components-js 3.29.0\n\n╭ Warning ─────────────────────────────────────────────────────────────────────╮\n│                                                                              │\n│   Ignored build scripts: @tailwindcss/oxide.                                 │\n│   Run \"pnpm approve-builds\" to pick which dependencies should be allowed     │\n│   to run scripts.                                                            │\n│                                                                              │\n╰──────────────────────────────────────────────────────────────────────────────╯\n\nDone in 4.4s using pnpm v10.15.0\n",
+      "exit": 0,
+      "description": "Install Porsche Design System components"
+    },
+    "title": "cd degoogle-site && pnpm add @porsche-design-system/components-js",
+    "time": {
+      "start": 1755841416574,
+      "end": 1755841421289
+    }
+  }
+}

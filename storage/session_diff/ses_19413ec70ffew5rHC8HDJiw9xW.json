@@ -1,0 +1,93 @@
+[
+  {
+    "file": "public/images/hobo1cover.png",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/hobo3cover.jpg",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/hobo4cover.jpg",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/hobo5cover.webp",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/hobo6cover.jpg",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "public/images/hobovszombiescover.jpg",
+    "patch": "",
+    "additions": 0,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobo1.astro",
+    "patch": "Index: src/pages/games/hobo1.astro\n===================================================================\n--- src/pages/games/hobo1.astro\t\n+++ src/pages/games/hobo1.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo 1: Brawl\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobo1.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobo3.astro",
+    "patch": "Index: src/pages/games/hobo3.astro\n===================================================================\n--- src/pages/games/hobo3.astro\t\n+++ src/pages/games/hobo3.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo 3: Wanted\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobo3.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobo4.astro",
+    "patch": "Index: src/pages/games/hobo4.astro\n===================================================================\n--- src/pages/games/hobo4.astro\t\n+++ src/pages/games/hobo4.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo 4: Total War\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobo4.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobo5.astro",
+    "patch": "Index: src/pages/games/hobo5.astro\n===================================================================\n--- src/pages/games/hobo5.astro\t\n+++ src/pages/games/hobo5.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo 5: Space Brawls\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobo5.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobo6.astro",
+    "patch": "Index: src/pages/games/hobo6.astro\n===================================================================\n--- src/pages/games/hobo6.astro\t\n+++ src/pages/games/hobo6.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo 6: Hell\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobo6.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/games/hobovszombies.astro",
+    "patch": "Index: src/pages/games/hobovszombies.astro\n===================================================================\n--- src/pages/games/hobovszombies.astro\t\n+++ src/pages/games/hobovszombies.astro\t\n@@ -0,0 +1,42 @@\n+---\n+\n+const Game = \"Hobo vs Zombies\";\n+import Layout from \"../../layout/layout.astro\";\n+---\n+\n+  <Layout Game={Game}>\n+    <div style=\"text-align: center\">\n+      <div\n+        id=\"container\"\n+        style=\"border: #ccc 0px solid; height: 100%; width: 100%\"\n+      >\n+      </div>\n+      <script src=\"/ruffle/ruffle.js\" is:inline></script>\n+      <script data-astro-rerun is:inline>\n+        window.RufflePlayer = window.RufflePlayer || {};\n+        (function() {\n+          var container = document.getElementById(\"container\");\n+          if (!container) return;\n+          var ruffle = window.RufflePlayer.newest();\n+          if (!ruffle) return;\n+          container.innerHTML = '';\n+          var player = ruffle.createPlayer();\n+          container.appendChild(player);\n+          player.style.height = \"96vh\";\n+          player.style.width = \"98vw\";\n+          player.load(\"/flash/hobovszombies.swf\");\n+        })();\n+      </script>\n+    </div>\n+\n+    <script type=\"text/javascript\">\n+      atOptions = {\n+        key: \"1cc5f63f55fc28b4c469b5e4e2f1a79d\",\n+        format: \"iframe\",\n+        height: 250,\n+        width: 300,\n+        params: {},\n+      };\n+    </script>\n+    \n+  </Layout>\n",
+    "additions": 42,
+    "deletions": 0,
+    "status": "added"
+  },
+  {
+    "file": "src/pages/index.astro",
+    "patch": "Index: src/pages/index.astro\n===================================================================\n--- src/pages/index.astro\t\n+++ src/pages/index.astro\t\n@@ -1,247 +1,277 @@\n ---\n import Layout from \"../layout/layout-home.astro\";\n import Gametile from \"../components/gametile.astro\";\n const pageTitle = \"Home - Superfun Games\";\n const games = [\n   {\n     Game: \"Happy Wheels\",\n     Path: \"/games/happywheels\",\n     Image: \"/images/happywheelscover.jpeg\",\n   },\n   {\n     Game: \"Plants vs Zombies\",\n     Path: \"/games/plants-vs-zombies\",\n     Image: \"/images/plants-vs-zombies-cover.jpg\",\n   },\n   {\n     Game: \"Geometry Dash\",\n     Path: \"/games/geometry-dash\",\n     Image: \"/images/geometrydashcover.png\",\n   },\n   {\n     Game: \"Fireboy and Watergirl\",\n     Path: \"/games/fireboy-and-watergirl\",\n     Image: \"/images/fireboy-watergirl-cover.png\",\n   },\n   {\n     Game: \"Bloons TD 5\",\n     Path: \"/games/bloonstd5\",\n     Image: \"/images/bloonstd5cover.png\",\n   },\n   {\n     Game: \"Pac-Man\",\n     Path: \"/games/pacman\",\n     Image: \"/images/pacman-cover.png\",\n   },\n   {\n     Game: \"Tetris\",\n     Path: \"/games/tetris\",\n     Image: \"/images/tetriscover.avif\",\n   },\n   {\n     Game: \"Henry Stickmin: Breaking the Bank\",\n     Path: \"/games/breaking-the-bank\",\n     Image: \"/images/breakingthebank-cover.png\",\n   },\n   {\n     Game: \"Henry Stickmin: Escaping the Prison\",\n     Path: \"/games/escaping-the-prison\",\n     Image: \"/images/escapingtheprison-cover.png\",\n   },\n   {\n     Game: \"Henry Stickmin: Stealing the Diamond\",\n     Path: \"/games/stealing-the-diamond\",\n     Image: \"/images/stealingthediamond-cover.png\",\n   },\n   {\n     Game: \"Henry Stickmin: Infiltrating the Airship\",\n     Path: \"/games/infiltrating-the-airship\",\n     Image: \"/images/infiltratingairship-cover.png\",\n   },\n   {\n     Game: \"Henry Stickmin: Fleeing the Complex\",\n     Path: \"/games/fleeing-the-complex\",\n     Image: \"/images/fleeingcomplex-cover.png\",\n   },\n   {\n     Game: \"Super Mario 63\",\n     Path: \"/games/super-mario-63\",\n     Image: \"/images/sm63-cover.png\",\n   },\n   {\n     Game: \"The World's Hardest Game\",\n     Path: \"/games/worlds-hardest-game\",\n     Image: \"/images/worldshardestgame-cover.png\",\n   },\n   {\n     Game: \"Stick War\",\n     Path: \"/games/stick-war\",\n     Image: \"/images/stickwarcover.webp\",\n   },\n   {\n     Game: \"Age of War\",\n     Path: \"/games/age-of-war\",\n     Image: \"/images/ageofwar-cover.png\",\n   },\n   {\n     Game: \"Duck Life\",\n     Path: \"/games/duck-life\",\n     Image: \"/images/ducklife-cover.png\",\n   },\n   {\n     Game: \"Run 2\",\n     Path: \"/games/run2\",\n     Image: \"/images/run2-cover.png\",\n   },\n   {\n     Game: \"Run 3\",\n     Path: \"/games/run3\",\n     Image: \"/images/run3-cover.jpg\",\n   },\n   {\n     Game: \"Riddle School 2\",\n     Path: \"/games/riddle-school2\",\n     Image: \"/images/Riddle-School-2_logo.png\",\n   },\n   {\n     Game: \"Riddle School 3\",\n     Path: \"/games/riddle-school3\",\n     Image: \"/images/riddle-school-3-cover.jpg\",\n   },\n   {\n     Game: \"Riddle School 4\",\n     Path: \"/games/riddle-school4\",\n     Image: \"/images/riddle-school-4-cover.jpg\",\n   },\n   {\n     Game: \"Riddle School 5\",\n     Path: \"/games/riddle-school5\",\n     Image: \"/images/riddleschool5-cover.jpg\",\n   },\n   {\n     Game: \"Learn to Fly 2\",\n     Path: \"/games/learn-to-fly-2\",\n     Image: \"/images/learntofly2-cover.png\",\n   },\n   {\n     Game: \"Learn to Fly 3\",\n     Path: \"/games/learn-to-fly-3\",\n     Image: \"/images/learntofly3-cover.png\",\n   },\n   {\n     Game: \"Gun Mayhem 2\",\n     Path: \"/games/gun-mayhem2\",\n     Image: \"/images/gm2cover.png\",\n   },\n   {\n     Game: \"Madness: Project Nexus\",\n     Path: \"/games/madness-project-nexus\",\n     Image: \"/images/madness-cover.png\",\n   },\n   {\n     Game: \"Strike Force Heroes\",\n     Path: \"/games/strike-force-heroes\",\n     Image: \"/images/strikeforceheroes-cover.png\",\n   },\n   {\n     Game: \"Crush the Castle\",\n     Path: \"/games/crush-the-castle\",\n     Image: \"/images/crushthecastle-cover.png\",\n   },\n   {\n     Game: \"Burrito Bison\",\n     Path: \"/games/burrito-bison\",\n     Image: \"/images/burritobison-cover.png\",\n   },\n   {\n     Game: \"Bubble Trouble\",\n     Path: \"/games/bubble-trouble\",\n     Image: \"/images/bubbletrouble-cover.png\",\n   },\n   {\n     Game: \"Achievement Unlocked\",\n     Path: \"/games/achievement-unlocked\",\n     Image: \"/images/achievementunlocked-cover.png\",\n   },\n   {\n     Game: \"Interactive Buddy\",\n     Path: \"/games/interactive-buddy\",\n     Image: \"/images/interactivebuddy-cover.jpg\",\n   },\n   {\n     Game: \"Fancy Pants Adventure\",\n     Path: \"/games/fancy-pants-adventure\",\n     Image: \"/images/fancypants-cover.png\",\n   },\n   {\n     Game: \"Boxhead 2Play\",\n     Path: \"/games/boxhead-2play\",\n     Image: \"/images/boxhead-cover.png\",\n   },\n   {\n     Game: \"The Impossible Quiz 2\",\n     Path: \"/games/theimpossiblequiz2\",\n     Image: \"/images/impossiblequiz2cover.jpg\",\n   },\n   {\n     Game: \"QWOP\",\n     Path: \"/games/qwop\",\n     Image: \"/images/qwop-cover.png\",\n   },\n   {\n     Game: \"Super Mario Flash\",\n     Path: \"/games/supermarioflash\",\n     Image: \"/images/supermarioflashcover.png\",\n   },\n   {\n     Game: \"Super Mario Flash 2\",\n     Path: \"/games/super-mario-flash-2\",\n     Image: \"/images/supermarioflash2cover.png\",\n   },\n   {\n+    Game: \"Hobo 1: Brawl\",\n+    Path: \"/games/hobo1\",\n+    Image: \"/images/hobo1cover.png\",\n+  },\n+  {\n     Game: \"Hobo 2\",\n     Path: \"/games/hobo2\",\n     Image: \"/images/hobo2cover.jpg\",\n   },\n   {\n+    Game: \"Hobo 3: Wanted\",\n+    Path: \"/games/hobo3\",\n+    Image: \"/images/hobo3cover.jpg\",\n+  },\n+  {\n+    Game: \"Hobo 4: Total War\",\n+    Path: \"/games/hobo4\",\n+    Image: \"/images/hobo4cover.jpg\",\n+  },\n+  {\n+    Game: \"Hobo 5: Space Brawls\",\n+    Path: \"/games/hobo5\",\n+    Image: \"/images/hobo5cover.webp\",\n+  },\n+  {\n+    Game: \"Hobo 6: Hell\",\n+    Path: \"/games/hobo6\",\n+    Image: \"/images/hobo6cover.jpg\",\n+  },\n+  {\n     Game: \"Hobo 7\",\n     Path: \"/games/hobo7\",\n     Image: \"/images/hobo7cover.webp\",\n   },\n   {\n+    Game: \"Hobo vs Zombies\",\n+    Path: \"/games/hobovszombies\",\n+    Image: \"/images/hobovszombiescover.jpg\",\n+  },\n+  {\n     Game: \"Vex 3\",\n     Path: \"/games/vex3\",\n     Image: \"/images/vex-3cover.jpg\",\n   },\n   {\n     Game: \"Ultimate Flash Sonic\",\n     Path: \"/games/ultimate-flash-sonic\",\n     Image: \"/images/sonic-cover.png\",\n   },\n   {\n     Game: \"Doom\",\n     Path: \"/games/doom\",\n     Image: \"/images/doomcover.jpg\",\n   },\n   {\n     Game: \"Minesweeper\",\n     Path: \"/games/minesweeper\",\n     Image: \"/images/minesweepercover.jpg\",\n   },\n   {\n     Game: \"Geography Game USA\",\n     Path: \"/games/geography-game\",\n     Image: \"/images/geography-game-cover.jpg\",\n   },\n ];\n ---\n \n <Layout pageTitle={pageTitle}>\n   <h1 class=\"text-xl font-bold mb-4 m-5\">\n     Welcome to the best free Unblocked Games website\n   </h1>\n \n   <div class=\"games-grid\">\n     {games.map((g) => <Gametile Game={g.Game} Path={g.Path} Image={g.Image} />)}\n   </div>\n </Layout>\n",
+    "additions": 30,
+    "deletions": 0,
+    "status": "modified"
+  }
+]

@@ -1,0 +1,1 @@
+{"id":"prt_8ac6988a3002GM5w7bRJ1f6jgm","messageID":"msg_7b5609258001Qyk5Vyw0EgbqgI","sessionID":"ses_84ab1f227ffeB7ANHsPKN4G4BG","type":"text","text":"The issue is that the wrapper script is trying to run `python -m propscan` but the propscan package doesn't have a `__main__.py` file. Let me check the current structure and fix this."}

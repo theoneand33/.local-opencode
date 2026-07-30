@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d049a94a001Z8WpgV9kCf42BS",
+  "messageID": "msg_8d0499a950011mPCztImLmBaoo",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_71140084",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/Hero.tsx",
+      "oldString": "        <a\n          href=\"/alternatives\"\n          class=\"bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition\"\n        >",
+      "newString": "        <a\n          href=\"/alternatives\"\n          class=\"bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg\"\n        >"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/components/Hero.tsx\n===================================================================\n--- /home/noah/degoogle-site/src/components/Hero.tsx\n+++ /home/noah/degoogle-site/src/components/Hero.tsx\n@@ -10,9 +10,9 @@\n     and embrace a more private, independent online experience.\n   </p>\n   <a\n     href=\"/alternatives\"\n-    class=\"bg-white text-blue-600 px-8 py-3 rounded-lg font-semibold hover:bg-gray-100 transition\"\n+    class=\"bg-blue-500 text-white px-8 py-3 rounded-lg font-semibold hover:bg-blue-600 transition shadow-lg\"\n   >\n     Get Started\n   </a>\n </div>\n"
+    },
+    "title": "degoogle-site/src/components/Hero.tsx",
+    "time": {
+      "start": 1755841145163,
+      "end": 1755841145171
+    }
+  }
+}

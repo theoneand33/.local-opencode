@@ -1,0 +1,24 @@
+{
+  "id": "prt_9a2363107001A3EJTJgKWfrC7y",
+  "messageID": "msg_9a2362201001jKX07QdmBjG7OW",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_5f4fbe96d0914ba08410dc97",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+      "limit": 20
+    },
+    "output": "<file>\n00001| ---\n00002| export interface Props {\n00003| \tname: string;\n00004| \tdescription: string;\n00005| \tcategory: string;\n00006| \tlicense: string;\n00007| \twebsite: string;\n00008| \tgithub?: string;\n00009| \ttags: string[];\n00010| \tfeatured?: boolean;\n00011| }\n00012| \n00013| const { name, description, category, license, website, github, tags, featured = false } = Astro.props;\n00014| ---\n00015| \n00016| <article class={`bg-white rounded-xl border ${featured ? 'border-primary-200 shadow-lg' : 'border-secondary-200'} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>\n00017| \t<div class=\"p-6\">\n00018| \t\t<div class=\"flex items-start justify-between mb-4\">\n00019| \t\t\t<div class=\"flex-1\">\n00020| \t\t\t\t<div class=\"flex items-center space-x-2 mb-2\">\n\n(File has more lines. Use 'offset' parameter to read beyond line 20)\n</file>",
+    "metadata": {
+      "preview": "---\nexport interface Props {\n\tname: string;\n\tdescription: string;\n\tcategory: string;\n\tlicense: string;\n\twebsite: string;\n\tgithub?: string;\n\ttags: string[];\n\tfeatured?: boolean;\n}\n\nconst { name, description, category, license, website, github, tags, featured = false } = Astro.props;\n---\n\n<article class={`bg-white rounded-xl border ${featured ? 'border-primary-200 shadow-lg' : 'border-secondary-200'} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>\n\t<div class=\"p-6\">\n\t\t<div class=\"flex items-start justify-between mb-4\">\n\t\t\t<div class=\"flex-1\">\n\t\t\t\t<div class=\"flex items-center space-x-2 mb-2\">"
+    },
+    "title": "home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+    "time": {
+      "start": 1759363084553,
+      "end": 1759363084562
+    }
+  }
+}

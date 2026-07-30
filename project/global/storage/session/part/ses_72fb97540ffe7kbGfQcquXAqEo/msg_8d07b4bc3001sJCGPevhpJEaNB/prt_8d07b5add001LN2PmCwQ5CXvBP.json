@@ -1,0 +1,11 @@
+{
+  "id": "prt_8d07b5add001LN2PmCwQ5CXvBP",
+  "messageID": "msg_8d07b4bc3001sJCGPevhpJEaNB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "reasoning",
+  "text": "The error shows that `computed` is not defined in the Vue component.",
+  "time": {
+    "start": 1755844401885,
+    "end": 1755844403597
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23643c6001tIv1vQSVO1Na2c",
+  "messageID": "msg_9a2363158001QajRw5lZOBJ9xE",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_ecd2062d57a443a59acf49d0",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+      "oldString": "<article class={`bg-white rounded-xl border ${featured ? 'border-primary-200 shadow-lg' : 'border-secondary-200'} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>",
+      "newString": "<article class={`card ${featured ? 'border-primary-200 dark:border-primary-800 shadow-lg' : ''} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/components/SoftwareCard.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/components/SoftwareCard.astro\n+++ /home/noah/open-source-alternatives/src/components/SoftwareCard.astro\n@@ -12,9 +12,9 @@\n \n const { name, description, category, license, website, github, tags, featured = false } = Astro.props;\n ---\n \n-<article class={`bg-white rounded-xl border ${featured ? 'border-primary-200 shadow-lg' : 'border-secondary-200'} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>\n+<article class={`card ${featured ? 'border-primary-200 dark:border-primary-800 shadow-lg' : ''} hover:shadow-xl transition-all duration-300 overflow-hidden group`}>\n \t<div class=\"p-6\">\n \t\t<div class=\"flex items-start justify-between mb-4\">\n \t\t\t<div class=\"flex-1\">\n \t\t\t\t<div class=\"flex items-center space-x-2 mb-2\">\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+    "time": {
+      "start": 1759363089353,
+      "end": 1759363089372
+    }
+  }
+}

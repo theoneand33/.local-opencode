@@ -1,0 +1,24 @@
+{
+  "id": "prt_9a224d830001kFB5WvSeqB4exg",
+  "messageID": "msg_9a224cf9b001BhuTGn8ob0KkWU",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_6950b88081c54a24ae0d8ec8",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "limit": 20
+    },
+    "output": "<file>\n00001| export interface Software {\n00002|   id: string;\n00003|   name: string;\n00004|   description: string;\n00005|   category: string;\n00006|   license: string;\n00007|   website: string;\n00008|   github?: string;\n00009|   tags: string[];\n00010|   featured?: boolean;\n00011|   replaces?: string;\n00012| }\n00013| \n00014| export const softwareData: Software[] = [\n00015|   {\n00016|     id: \"libreoffice\",\n00017|     name: \"LibreOffice\",\n00018|     description:\n00019|       \"A powerful and free office suite, a successor to OpenOffice(.org), compatible with Microsoft Office file formats.\",\n00020|     category: \"Office Suite\",\n\n(File has more lines. Use 'offset' parameter to read beyond line 20)\n</file>",
+    "metadata": {
+      "preview": "export interface Software {\n  id: string;\n  name: string;\n  description: string;\n  category: string;\n  license: string;\n  website: string;\n  github?: string;\n  tags: string[];\n  featured?: boolean;\n  replaces?: string;\n}\n\nexport const softwareData: Software[] = [\n  {\n    id: \"libreoffice\",\n    name: \"LibreOffice\",\n    description:\n      \"A powerful and free office suite, a successor to OpenOffice(.org), compatible with Microsoft Office file formats.\",\n    category: \"Office Suite\","
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759361947697,
+      "end": 1759361947699
+    }
+  }
+}

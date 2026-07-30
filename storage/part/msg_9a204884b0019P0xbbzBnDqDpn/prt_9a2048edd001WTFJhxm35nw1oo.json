@@ -1,0 +1,23 @@
+{
+  "id": "prt_9a2048edd001WTFJhxm35nw1oo",
+  "messageID": "msg_9a204884b0019P0xbbzBnDqDpn",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_77c9b7df662c4cd09a927842",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/astro.config.mjs"
+    },
+    "output": "<file>\n00001| // @ts-check\n00002| import { defineConfig } from 'astro/config';\n00003| \n00004| // https://astro.build/config\n00005| export default defineConfig({});\n00006| \n</file>",
+    "metadata": {
+      "preview": "// @ts-check\nimport { defineConfig } from 'astro/config';\n\n// https://astro.build/config\nexport default defineConfig({});\n"
+    },
+    "title": "home/noah/open-source-alternatives/astro.config.mjs",
+    "time": {
+      "start": 1759359831774,
+      "end": 1759359831775
+    }
+  }
+}

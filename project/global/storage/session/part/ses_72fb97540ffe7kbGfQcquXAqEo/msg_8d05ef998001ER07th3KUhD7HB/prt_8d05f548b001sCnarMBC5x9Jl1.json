@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05f548b001sCnarMBC5x9Jl1",
+  "messageID": "msg_8d05ef998001ER07th3KUhD7HB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_48348476",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheAlternativeCard.vue",
+      "oldString": "    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2 text-red-400\">{{ googleService }}</p-heading>\n    <p-text class=\"mb-4 text-gray-300\">{{ description }}</p-text>\n    <div class=\"space-y-2\">\n      <p-text size=\"small\" class=\"font-medium text-gray-400\">Alternatives:</p-text>",
+      "newString": "    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2\">{{ googleService }}</p-heading>\n    <p-text class=\"mb-4\">{{ description }}</p-text>\n    <div class=\"space-y-2\">\n      <p-text size=\"small\" class=\"font-medium\">Alternatives:</p-text>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheAlternativeCard.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheAlternativeCard.vue\n+++ /home/noah/degoogle-site/src/components/PorscheAlternativeCard.vue\n@@ -1,10 +1,10 @@\n <template>\n   <div class=\"bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700 hover:shadow-md transition\">\n-    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2 text-red-400\">{{ googleService }}</p-heading>\n-    <p-text class=\"mb-4 text-gray-300\">{{ description }}</p-text>\n+    <p-heading tag=\"h3\" size=\"medium\" class=\"mb-2\">{{ googleService }}</p-heading>\n+    <p-text class=\"mb-4\">{{ description }}</p-text>\n     <div class=\"space-y-2\">\n-      <p-text size=\"small\" class=\"font-medium text-gray-400\">Alternatives:</p-text>\n+      <p-text size=\"small\" class=\"font-medium\">Alternatives:</p-text>\n       <div class=\"flex flex-wrap gap-2\">\n         <p-tag v-for=\"alt in alternatives\" :key=\"alt\" variant=\"neutral\">{{ alt }}</p-tag>\n       </div>\n     </div>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheAlternativeCard.vue",
+    "time": {
+      "start": 1755842565260,
+      "end": 1755842565269
+    }
+  }
+}

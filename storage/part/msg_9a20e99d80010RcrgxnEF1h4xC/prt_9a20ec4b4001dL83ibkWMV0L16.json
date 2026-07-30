@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a20ec4b4001dL83ibkWMV0L16",
+  "messageID": "msg_9a20e99d80010RcrgxnEF1h4xC",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_db76b5709af9457e862288e3",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "content": "@tailwind base;\n@tailwind components;\n@tailwind utilities;\n\n@layer base {\n\thtml {\n\t\tscroll-behavior: smooth;\n\t}\n\t\n\tbody {\n\t\t@apply bg-white text-secondary-900;\n\t}\n}\n\n@layer components {\n\t.btn-primary {\n\t\t@apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 transition-colors shadow-lg;\n\t}\n\t\n\t.btn-secondary {\n\t\t@apply inline-flex items-center justify-center px-6 py-3 text-base font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200;\n\t}\n\t\n\t.card {\n\t\t@apply bg-white rounded-xl border border-secondary-200 hover:shadow-xl transition-all duration-300;\n\t}\n\t\n\t.card-hover {\n\t\t@apply hover:border-primary-300 hover:shadow-xl transition-all duration-300;\n\t}\n}\n\n/* Custom animations */\n@keyframes fadeIn {\n\tfrom {\n\t\topacity: 0;\n\t\ttransform: translateY(20px);\n\t}\n\tto {\n\t\topacity: 1;\n\t\ttransform: translateY(0);\n\t}\n}\n\n.animate-fade-in {\n\tanimation: fadeIn 0.6s ease-out;\n}\n\n/* Focus styles for accessibility */\n.focus-ring {\n\t@apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;\n}\n\n/* Smooth transitions */\n.transition-smooth {\n\t@apply transition-all duration-300 ease-in-out;\n}\n\n/* Custom scrollbar */\n::-webkit-scrollbar {\n\twidth: 8px;\n}\n\n::-webkit-scrollbar-track {\n\t@apply bg-secondary-100;\n}\n\n::-webkit-scrollbar-thumb {\n\t@apply bg-secondary-300 rounded-full;\n}\n\n::-webkit-scrollbar-thumb:hover {\n\t@apply bg-secondary-400;\n}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/open-source-alternatives/src/global.css",
+      "exists": false
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759360500932,
+      "end": 1759360501168
+    }
+  }
+}

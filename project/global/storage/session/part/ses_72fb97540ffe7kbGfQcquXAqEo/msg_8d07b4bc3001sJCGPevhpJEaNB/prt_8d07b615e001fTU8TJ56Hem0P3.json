@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d07b615e001fTU8TJ56Hem0P3",
+  "messageID": "msg_8d07b4bc3001sJCGPevhpJEaNB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_00074809",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/CustomHeading.vue",
+      "oldString": "<script setup lang=\"ts\">\ninterface Props {\n  tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';\n  size?: 'small' | 'medium' | 'large' | 'xlarge';\n  color?: 'primary' | 'accent' | 'secondary';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n  align?: 'left' | 'center' | 'right';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  tag: 'h2',\n  size: 'medium',\n  color: 'accent',\n  weight: 'semibold',\n  align: 'left'\n});",
+      "newString": "<script setup lang=\"ts\">\nimport { computed } from 'vue';\n\ninterface Props {\n  tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';\n  size?: 'small' | 'medium' | 'large' | 'xlarge';\n  color?: 'primary' | 'accent' | 'secondary';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n  align?: 'left' | 'center' | 'right';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  tag: 'h2',\n  size: 'medium',\n  color: 'accent',\n  weight: 'semibold',\n  align: 'left'\n});"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/CustomHeading.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/CustomHeading.vue\n+++ /home/noah/degoogle-site/src/components/CustomHeading.vue\n@@ -4,8 +4,10 @@\n   </component>\n </template>\n \n <script setup lang=\"ts\">\n+import { computed } from 'vue';\n+\n interface Props {\n   tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';\n   size?: 'small' | 'medium' | 'large' | 'xlarge';\n   color?: 'primary' | 'accent' | 'secondary';\n"
+    },
+    "title": "degoogle-site/src/components/CustomHeading.vue",
+    "time": {
+      "start": 1755844403554,
+      "end": 1755844403566
+    }
+  }
+}

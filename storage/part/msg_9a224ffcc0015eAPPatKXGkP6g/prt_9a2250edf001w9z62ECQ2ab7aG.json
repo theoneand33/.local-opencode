@@ -1,0 +1,24 @@
+{
+  "id": "prt_9a2250edf001w9z62ECQ2ab7aG",
+  "messageID": "msg_9a224ffcc0015eAPPatKXGkP6g",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_33dda68ac37c4f36b31b7ad1",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "limit": 15
+    },
+    "output": "<file>\n00001| ---\n00002| \n00003| ---\n00004| import Layout from '../layouts/Layout.astro';\n00005| import SoftwareCard from '../components/SoftwareCard.astro';\n00006| import { getFeaturedSoftware, softwareData } from '../data/software';\n00007| \n00008| const featuredSoftware = getFeaturedSoftware();\n00009| const allSoftware = softwareData.slice(0, 6);\n00010| ---\n00011| \n00012| <Layout title=\"OpenAlt - Open Source Alternatives to Popular Software\">\n00013| \t<!-- Hero Section -->\n00014| \t<section class=\"relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden\">\n00015| \t\t<div class=\"absolute inset-0 bg-grid-pattern opacity-5\"></div>\n\n(File has more lines. Use 'offset' parameter to read beyond line 15)\n</file>",
+    "metadata": {
+      "preview": "---\n\n---\nimport Layout from '../layouts/Layout.astro';\nimport SoftwareCard from '../components/SoftwareCard.astro';\nimport { getFeaturedSoftware, softwareData } from '../data/software';\n\nconst featuredSoftware = getFeaturedSoftware();\nconst allSoftware = softwareData.slice(0, 6);\n---\n\n<Layout title=\"OpenAlt - Open Source Alternatives to Popular Software\">\n\t<!-- Hero Section -->\n\t<section class=\"relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden\">\n\t\t<div class=\"absolute inset-0 bg-grid-pattern opacity-5\"></div>"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759361961696,
+      "end": 1759361961698
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d053612c001ofXYme7dnENoJg",
+  "messageID": "msg_8d0531e08001iNIAKWyNLk4lBf",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_93656264",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheHeader.vue",
+      "oldString": "<template>\n  <header class=\"bg-white p-4 shadow-sm border-b border-gray-200\">\n    <div class=\"container mx-auto flex justify-between items-center\">\n      <div class=\"flex items-center space-x-4\">\n        <p-wordmark />\n        <p-heading tag=\"h1\" size=\"large\">DeGoogle Guide</p-heading>\n      </div>\n      <nav class=\"space-x-6\">\n        <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n        <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n        <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n        <p-link href=\"/porsche-demo\" variant=\"primary\">Porsche Demo</p-link>\n      </nav>\n    </div>\n  </header>\n</template>",
+      "newString": "<template>\n  <header class=\"bg-white p-4 shadow-sm border-b border-gray-200\">\n    <div class=\"container mx-auto flex justify-between items-center\">\n      <div class=\"flex items-center space-x-4\">\n        <p-wordmark />\n        <p-heading tag=\"h1\" size=\"large\">DeGoogle Guide</p-heading>\n      </div>\n      <nav class=\"space-x-6\">\n        <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n        <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n        <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n      </nav>\n    </div>\n  </header>\n</template>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheHeader.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheHeader.vue\n+++ /home/noah/degoogle-site/src/components/PorscheHeader.vue\n@@ -8,9 +8,8 @@\n       <nav class=\"space-x-6\">\n         <p-link href=\"/\" variant=\"secondary\">Home</p-link>\n         <p-link href=\"/alternatives\" variant=\"secondary\">Alternatives</p-link>\n         <p-link href=\"/tips\" variant=\"secondary\">Tips</p-link>\n-        <p-link href=\"/porsche-demo\" variant=\"primary\">Porsche Demo</p-link>\n       </nav>\n     </div>\n   </header>\n </template>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheHeader.vue",
+    "time": {
+      "start": 1755841782065,
+      "end": 1755841782072
+    }
+  }
+}

@@ -1,0 +1,97 @@
+{
+  "id": "prt_8d04dc74b001UUhK3UsOPJznNB",
+  "messageID": "msg_8d04dbc9c001WgSkSuCo08JXVj",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "todowrite",
+  "callID": "call_42667664",
+  "state": {
+    "status": "completed",
+    "input": {
+      "todos": [
+        {
+          "content": "Install Porsche Design System components-js",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "install_porsche"
+        },
+        {
+          "content": "Add Vue integration to Astro",
+          "status": "pending",
+          "priority": "high",
+          "id": "add_vue"
+        },
+        {
+          "content": "Update astro.config.mjs for Porsche Design System",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_config"
+        },
+        {
+          "content": "Update Layout.astro with Porsche Design System loader and partials",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_layout"
+        },
+        {
+          "content": "Create Vue components using Porsche Design System",
+          "status": "pending",
+          "priority": "medium",
+          "id": "create_vue_components"
+        },
+        {
+          "content": "Update pages to use new Porsche Design System components",
+          "status": "pending",
+          "priority": "medium",
+          "id": "update_pages"
+        }
+      ]
+    },
+    "output": "[\n  {\n    \"content\": \"Install Porsche Design System components-js\",\n    \"status\": \"in_progress\",\n    \"priority\": \"high\",\n    \"id\": \"install_porsche\"\n  },\n  {\n    \"content\": \"Add Vue integration to Astro\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"add_vue\"\n  },\n  {\n    \"content\": \"Update astro.config.mjs for Porsche Design System\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"update_config\"\n  },\n  {\n    \"content\": \"Update Layout.astro with Porsche Design System loader and partials\",\n    \"status\": \"pending\",\n    \"priority\": \"high\",\n    \"id\": \"update_layout\"\n  },\n  {\n    \"content\": \"Create Vue components using Porsche Design System\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"create_vue_components\"\n  },\n  {\n    \"content\": \"Update pages to use new Porsche Design System components\",\n    \"status\": \"pending\",\n    \"priority\": \"medium\",\n    \"id\": \"update_pages\"\n  }\n]",
+    "metadata": {
+      "todos": [
+        {
+          "content": "Install Porsche Design System components-js",
+          "status": "in_progress",
+          "priority": "high",
+          "id": "install_porsche"
+        },
+        {
+          "content": "Add Vue integration to Astro",
+          "status": "pending",
+          "priority": "high",
+          "id": "add_vue"
+        },
+        {
+          "content": "Update astro.config.mjs for Porsche Design System",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_config"
+        },
+        {
+          "content": "Update Layout.astro with Porsche Design System loader and partials",
+          "status": "pending",
+          "priority": "high",
+          "id": "update_layout"
+        },
+        {
+          "content": "Create Vue components using Porsche Design System",
+          "status": "pending",
+          "priority": "medium",
+          "id": "create_vue_components"
+        },
+        {
+          "content": "Update pages to use new Porsche Design System components",
+          "status": "pending",
+          "priority": "medium",
+          "id": "update_pages"
+        }
+      ]
+    },
+    "title": "6 todos",
+    "time": {
+      "start": 1755841414990,
+      "end": 1755841414990
+    }
+  }
+}

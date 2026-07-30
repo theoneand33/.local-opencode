@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05f6fc1001Bnfb5VS0xDt1BX",
+  "messageID": "msg_8d05ef998001ER07th3KUhD7HB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_30229801",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center text-blue-400\">Why De-Google?</p-heading>",
+      "newString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Why De-Google?</p-heading>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -8,9 +8,9 @@\n <PorscheHero client:load />\n \n <section class=\"py-12 bg-gray-900\">\n   <div class=\"container mx-auto\">\n-    <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center text-blue-400\">Why De-Google?</p-heading>\n+    <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Why De-Google?</p-heading>\n     <div class=\"grid md:grid-cols-2 lg:grid-cols-3 gap-6\">\n       <PorscheServiceCard\n         title=\"Privacy Concerns\"\n         description=\"Google tracks your every move across services. De-Googling helps protect your personal data.\"\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755842572226,
+      "end": 1755842572239
+    }
+  }
+}

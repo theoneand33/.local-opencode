@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23ac57f0017UIqxmT0zJGc29",
+  "messageID": "msg_9a23ab3e0001CcBH2LIjxsqIgG",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_4db6da05f61d480fab784e15",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "limit": 15,
+      "offset": 155
+    },
+    "output": "<file>\n00156|   },\n00157|   {\n00158|     id: \"vscode\",\n00159|     name: \"Visual Studio Code\",\n00160|     description:\n00161|       \"Lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.\",\n00162|     category: \"Code Editor\",\n00163|     license: \"MIT\",\n00164|     website: \"https://code.visualstudio.com\",\n00165|     github: \"https://github.com/microsoft/vscode\",\n00166|     tags: [\"code editor\", \"development\", \"ide\"],\n00167|     featured: false,\n00168|     replaces: \"Sublime Text\",\n00169|   },\n00170|   {\n\n(File has more lines. Use 'offset' parameter to read beyond line 170)\n</file>",
+    "metadata": {
+      "preview": "  },\n  {\n    id: \"vscode\",\n    name: \"Visual Studio Code\",\n    description:\n      \"Lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux.\",\n    category: \"Code Editor\",\n    license: \"MIT\",\n    website: \"https://code.visualstudio.com\",\n    github: \"https://github.com/microsoft/vscode\",\n    tags: [\"code editor\", \"development\", \"ide\"],\n    featured: false,\n    replaces: \"Sublime Text\",\n  },\n  {"
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759363384704,
+      "end": 1759363384705
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264cede5001KCudBClnse1fIc",
+  "messageID": "msg_9264a3d2a001m0Yk0FOL4RM3T3",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_38342714",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd /home/noah && ./proprietary_scanner.sh",
+      "description": "Test the final version of the proprietary scanner script"
+    },
+    "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n\n- adw-gtk-theme-git\n- breeze-plus\n- darkly-bin\n- html2markdown\n- illogical-impulse-audio\n- illogical-impulse-backlight\n- illogical-impulse-basic\n- illogical-impulse-bibata-modern-classic-bin\n- illogical-impulse-fonts-themes\n- illogical-impulse-hyprland\n- illogical-impulse-kde\n- illogical-impulse-microtex-git\n- illogical-impulse-portal\n- illogical-impulse-python\n- illogical-impulse-screencapture\n- illogical-impulse-toolkit\n- illogical-impulse-widgets\n- kde-material-you-colors\n- kinit\n- kwin-effects-forceblur\n- matugen-bin\n- otf-space-grotesk\n- phonon-qt6-mpv\n- python-materialyoucolor\n- python-pywal16\n- qt6-avif-image-plugin\n- quickshell-git\n- ttf-gabarito-git\n- ttf-material-symbols-variable-git\n- ttf-readex-pro\n- ttf-rubik-vf\n- ttf-twemoji\n- upscayl-bin\n\nScan complete.\n\nNote: This tool flags packages not from official repositories.\nUnofficial packages may include proprietary software. Check licenses manually for accuracy.\n",
+    "metadata": {
+      "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n\n- adw-gtk-theme-git\n- breeze-plus\n- darkly-bin\n- html2markdown\n- illogical-impulse-audio\n- illogical-impulse-backlight\n- illogical-impulse-basic\n- illogical-impulse-bibata-modern-classic-bin\n- illogical-impulse-fonts-themes\n- illogical-impulse-hyprland\n- illogical-impulse-kde\n- illogical-impulse-microtex-git\n- illogical-impulse-portal\n- illogical-impulse-python\n- illogical-impulse-screencapture\n- illogical-impulse-toolkit\n- illogical-impulse-widgets\n- kde-material-you-colors\n- kinit\n- kwin-effects-forceblur\n- matugen-bin\n- otf-space-grotesk\n- phonon-qt6-mpv\n- python-materialyoucolor\n- python-pywal16\n- qt6-avif-image-plugin\n- quickshell-git\n- ttf-gabarito-git\n- ttf-material-symbols-variable-git\n- ttf-readex-pro\n- ttf-rubik-vf\n- ttf-twemoji\n- upscayl-bin\n\nScan complete.\n\nNote: This tool flags packages not from official repositories.\nUnofficial packages may include proprietary software. Check licenses manually for accuracy.\n",
+      "exit": 0,
+      "description": "Test the final version of the proprietary scanner script"
+    },
+    "title": "cd /home/noah && ./proprietary_scanner.sh",
+    "time": {
+      "start": 1757284199913,
+      "end": 1757284200667
+    }
+  }
+}

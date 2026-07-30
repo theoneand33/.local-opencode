@@ -1,0 +1,23 @@
+{
+  "id": "prt_9a23e2377001AGsu4z4vckxF6S",
+  "messageID": "msg_9a23e1786001maCyaJJfMcAURQ",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_9522e200890f467392f7c829",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/tailwind.config.js"
+    },
+    "output": "<file>\n00001| /** @type {import('tailwindcss').Config} */\n00002| export default {\n00003|   content: [\"./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}\"],\n00004|   darkMode: \"class\",\n00005|   theme: {\n00006|     extend: {\n00007|       colors: {\n00008|         primary: {\n00009|           50: \"#eff6ff\",\n00010|           100: \"#dbeafe\",\n00011|           200: \"#bfdbfe\",\n00012|           300: \"#93c5fd\",\n00013|           400: \"#60a5fa\",\n00014|           500: \"#3b82f6\",\n00015|           600: \"#2563eb\",\n00016|           700: \"#1d4ed8\",\n00017|           800: \"#1e40af\",\n00018|           900: \"#1e3a8a\",\n00019|           950: \"#172554\",\n00020|         },\n00021|         secondary: {\n00022|           50: \"#f8fafc\",\n00023|           100: \"#f1f5f9\",\n00024|           200: \"#e2e8f0\",\n00025|           300: \"#cbd5e1\",\n00026|           400: \"#94a3b8\",\n00027|           500: \"#64748b\",\n00028|           600: \"#475569\",\n00029|           700: \"#334155\",\n00030|           800: \"#1e293b\",\n00031|           900: \"#0f172a\",\n00032|           950: \"#020617\",\n00033|         },\n00034|         dark: {\n00035|           bg: \"#0f172a\",\n00036|           surface: \"#1e293b\",\n00037|           border: \"#334155\",\n00038|           text: \"#f1f5f9\",\n00039|           textSecondary: \"#94a3b8\",\n00040|         },\n00041|       },\n00042|       fontFamily: {\n00043|         sans: [\"Inter\", \"system-ui\", \"sans-serif\"],\n00044|       },\n00045|       backgroundImage: {\n00046|         \"gradient-dark\": \"linear-gradient(135deg, #0f172a 0%, #1e293b 100%)\",\n00047|       },\n00048|     },\n00049|   },\n00050|   plugins: [],\n00051| };\n00052| \n</file>",
+    "metadata": {
+      "preview": "/** @type {import('tailwindcss').Config} */\nexport default {\n  content: [\"./src/**/*.{astro,html,js,jsx,md,mdx,svelte,ts,tsx,vue}\"],\n  darkMode: \"class\",\n  theme: {\n    extend: {\n      colors: {\n        primary: {\n          50: \"#eff6ff\",\n          100: \"#dbeafe\",\n          200: \"#bfdbfe\",\n          300: \"#93c5fd\",\n          400: \"#60a5fa\",\n          500: \"#3b82f6\",\n          600: \"#2563eb\",\n          700: \"#1d4ed8\",\n          800: \"#1e40af\",\n          900: \"#1e3a8a\",\n          950: \"#172554\",\n        },"
+    },
+    "title": "home/noah/open-source-alternatives/tailwind.config.js",
+    "time": {
+      "start": 1759363605368,
+      "end": 1759363605369
+    }
+  }
+}

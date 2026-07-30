@@ -1,0 +1,26 @@
+{
+  "id": "prt_926517129001H1mj8OjOYGQbHg",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_3ae65277f51845a380d75abb",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/README.md",
+      "oldString": "### Configuration Options\n\n- **scan_directories**: List of directories to scan for proprietary binaries\n- **exclude_directories**: List of directories to exclude from filesystem scanning\n- **proprietary_keywords**: Keywords that indicate proprietary software in package names\n- **proprietary_companies**: Company names that indicate proprietary software\n- **known_proprietary_packages**: Dictionary of known proprietary package names\n- **output_format**: Default output format (table, json, csv)\n- **verbose**: Enable verbose output by default",
+      "newString": "### Configuration Options\n\n- **scan_directories**: List of directories to scan for proprietary binaries\n- **exclude_directories**: List of directories to exclude from filesystem scanning\n- **proprietary_keywords**: Keywords that indicate proprietary software in package names\n- **proprietary_companies**: Company names that indicate proprietary software\n- **known_proprietary_packages**: Dictionary of known proprietary package names (includes traditional and Flatpak package IDs)\n- **output_format**: Default output format (table, json, csv)\n- **verbose**: Enable verbose output by default"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/README.md\n===================================================================\n--- /home/noah/README.md\n+++ /home/noah/README.md\n@@ -162,9 +162,9 @@\n - **scan_directories**: List of directories to scan for proprietary binaries\n - **exclude_directories**: List of directories to exclude from filesystem scanning\n - **proprietary_keywords**: Keywords that indicate proprietary software in package names\n - **proprietary_companies**: Company names that indicate proprietary software\n-- **known_proprietary_packages**: Dictionary of known proprietary package names\n+- **known_proprietary_packages**: Dictionary of known proprietary package names (includes traditional and Flatpak package IDs)\n - **output_format**: Default output format (table, json, csv)\n - **verbose**: Enable verbose output by default\n \n ## Output Formats\n"
+    },
+    "title": "home/noah/README.md",
+    "time": {
+      "start": 1757284495660,
+      "end": 1757284495930
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23fce42001H7KDX8Auybv5lr",
+  "messageID": "msg_9a23f9eb9001ZJ1dy69ld6DqL2",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_124b6b8c123d49e6a7eed4f8",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.footer-section {\n\t\t@apply bg-secondary-50 border-t border-secondary-200;\n\t}\n\t\n\t.dark .footer-section {\n\t\t@apply bg-dark-surface border-dark-border;\n\t}",
+      "newString": "\t.footer-section {\n\t\t@apply bg-secondary-50 border-t border-secondary-200;\n\t}\n\t\n\t.dark .footer-section {\n\t\t@apply bg-secondary-900 border-secondary-700;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -57,9 +57,9 @@\n   @apply bg-secondary-50 border-t border-secondary-200;\n }\n \n .dark .footer-section {\n-  @apply bg-dark-surface border-dark-border;\n+  @apply bg-secondary-900 border-secondary-700;\n }\n \n .hero-gradient {\n   @apply bg-gradient-to-br from-primary-50 via-white to-secondary-50;\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363714630,
+      "end": 1759363714987
+    }
+  }
+}

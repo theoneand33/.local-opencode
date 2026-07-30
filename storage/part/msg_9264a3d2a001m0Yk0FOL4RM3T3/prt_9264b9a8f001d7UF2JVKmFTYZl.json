@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264b9a8f001d7UF2JVKmFTYZl",
+  "messageID": "msg_9264a3d2a001m0Yk0FOL4RM3T3",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_52349103",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "pacman -Qi bash",
+      "description": "Check full info for bash package to see available fields"
+    },
+    "output": "Installed From  : cachyos-v3\nName            : bash\nVersion         : 5.3.3-3\nDescription     : The GNU Bourne Again shell\nArchitecture    : x86_64_v3\nURL             : https://www.gnu.org/software/bash/bash.html\nLicenses        : GPL-3.0-or-later\nGroups          : None\nProvides        : sh\nDepends On      : readline  libreadline.so=8-64  glibc  ncurses\nOptional Deps   : bash-completion: for tab completion [installed]\nRequired By     : at-spi2-core  aurorae  autoconf  automake  avahi  base  bash-completion  bind  bison  bzip2  ca-certificates-utils  cairo  cpupower  cups-filters  db5.3  dhclient  diffutils  distrobox  e2fsprogs  ebook-tools  fakeroot  fftw  firefox  flatpak  flex  fontconfig  foomatic-db-engine  fzf  gawk  gdbm  gettext  ghostscript  glib2  gnupg  gpm  gtk-update-icon-cache  gtk4  gzip  hdf5  hunspell  hwdetect  hyprshot  icu  ijs  iptables-nft  java-runtime-common  kde-cli-tools  kde-gtk-config  keyutils  kinfocenter  kio-extras  konsole  krb5  kwallet-pam  libassuan  libcups  libdca  libgpg-error  libksba  libmbim  libnet  libpcap  libpng  libpulse  libqmi  libteam  libtool  libusb-compat  libxml2  libxslt  limine-mkinitcpio-hook  limine-snapper-sync  lm_sensors  lsb-release  lvm2  m4  man-db  man-pages  meson  mjpegtools  mkinitcpio  modemmanager  mtools  nfs-utils  npth  nspr  nss  os-prober  ostree  pacman  pahole  pcre  plasma-workspace  plymouth  python-pywal16  sddm  smartmontools  spirv-tools  srt  steam  system-config-printer  systemd  taglib  texinfo  translate-shell  unzip  which  wireless-regdb  xdg-user-dirs  xdg-utils  xfsprogs  xmlsec  xorg-server  xorg-xinit  xz\nOptional For    : alsa-utils  audit  kitty-shell-integration  mdadm  ncurses  openssh  pcre2  tzdata  usbutils  vim-runtime\nConflicts With  : None\nReplaces        : None\nInstalled Size  : 9.53 MiB\nPackager        : CachyOS <admin@cachyos.org>\nBuild Date      : Sun 03 Aug 2025 06:54:43\nInstall Date    : Tue 05 Aug 2025 17:32:32\nInstall Reason  : Installed as a dependency for another package\nInstall Script  : Yes\nValidated By    : Signature\n\n",
+    "metadata": {
+      "output": "Installed From  : cachyos-v3\nName            : bash\nVersion         : 5.3.3-3\nDescription     : The GNU Bourne Again shell\nArchitecture    : x86_64_v3\nURL             : https://www.gnu.org/software/bash/bash.html\nLicenses        : GPL-3.0-or-later\nGroups          : None\nProvides        : sh\nDepends On      : readline  libreadline.so=8-64  glibc  ncurses\nOptional Deps   : bash-completion: for tab completion [installed]\nRequired By     : at-spi2-core  aurorae  autoconf  automake  avahi  base  bash-completion  bind  bison  bzip2  ca-certificates-utils  cairo  cpupower  cups-filters  db5.3  dhclient  diffutils  distrobox  e2fsprogs  ebook-tools  fakeroot  fftw  firefox  flatpak  flex  fontconfig  foomatic-db-engine  fzf  gawk  gdbm  gettext  ghostscript  glib2  gnupg  gpm  gtk-update-icon-cache  gtk4  gzip  hdf5  hunspell  hwdetect  hyprshot  icu  ijs  iptables-nft  java-runtime-common  kde-cli-tools  kde-gtk-config  keyutils  kinfocenter  kio-extras  konsole  krb5  kwallet-pam  libassuan  libcups  libdca  libgpg-error  libksba  libmbim  libnet  libpcap  libpng  libpulse  libqmi  libteam  libtool  libusb-compat  libxml2  libxslt  limine-mkinitcpio-hook  limine-snapper-sync  lm_sensors  lsb-release  lvm2  m4  man-db  man-pages  meson  mjpegtools  mkinitcpio  modemmanager  mtools  nfs-utils  npth  nspr  nss  os-prober  ostree  pacman  pahole  pcre  plasma-workspace  plymouth  python-pywal16  sddm  smartmontools  spirv-tools  srt  steam  system-config-printer  systemd  taglib  texinfo  translate-shell  unzip  which  wireless-regdb  xdg-user-dirs  xdg-utils  xfsprogs  xmlsec  xorg-server  xorg-xinit  xz\nOptional For    : alsa-utils  audit  kitty-shell-integration  mdadm  ncurses  openssh  pcre2  tzdata  usbutils  vim-runtime\nConflicts With  : None\nReplaces        : None\nInstalled Size  : 9.53 MiB\nPackager        : CachyOS <admin@cachyos.org>\nBuild Date      : Sun 03 Aug 2025 06:54:43\nInstall Date    : Tue 05 Aug 2025 17:32:32\nInstall Reason  : Installed as a dependency for another package\nInstall Script  : Yes\nValidated By    : Signature\n\n",
+      "exit": 0,
+      "description": "Check full info for bash package to see available fields"
+    },
+    "title": "pacman -Qi bash",
+    "time": {
+      "start": 1757284113043,
+      "end": 1757284113162
+    }
+  }
+}

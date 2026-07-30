@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d07b7153001PbBmkkI4B6Y8IB",
+  "messageID": "msg_8d07b4bc3001sJCGPevhpJEaNB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_07873735",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/CustomText.vue",
+      "oldString": "<script setup lang=\"ts\">\ninterface Props {\n  size?: 'small' | 'medium' | 'large';\n  color?: 'primary' | 'secondary' | 'accent' | 'muted';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  size: 'medium',\n  color: 'primary',\n  weight: 'normal'\n});",
+      "newString": "<script setup lang=\"ts\">\nimport { computed } from 'vue';\n\ninterface Props {\n  size?: 'small' | 'medium' | 'large';\n  color?: 'primary' | 'secondary' | 'accent' | 'muted';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  size: 'medium',\n  color: 'primary',\n  weight: 'normal'\n});"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/CustomText.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/CustomText.vue\n+++ /home/noah/degoogle-site/src/components/CustomText.vue\n@@ -4,8 +4,10 @@\n   </span>\n </template>\n \n <script setup lang=\"ts\">\n+import { computed } from 'vue';\n+\n interface Props {\n   size?: 'small' | 'medium' | 'large';\n   color?: 'primary' | 'secondary' | 'accent' | 'muted';\n   weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n"
+    },
+    "title": "degoogle-site/src/components/CustomText.vue",
+    "time": {
+      "start": 1755844407639,
+      "end": 1755844407657
+    }
+  }
+}

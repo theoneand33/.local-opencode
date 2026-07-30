@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d049a2c60015fUxCFOBes7MGr",
+  "messageID": "msg_8d0499a950011mPCztImLmBaoo",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_00199108",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/Hero.tsx",
+      "oldString": "    <section class=\"bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20\">",
+      "newString": "    <section class=\"bg-gray-800 text-white py-20\">"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/components/Hero.tsx\n===================================================================\n--- /home/noah/degoogle-site/src/components/Hero.tsx\n+++ /home/noah/degoogle-site/src/components/Hero.tsx\n@@ -1,9 +1,9 @@\n import React from 'react';\n \n const Hero: React.FC = () => {\n   return (\n-    <section class=\"bg-gradient-to-r from-blue-600 to-purple-600 text-white py-20\">\n+    <section class=\"bg-gray-800 text-white py-20\">\n       <div class=\"container mx-auto text-center\">\n         <h1 class=\"text-5xl font-bold mb-4\">De-Google Your Life</h1>\n         <p class=\"text-xl mb-8 max-w-2xl mx-auto\">\n           Take control of your digital privacy. Discover how to reduce your reliance on Google services\n"
+    },
+    "title": "degoogle-site/src/components/Hero.tsx",
+    "time": {
+      "start": 1755841143506,
+      "end": 1755841143539
+    }
+  }
+}

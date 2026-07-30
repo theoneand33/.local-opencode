@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23db05a001S0EdxCDkIVKTCV",
+  "messageID": "msg_9a23d7e47001X1ia3t5ZCxkqzA",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_703f323394af41d0a108dfaf",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "oldString": "  {\n    id: \"vscodium\",\n    name: \"VSCodium\",\n    description:\n      \"Free/Libre Open Source Software Binaries of VSCode. Community-driven, without Microsoft's telemetry and tracking.\",\n    category: \"Code Editor\",\n    license: \"MIT\",\n    website: \"https://vscodium.com\",\n    github: \"https://github.com/VSCodium/vscodium\",\n    tags: [\"code editor\", \"development\", \"ide\", \"privacy\"],\n    featured: true,\n    replaces: \"Visual Studio Code\",\n  },",
+      "newString": "  {\n    id: \"vscodium\",\n    name: \"VSCodium\",\n    description:\n      \"Free/Libre Open Source Software Binaries of VSCode. Community-driven, without Microsoft's telemetry and tracking.\",\n    category: \"Code Editor\",\n    license: \"MIT\",\n    website: \"https://vscodium.com\",\n    github: \"https://github.com/VSCodium/vscodium\",\n    tags: [\"code editor\", \"development\", \"ide\", \"privacy\"],\n    featured: true,\n    replaces: \"Visual Studio Code\",\n  },\n  {\n    id: \"zed\",\n    name: \"Zed\",\n    description:\n      \"A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Made for a faster, more ergonomic workflow.\",\n    category: \"Code Editor\",\n    license: \"Apache-2.0\",\n    website: \"https://zed.dev\",\n    github: \"https://github.com/zed-industries/zed\",\n    tags: [\"code editor\", \"development\", \"ide\", \"performance\", \"collaborative\"],\n    featured: true,\n    replaces: \"Sublime Text / VS Code\",\n  },"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/data/software.ts\n===================================================================\n--- /home/noah/open-source-alternatives/src/data/software.ts\n+++ /home/noah/open-source-alternatives/src/data/software.ts\n@@ -167,8 +167,21 @@\n   featured: true,\n   replaces: \"Visual Studio Code\",\n },\n {\n+  id: \"zed\",\n+  name: \"Zed\",\n+  description:\n+    \"A high-performance, multiplayer code editor from the creators of Atom and Tree-sitter. Made for a faster, more ergonomic workflow.\",\n+  category: \"Code Editor\",\n+  license: \"Apache-2.0\",\n+  website: \"https://zed.dev\",\n+  github: \"https://github.com/zed-industries/zed\",\n+  tags: [\"code editor\", \"development\", \"ide\", \"performance\", \"collaborative\"],\n+  featured: true,\n+  replaces: \"Sublime Text / VS Code\",\n+},\n+{\n   id: \"godot\",\n   name: \"Godot Engine\",\n   description:\n     \"Free and open source game engine. Create 2D and 3D games with a powerful, yet easy-to-use engine.\",\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759363575902,
+      "end": 1759363576652
+    }
+  }
+}

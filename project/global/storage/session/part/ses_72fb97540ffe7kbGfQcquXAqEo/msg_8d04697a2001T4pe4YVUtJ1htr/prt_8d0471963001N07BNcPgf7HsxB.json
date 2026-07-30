@@ -1,0 +1,24 @@
+{
+  "id": "prt_8d0471963001N07BNcPgf7HsxB",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "list",
+  "callID": "call_84746074",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "degoogle-site/src"
+    },
+    "output": "/home/noah/degoogle-site/src/\n  pages/\n    index.astro\n  styles/\n    global.css\n",
+    "metadata": {
+      "count": 2,
+      "truncated": false
+    },
+    "title": "degoogle-site/src",
+    "time": {
+      "start": 1755840977252,
+      "end": 1755840977254
+    }
+  }
+}

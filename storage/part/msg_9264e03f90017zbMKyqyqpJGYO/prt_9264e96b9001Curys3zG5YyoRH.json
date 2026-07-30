@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264e96b9001Curys3zG5YyoRH",
+  "messageID": "msg_9264e03f90017zbMKyqyqpJGYO",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_78718550",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd /home/noah && timeout 60 ./proprietary_scanner.sh | head -50",
+      "description": "Test the corrected script with function at the top"
+    },
+    "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages and Flatpak apps for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n- illogical-impulse-audio (None)\n- illogical-impulse-backlight (None)\n- illogical-impulse-basic (None)\n- illogical-impulse-fonts-themes (None)\n- illogical-impulse-hyprland (None)\n- illogical-impulse-kde (None)\n- illogical-impulse-portal (None)\n- illogical-impulse-python (None)\n- illogical-impulse-screencapture (None)\n- illogical-impulse-toolkit (None)\n- illogical-impulse-widgets (None)\n\nFree software packages (from AUR or other sources):\n- adw-gtk-theme-git (LGPL-2.1-or-later)\n- breeze-plus (LGPL-2.1)\n- darkly-bin (GPL-2.0-or-later)\n- html2markdown (MIT)\n- illogical-impulse-bibata-modern-classic-bin (GPL-3.0-or-later)\n- illogical-impulse-microtex-git (MIT)\n- kde-material-you-colors (GPL3)\n- kinit (LGPL)\n- kwin-effects-forceblur (GPL-3.0-or-later)\n- matugen-bin (GPL-2.0)\n- otf-space-grotesk (OFL-1.1)\n- phonon-qt6-mpv (LGPL-2.1-only)\n- python-materialyoucolor (MIT)\n- python-pywal16 (MIT)\n- qt6-avif-image-plugin (BSD-2-Clause)\n- quickshell-git (LGPL-3.0-only)\n- ttf-gabarito-git (OFL-1.1)\n- ttf-material-symbols-variable-git (Apache-2.0)\n- ttf-readex-pro (OFL-1.1-RFN)\n- ttf-rubik-vf (OFL)\n- ttf-twemoji (Apache-2.0)\n- upscayl-bin (AGPL-3.0-only)\n\n\nFlatpak detected. Scanning installed applications...\nInstalled Flatpak applications: 69\n\nPotentially proprietary Flatpak applications:\n- app.zen_browser.zen (MPL-2.0)\n",
+    "metadata": {
+      "output": "Proprietary Software Scanner for Linux\n======================================\nScanning installed packages and Flatpak apps for potentially proprietary software...\n\nTotal installed packages: 1400\nPackages from unofficial sources: 33\n\nPotentially proprietary packages (from AUR or other sources):\n- illogical-impulse-audio (None)\n- illogical-impulse-backlight (None)\n- illogical-impulse-basic (None)\n- illogical-impulse-fonts-themes (None)\n- illogical-impulse-hyprland (None)\n- illogical-impulse-kde (None)\n- illogical-impulse-portal (None)\n- illogical-impulse-python (None)\n- illogical-impulse-screencapture (None)\n- illogical-impulse-toolkit (None)\n- illogical-impulse-widgets (None)\n\nFree software packages (from AUR or other sources):\n- adw-gtk-theme-git (LGPL-2.1-or-later)\n- breeze-plus (LGPL-2.1)\n- darkly-bin (GPL-2.0-or-later)\n- html2markdown (MIT)\n- illogical-impulse-bibata-modern-classic-bin (GPL-3.0-or-later)\n- illogical-impulse-microtex-git (MIT)\n- kde-material-you-colors (GPL3)\n- kinit (LGPL)\n- kwin-effects-forceblur (GPL-3.0-or-later)\n- matugen-bin (GPL-2.0)\n- otf-space-grotesk (OFL-1.1)\n- phonon-qt6-mpv (LGPL-2.1-only)\n- python-materialyoucolor (MIT)\n- python-pywal16 (MIT)\n- qt6-avif-image-plugin (BSD-2-Clause)\n- quickshell-git (LGPL-3.0-only)\n- ttf-gabarito-git (OFL-1.1)\n- ttf-material-symbols-variable-git (Apache-2.0)\n- ttf-readex-pro (OFL-1.1-RFN)\n- ttf-rubik-vf (OFL)\n- ttf-twemoji (Apache-2.0)\n- upscayl-bin (AGPL-3.0-only)\n\n\nFlatpak detected. Scanning installed applications...\nInstalled Flatpak applications: 69\n\nPotentially proprietary Flatpak applications:\n- app.zen_browser.zen (MPL-2.0)\n",
+      "exit": 0,
+      "description": "Test the corrected script with function at the top"
+    },
+    "title": "cd /home/noah && timeout 60 ./proprietary_scanner.sh | head -50",
+    "time": {
+      "start": 1757284308696,
+      "end": 1757284321316
+    }
+  }
+}

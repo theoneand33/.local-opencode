@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a2364eb0001ilGngGq8tpyYKi",
+  "messageID": "msg_9a2364496001HNglKq7WL797vi",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_905f807663134a2497eecdd1",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+      "limit": 30,
+      "offset": 20
+    },
+    "output": "<file>\n00021| \t\t\t\t\t{featured && (\n00022| \t\t\t\t\t\t<span class=\"inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800\">\n00023| \t\t\t\t\t\t\tFeatured\n00024| \t\t\t\t\t\t</span>\n00025| \t\t\t\t\t)}\n00026| \t\t\t\t\t<span class=\"inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-secondary-100 text-secondary-800\">\n00027| \t\t\t\t\t\t{category}\n00028| \t\t\t\t\t</span>\n00029| \t\t\t\t</div>\n00030| \t\t\t\t<h3 class=\"text-xl font-semibold text-secondary-900 mb-2 group-hover:text-primary-600 transition-colors\">\n00031| \t\t\t\t\t{name}\n00032| \t\t\t\t</h3>\n00033| \t\t\t\t<p class=\"text-secondary-600 text-sm leading-relaxed mb-4\">\n00034| \t\t\t\t\t{description}\n00035| \t\t\t\t</p>\n00036| \t\t\t</div>\n00037| \t\t</div>\n00038| \t\t\n00039| \t\t<div class=\"flex flex-wrap gap-2 mb-4\">\n00040| \t\t\t{tags.map((tag) => (\n00041| \t\t\t\t<span class=\"inline-flex items-center px-2 py-1 rounded text-xs font-medium bg-secondary-50 text-secondary-700 border border-secondary-200\">\n00042| \t\t\t\t\t{tag}\n00043| \t\t\t\t</span>\n00044| \t\t\t))}\n00045| \t\t</div>\n00046| \t\t\n00047| \t\t<div class=\"flex items-center justify-between\">\n00048| \t\t\t<div class=\"flex items-center space-x-4 text-sm text-secondary-500\">\n00049| \t\t\t\t<span class=\"flex items-center space-x-1\">\n00050| \t\t\t\t\t<svg class=\"w-4 h-4\" fill=\"currentColor\" viewBox=\"0 0 20 20\">\n\n(File has more lines. Use 'offset' parameter to read beyond line 50)\n</file>",
+    "metadata": {
+      "preview": "\t\t\t\t\t{featured && (\n\t\t\t\t\t\t<span class=\"inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-primary-100 text-primary-800\">\n\t\t\t\t\t\t\tFeatured\n\t\t\t\t\t\t</span>\n\t\t\t\t\t)}\n\t\t\t\t\t<span class=\"inline-flex items-center px-2 py-1 rounded-full text-xs font-medium bg-secondary-100 text-secondary-800\">\n\t\t\t\t\t\t{category}\n\t\t\t\t\t</span>\n\t\t\t\t</div>\n\t\t\t\t<h3 class=\"text-xl font-semibold text-secondary-900 mb-2 group-hover:text-primary-600 transition-colors\">\n\t\t\t\t\t{name}\n\t\t\t\t</h3>\n\t\t\t\t<p class=\"text-secondary-600 text-sm leading-relaxed mb-4\">\n\t\t\t\t\t{description}\n\t\t\t\t</p>\n\t\t\t</div>\n\t\t</div>\n\t\t\n\t\t<div class=\"flex flex-wrap gap-2 mb-4\">\n\t\t\t{tags.map((tag) => ("
+    },
+    "title": "home/noah/open-source-alternatives/src/components/SoftwareCard.astro",
+    "time": {
+      "start": 1759363092147,
+      "end": 1759363092148
+    }
+  }
+}

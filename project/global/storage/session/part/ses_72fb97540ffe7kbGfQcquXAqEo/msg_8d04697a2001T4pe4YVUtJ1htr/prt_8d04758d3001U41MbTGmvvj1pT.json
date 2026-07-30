@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d04758d3001U41MbTGmvvj1pT",
+  "messageID": "msg_8d04697a2001T4pe4YVUtJ1htr",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_08891399",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/tips.astro",
+      "content": "---\nimport Layout from '../layouts/Layout.astro';\n---\n\n<Layout title=\"DeGoogle Tips - Practical Privacy Steps\">\n  <section class=\"py-12\">\n    <h2 class=\"text-3xl font-bold mb-8 text-center\">De-Googling Tips</h2>\n    <div class=\"max-w-4xl mx-auto space-y-6\">\n      <div class=\"bg-gray-800 p-6 rounded-lg\">\n        <h3 class=\"text-xl font-semibold mb-2 text-blue-400\">1. Start with Search</h3>\n        <p class=\"text-gray-300\">Change your default search engine to DuckDuckGo in your browser settings. This is one of the easiest first steps.</p>\n      </div>\n      <div class=\"bg-gray-800 p-6 rounded-lg\">\n        <h3 class=\"text-xl font-semibold mb-2 text-blue-400\">2. Use Privacy-Focused Browsers</h3>\n        <p class=\"text-gray-300\">Switch to Firefox or Brave, which have built-in tracking protection and don't send data to Google.</p>\n      </div>\n      <div class=\"bg-gray-800 p-6 rounded-lg\">\n        <h3 class=\"text-xl font-semibold mb-2 text-blue-400\">3. Replace Google Services Gradually</h3>\n        <p class=\"text-gray-300\">Don't try to replace everything at once. Start with one service, like switching from Gmail to ProtonMail, and build from there.</p>\n      </div>\n      <div class=\"bg-gray-800 p-6 rounded-lg\">\n        <h3 class=\"text-xl font-semibold mb-2 text-blue-400\">4. Use Open-Source Software</h3>\n        <p class=\"text-gray-300\">Whenever possible, choose open-source alternatives that you can audit and that respect your privacy.</p>\n      </div>\n      <div class=\"bg-gray-800 p-6 rounded-lg\">\n        <h3 class=\"text-xl font-semibold mb-2 text-blue-400\">5. Take Control of Your Data</h3>\n        <p class=\"text-gray-300\">Download your Google data before leaving and consider self-hosting services like Nextcloud for personal cloud storage.</p>\n      </div>\n    </div>\n  </section>\n</Layout>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/degoogle-site/src/pages/tips.astro",
+      "exists": false
+    },
+    "title": "degoogle-site/src/pages/tips.astro",
+    "time": {
+      "start": 1755840993495,
+      "end": 1755840993500
+    }
+  }
+}

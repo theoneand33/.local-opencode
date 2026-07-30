@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05806d80014G55cmmH1uZJlY",
+  "messageID": "msg_8d05759f1001VNBu3fKUQ39v6p",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_22947596",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/styles/global.css",
+      "oldString": "@import \"tailwindcss\";\n\n/* Porsche Design System Integration Styles */\nbody {\n  font-family: inherit; /* Let Porsche Design System handle typography */\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}",
+      "newString": "@import \"tailwindcss\";\n\n/* Porsche Design System Integration Styles */\nbody {\n  font-family: inherit; /* Let Porsche Design System handle typography */\n  background-color: rgb(17, 24, 39); /* gray-900 */\n  color: white;\n}\n\n.container {\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 0 1rem;\n}\n\n/* Dark theme specific styles */\n.p-link {\n  color: rgb(156, 163, 175); /* gray-400 */\n}\n\n.p-link:hover {\n  color: white;\n}\n\n/* Ensure Porsche components work well with dark theme */\np-text {\n  color: rgb(209, 213, 219); /* gray-300 */\n}\n\np-heading {\n  color: rgb(96, 165, 250); /* blue-400 */\n}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/styles/global.css\n===================================================================\n--- /home/noah/degoogle-site/src/styles/global.css\n+++ /home/noah/degoogle-site/src/styles/global.css\n@@ -2,11 +2,31 @@\n \n /* Porsche Design System Integration Styles */\n body {\n   font-family: inherit; /* Let Porsche Design System handle typography */\n+  background-color: rgb(17, 24, 39); /* gray-900 */\n+  color: white;\n }\n \n .container {\n   max-width: 1200px;\n   margin: 0 auto;\n   padding: 0 1rem;\n+}\n+\n+/* Dark theme specific styles */\n+.p-link {\n+  color: rgb(156, 163, 175); /* gray-400 */\n+}\n+\n+.p-link:hover {\n+  color: white;\n+}\n+\n+/* Ensure Porsche components work well with dark theme */\n+p-text {\n+  color: rgb(209, 213, 219); /* gray-300 */\n+}\n+\n+p-heading {\n+  color: rgb(96, 165, 250); /* blue-400 */\n }\n\\ No newline at end of file\n"
+    },
+    "title": "degoogle-site/src/styles/global.css",
+    "time": {
+      "start": 1755842086657,
+      "end": 1755842086693
+    }
+  }
+}

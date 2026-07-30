@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a2402682001kYRNVkW08h1tjx",
+  "messageID": "msg_9a23fec0e001eZQRiU5CfWXKE2",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_203eb3a5caa84496bae5fc8d",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.input-field {\n\t\t@apply bg-white border-secondary-300 text-secondary-900 placeholder-secondary-500;\n\t}\n\t\n\t.dark .input-field {\n\t\t@apply bg-dark-surface border-dark-border text-dark-text placeholder-dark-textSecondary;\n\t}",
+      "newString": "\t.input-field {\n\t\t@apply bg-white border-secondary-300 text-secondary-900 placeholder-secondary-500;\n\t}\n\t\n\t.dark .input-field {\n\t\t@apply bg-secondary-800 border-secondary-600 text-secondary-100 placeholder-secondary-400;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -89,9 +89,9 @@\n     @apply bg-white border-secondary-300 text-secondary-900 placeholder-secondary-500;\n   }\n \n   .dark .input-field {\n-    @apply bg-dark-surface border-dark-border text-dark-text placeholder-dark-textSecondary;\n+    @apply bg-secondary-800 border-secondary-600 text-secondary-100 placeholder-secondary-400;\n   }\n }\n \n /* Custom animations */\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363737220,
+      "end": 1759363737410
+    }
+  }
+}

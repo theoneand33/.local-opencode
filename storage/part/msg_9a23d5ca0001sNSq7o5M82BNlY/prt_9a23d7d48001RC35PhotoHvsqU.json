@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a23d7d48001RC35PhotoHvsqU",
+  "messageID": "msg_9a23d5ca0001sNSq7o5M82BNlY",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_607f201fac424e58ae4d4103",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/data/software.ts",
+      "limit": 10,
+      "offset": 170
+    },
+    "output": "<file>\n00171|     id: \"godot\",\n00172|     name: \"Godot Engine\",\n00173|     description:\n00174|       \"Free and open source game engine. Create 2D and 3D games with a powerful, yet easy-to-use engine.\",\n00175|     category: \"Game Development\",\n00176|     license: \"MIT\",\n00177|     website: \"https://godotengine.org\",\n00178|     github: \"https://github.com/godotengine/godot\",\n00179|     tags: [\"game engine\", \"2d\", \"3d\", \"gamedev\"],\n00180|     featured: true,\n\n(File has more lines. Use 'offset' parameter to read beyond line 180)\n</file>",
+    "metadata": {
+      "preview": "    id: \"godot\",\n    name: \"Godot Engine\",\n    description:\n      \"Free and open source game engine. Create 2D and 3D games with a powerful, yet easy-to-use engine.\",\n    category: \"Game Development\",\n    license: \"MIT\",\n    website: \"https://godotengine.org\",\n    github: \"https://github.com/godotengine/godot\",\n    tags: [\"game engine\", \"2d\", \"3d\", \"gamedev\"],\n    featured: true,"
+    },
+    "title": "home/noah/open-source-alternatives/src/data/software.ts",
+    "time": {
+      "start": 1759363562827,
+      "end": 1759363562832
+    }
+  }
+}

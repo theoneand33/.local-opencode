@@ -1,0 +1,27 @@
+{
+  "id": "prt_8d04f0f92001x7d5fosD9NMyEt",
+  "messageID": "msg_8d04f026e0013jOBlr5BKIf7Dl",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_57280833",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd degoogle-site && npm install @porsche-design-system/components-js",
+      "timeout": 60000,
+      "description": "Install Porsche Design System components"
+    },
+    "output": "npm error Cannot read properties of null (reading 'matches')\nnpm error A complete log of this run can be found in: /home/noah/.npm/_logs/2025-08-22T05_44_59_142Z-debug-0.log\n",
+    "metadata": {
+      "output": "npm error Cannot read properties of null (reading 'matches')\nnpm error A complete log of this run can be found in: /home/noah/.npm/_logs/2025-08-22T05_44_59_142Z-debug-0.log\n",
+      "exit": 1,
+      "description": "Install Porsche Design System components"
+    },
+    "title": "cd degoogle-site && npm install @porsche-design-system/components-js",
+    "time": {
+      "start": 1755841499028,
+      "end": 1755841511964
+    }
+  }
+}

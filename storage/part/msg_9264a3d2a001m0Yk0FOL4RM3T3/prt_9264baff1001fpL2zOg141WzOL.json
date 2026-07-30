@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264baff1001fpL2zOg141WzOL",
+  "messageID": "msg_9264a3d2a001m0Yk0FOL4RM3T3",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_20532097",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary_scanner.sh",
+      "oldString": "    # Get repository info\n    repo_info=$(pacman -Qi \"$pkg\" 2>/dev/null | grep \"Repository\" | awk '{print $3}')\n    \n    if [[ -z \"$repo_info\" ]]; then\n        repo_info=\"AUR/Unknown\"\n    fi",
+      "newString": "    # Get repository info\n    repo_info=$(pacman -Qi \"$pkg\" 2>/dev/null | grep \"Installed From\" | awk '{print $3}')\n    \n    if [[ -z \"$repo_info\" ]]; then\n        repo_info=\"AUR/Unknown\"\n    fi"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary_scanner.sh\n===================================================================\n--- /home/noah/proprietary_scanner.sh\n+++ /home/noah/proprietary_scanner.sh\n@@ -28,9 +28,9 @@\n proprietary_count=0\n \n for pkg in $packages; do\n     # Get repository info\n-    repo_info=$(pacman -Qi \"$pkg\" 2>/dev/null | grep \"Repository\" | awk '{print $3}')\n+    repo_info=$(pacman -Qi \"$pkg\" 2>/dev/null | grep \"Installed From\" | awk '{print $3}')\n     \n     if [[ -z \"$repo_info\" ]]; then\n         repo_info=\"AUR/Unknown\"\n     fi\n"
+    },
+    "title": "home/noah/proprietary_scanner.sh",
+    "time": {
+      "start": 1757284118528,
+      "end": 1757284118573
+    }
+  }
+}

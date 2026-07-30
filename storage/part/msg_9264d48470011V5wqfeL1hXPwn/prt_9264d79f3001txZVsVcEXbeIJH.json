@@ -1,0 +1,11 @@
+{
+  "id": "prt_9264d79f3001txZVsVcEXbeIJH",
+  "messageID": "msg_9264d48470011V5wqfeL1hXPwn",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "text",
+  "text": "The tool now includes Flatpak support. It detects and lists all installed Flatpak applications, as they may include proprietary software.\n\nUpdated scan results:\n- 33 unofficial packages (from AUR/other sources)\n- 69 Flatpak applications\n\nTo use: `./proprietary_scanner.sh`\n\nFor more accurate proprietary detection in Flatpak, you could enhance it to check app licenses via `flatpak info <app> | grep License`, but this provides a basic scan.",
+  "time": {
+    "start": 1757284236570,
+    "end": 1757284236570
+  }
+}

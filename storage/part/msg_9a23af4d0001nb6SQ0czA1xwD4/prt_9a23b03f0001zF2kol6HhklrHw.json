@@ -1,0 +1,11 @@
+{
+  "id": "prt_9a23b03f0001zF2kol6HhklrHw",
+  "messageID": "msg_9a23af4d0001nb6SQ0czA1xwD4",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "text",
+  "text": "\n\nPerfect! I've replaced Visual Studio Code with VSCodium in the software database. Here are the key changes:\n\n## 🔄 **Updated Software Entry:**\n\n### **From VS Code → To VSCodium:**\n- **Name**: Visual Studio Code → **VSCodium**\n- **Description**: Updated to emphasize community-driven and privacy-focused nature\n- **Website**: `https://code.visualstudio.com` → `https://vscodium.com`\n- **GitHub**: `https://github.com/microsoft/vscode` → `https://github.com/VSCodium/vscodium`\n- **Tags**: Added \"privacy\" tag\n- **Featured**: Changed from `false` to `true` (highlighting the open source alternative)\n- **Replaces**: Now correctly shows it replaces \"Visual Studio Code\"\n\n### **Why VSCodium is Better:**\n- **Truly Open Source**: No Microsoft telemetry or tracking\n- **Community-Driven**: Maintained by the open source community\n- **Same Features**: All the VSCode functionality without the proprietary elements\n- **Privacy-Focused**: No data collection or user tracking\n\nThis change better aligns with the website's mission of promoting truly open source alternatives to proprietary software, as VSCodium is the community-driven, telemetry-free version of VSCode.",
+  "time": {
+    "start": 1759363407561,
+    "end": 1759363407561
+  }
+}

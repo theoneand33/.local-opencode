@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d049b495001i9clMlzoqoCuB6",
+  "messageID": "msg_8d0499a950011mPCztImLmBaoo",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_18707515",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/AlternativeCard.tsx",
+      "oldString": "    <div class=\"bg-gray-800 p-6 rounded-lg shadow-lg\">",
+      "newString": "    <div class=\"bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700\">"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/components/AlternativeCard.tsx\n===================================================================\n--- /home/noah/degoogle-site/src/components/AlternativeCard.tsx\n+++ /home/noah/degoogle-site/src/components/AlternativeCard.tsx\n@@ -7,9 +7,9 @@\n }\n \n const AlternativeCard: React.FC<AlternativeCardProps> = ({ googleService, alternatives, description }) => {\n   return (\n-    <div class=\"bg-gray-800 p-6 rounded-lg shadow-lg\">\n+    <div class=\"bg-gray-800 p-6 rounded-lg shadow-sm border border-gray-700\">\n       <h3 class=\"text-xl font-semibold mb-2 text-red-400\">Replace {googleService}</h3>\n       <p class=\"text-gray-300 mb-4\">{description}</p>\n       <div class=\"space-y-2\">\n         {alternatives.map((alt) => (\n"
+    },
+    "title": "degoogle-site/src/components/AlternativeCard.tsx",
+    "time": {
+      "start": 1755841148055,
+      "end": 1755841148074
+    }
+  }
+}

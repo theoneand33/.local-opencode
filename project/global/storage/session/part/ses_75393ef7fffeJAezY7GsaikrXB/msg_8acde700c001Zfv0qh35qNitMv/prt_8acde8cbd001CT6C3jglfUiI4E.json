@@ -1,0 +1,26 @@
+{
+  "id": "prt_8acde8cbd001CT6C3jglfUiI4E",
+  "messageID": "msg_8acde700c001Zfv0qh35qNitMv",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_10001112ceab464e8ec509f0",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "du -sh /tmp",
+      "description": "Check tmp directory size"
+    },
+    "output": "du: cannot read directory '/tmp/runtime-root': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-power-profiles-daemon.service-vA43OO': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-upower.service-hYL79d': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-polkit.service-6lOObq': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-systemd-logind.service-qSeLF9': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-bluetooth.service-0FZR4A': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-ananicy-cpp.service-vk3A6l': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-dbus-broker.service-iNYnGE': Permission denied\n6.9M\t/tmp\n",
+    "metadata": {
+      "output": "du: cannot read directory '/tmp/runtime-root': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-power-profiles-daemon.service-vA43OO': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-upower.service-hYL79d': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-polkit.service-6lOObq': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-systemd-logind.service-qSeLF9': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-bluetooth.service-0FZR4A': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-ananicy-cpp.service-vk3A6l': Permission denied\ndu: cannot read directory '/tmp/systemd-private-38c05a81628a467aaede5450c3f890c7-dbus-broker.service-iNYnGE': Permission denied\n6.9M\t/tmp\n",
+      "exit": 1,
+      "description": "Check tmp directory size"
+    },
+    "title": "du -sh /tmp",
+    "time": {
+      "start": 1755246922947,
+      "end": 1755246922954
+    }
+  }
+}

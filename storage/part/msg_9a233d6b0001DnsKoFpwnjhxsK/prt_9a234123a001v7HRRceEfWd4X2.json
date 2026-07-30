@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a234123a001v7HRRceEfWd4X2",
+  "messageID": "msg_9a233d6b0001DnsKoFpwnjhxsK",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_6d3595c74bc04a7ca6f7d62a",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "oldString": "---\nexport interface Props {\n\ttitle: string;\n\tdescription?: string;\n\timage?: string;\n}\n\nconst { title, description = \"Discover the best open source alternatives to popular proprietary software\", image = \"/og-image.jpg\" } = Astro.props;\n---",
+      "newString": "---\nimport ThemeToggle from '../components/ThemeToggle.astro';\n\nexport interface Props {\n\ttitle: string;\n\tdescription?: string;\n\timage?: string;\n}\n\nconst { title, description = \"Discover the best open source alternatives to popular proprietary software\", image = \"/og-image.jpg\" } = Astro.props;\n---"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/layouts/Layout.astro\n+++ /home/noah/open-source-alternatives/src/layouts/Layout.astro\n@@ -1,5 +1,7 @@\n ---\n+import ThemeToggle from '../components/ThemeToggle.astro';\n+\n export interface Props {\n \ttitle: string;\n \tdescription?: string;\n \timage?: string;\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759362945597,
+      "end": 1759362945604
+    }
+  }
+}

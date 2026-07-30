@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a237053a001PpGWfHZgkOIOsB",
+  "messageID": "msg_9a236f845001M8iAeMrOr0G6kp",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_bc2077ae04d347ac9da555df",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "limit": 20,
+      "offset": 10
+    },
+    "output": "<file>\n00011| \t<!-- Hero Section -->\n00012| \t<section class=\"relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden\">\n00013| \t\t<div class=\"absolute inset-0 bg-grid-pattern opacity-5\"></div>\n00014| \t\t<div class=\"relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32\">\n00015| \t\t\t<div class=\"text-center\">\n00016| \t\t\t\t<h1 class=\"text-4xl sm:text-5xl lg:text-6xl font-bold text-secondary-900 mb-6\">\n00017| \t\t\t\t\tDiscover <span class=\"text-primary-600\">Open Source</span> Alternatives\n00018| \t\t\t\t</h1>\n00019| \t\t\t\t<p class=\"text-xl text-secondary-600 mb-8 max-w-3xl mx-auto leading-relaxed\">\n00020| \t\t\t\t\tFind powerful, free, and community-driven alternatives to your favorite proprietary software. \n00021| \t\t\t\t\tEmbrace transparency, freedom, and innovation.\n00022| \t\t\t\t</p>\n00023| \t\t\t\t<div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n00024| \t\t\t\t\t<a href=\"/categories\" class=\"inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 transition-colors shadow-lg\">\n00025| \t\t\t\t\t\tBrowse Categories\n00026| \t\t\t\t\t\t<svg class=\"w-5 h-5 ml-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n00027| \t\t\t\t\t\t\t<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/>\n00028| \t\t\t\t\t\t</svg>\n00029| \t\t\t\t\t</a>\n00030| \t\t\t\t\t<a href=\"#featured\" class=\"inline-flex items-center justify-center px-6 py-3 text-base font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200\">\n\n(File has more lines. Use 'offset' parameter to read beyond line 30)\n</file>",
+    "metadata": {
+      "preview": "\t<!-- Hero Section -->\n\t<section class=\"relative bg-gradient-to-br from-primary-50 via-white to-secondary-50 overflow-hidden\">\n\t\t<div class=\"absolute inset-0 bg-grid-pattern opacity-5\"></div>\n\t\t<div class=\"relative max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-24 lg:py-32\">\n\t\t\t<div class=\"text-center\">\n\t\t\t\t<h1 class=\"text-4xl sm:text-5xl lg:text-6xl font-bold text-secondary-900 mb-6\">\n\t\t\t\t\tDiscover <span class=\"text-primary-600\">Open Source</span> Alternatives\n\t\t\t\t</h1>\n\t\t\t\t<p class=\"text-xl text-secondary-600 mb-8 max-w-3xl mx-auto leading-relaxed\">\n\t\t\t\t\tFind powerful, free, and community-driven alternatives to your favorite proprietary software. \n\t\t\t\t\tEmbrace transparency, freedom, and innovation.\n\t\t\t\t</p>\n\t\t\t\t<div class=\"flex flex-col sm:flex-row gap-4 justify-center\">\n\t\t\t\t\t<a href=\"/categories\" class=\"inline-flex items-center justify-center px-6 py-3 text-base font-medium text-white bg-primary-600 rounded-lg hover:bg-primary-700 transition-colors shadow-lg\">\n\t\t\t\t\t\tBrowse Categories\n\t\t\t\t\t\t<svg class=\"w-5 h-5 ml-2\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M17 8l4 4m0 0l-4 4m4-4H3\"/>\n\t\t\t\t\t\t</svg>\n\t\t\t\t\t</a>\n\t\t\t\t\t<a href=\"#featured\" class=\"inline-flex items-center justify-center px-6 py-3 text-base font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors border border-primary-200\">"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759363138875,
+      "end": 1759363138875
+    }
+  }
+}

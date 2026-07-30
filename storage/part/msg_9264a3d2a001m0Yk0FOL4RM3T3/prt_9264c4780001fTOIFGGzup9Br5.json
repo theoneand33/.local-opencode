@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264c4780001fTOIFGGzup9Br5",
+  "messageID": "msg_9264a3d2a001m0Yk0FOL4RM3T3",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_52317866",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "cd /home/noah && timeout 30 ./proprietary_scanner.sh | tail -10",
+      "description": "Test the script again to see the summary with correct repo extraction"
+    },
+    "output": "filesystem (Repository: None) - Potentially proprietary\nfish-autopair (Repository: None) - Potentially proprietary\nfish-pure-prompt (Repository: None) - Potentially proprietary\nfisher (Repository: None) - Potentially proprietary\nfreeglut (Repository: None) - Potentially proprietary\nfuse-common (Repository: None) - Potentially proprietary\nfuse2 (Repository: None) - Potentially proprietary\nfuse3 (Repository: None) - Potentially proprietary\ngcr (Repository: None) - Potentially proprietary\ngcr-4 (Repository: None) - Potentially proprietary\n",
+    "metadata": {
+      "output": "filesystem (Repository: None) - Potentially proprietary\nfish-autopair (Repository: None) - Potentially proprietary\nfish-pure-prompt (Repository: None) - Potentially proprietary\nfisher (Repository: None) - Potentially proprietary\nfreeglut (Repository: None) - Potentially proprietary\nfuse-common (Repository: None) - Potentially proprietary\nfuse2 (Repository: None) - Potentially proprietary\nfuse3 (Repository: None) - Potentially proprietary\ngcr (Repository: None) - Potentially proprietary\ngcr-4 (Repository: None) - Potentially proprietary\n",
+      "exit": 0,
+      "description": "Test the script again to see the summary with correct repo extraction"
+    },
+    "title": "cd /home/noah && timeout 30 ./proprietary_scanner.sh | tail -10",
+    "time": {
+      "start": 1757284157314,
+      "end": 1757284187324
+    }
+  }
+}

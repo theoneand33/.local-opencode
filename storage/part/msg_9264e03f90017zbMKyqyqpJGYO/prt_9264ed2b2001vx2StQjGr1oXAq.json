@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264ed2b2001vx2StQjGr1oXAq",
+  "messageID": "msg_9264e03f90017zbMKyqyqpJGYO",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_74387568",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary_scanner.sh",
+      "oldString": "    free_licenses=(\"GPL\" \"LGPL\" \"MIT\" \"BSD\" \"Apache\" \"ISC\" \"CC0\" \"Public Domain\" \"WTFPL\" \"Zlib\" \"Boost\" \"OFL\" \"AGPL\")",
+      "newString": "    free_licenses=(\"GPL\" \"LGPL\" \"MIT\" \"BSD\" \"Apache\" \"ISC\" \"CC0\" \"Public Domain\" \"WTFPL\" \"Zlib\" \"Boost\" \"OFL\" \"AGPL\" \"MPL\")"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary_scanner.sh\n===================================================================\n--- /home/noah/proprietary_scanner.sh\n+++ /home/noah/proprietary_scanner.sh\n@@ -8,9 +8,9 @@\n # Function to check if a license is free\n is_free_license() {\n     local license=\"$1\"\n     # List of common free licenses (case insensitive)\n-    free_licenses=(\"GPL\" \"LGPL\" \"MIT\" \"BSD\" \"Apache\" \"ISC\" \"CC0\" \"Public Domain\" \"WTFPL\" \"Zlib\" \"Boost\" \"OFL\" \"AGPL\")\n+    free_licenses=(\"GPL\" \"LGPL\" \"MIT\" \"BSD\" \"Apache\" \"ISC\" \"CC0\" \"Public Domain\" \"WTFPL\" \"Zlib\" \"Boost\" \"OFL\" \"AGPL\" \"MPL\")\n     for free in \"${free_licenses[@]}\"; do\n         if [[ \"${license,,}\" == *\"${free,,}\"* ]]; then\n             return 0  # free\n         fi\n"
+    },
+    "title": "home/noah/proprietary_scanner.sh",
+    "time": {
+      "start": 1757284324023,
+      "end": 1757284324030
+    }
+  }
+}

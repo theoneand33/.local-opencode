@@ -1,0 +1,11 @@
+{
+  "id": "prt_92651c84c002kU8N3fOLFOIkVa",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "text",
+  "text": "\n\nFlatpak support has been successfully added to the proprietary software scanner. The implementation includes:\n\n**New Features:**\n- Flatpak package manager detection\n- Scanning of both Flatpak applications and runtime packages\n- Automatic inclusion of Flatpak directories in filesystem scanning\n- Extended proprietary package database with Flatpak application IDs\n\n**Key Changes:**\n- Added `flatpak` to package manager detection\n- Implemented `_scan_flatpak_packages()` method\n- Added Flatpak-specific directories to filesystem scanning\n- Updated configuration with common Flatpak application IDs\n- Enhanced documentation with Flatpak-specific information\n\n**Flatpak Application IDs Added:**\n- `com.google.Chrome`, `com.slack.Slack`, `com.spotify.Client`\n- `com.discordapp.Discord`, `com.valvesoftware.Steam`\n- `com.microsoft.Teams`, `com.microsoft.Edge`\n- `com.visualstudio.code`, `com.skype.Client`, `com.zoom.Zoom`\n\nThe tool now automatically detects and scans Flatpak installations alongside traditional package managers, providing comprehensive proprietary software detection across all major Linux packaging systems.",
+  "time": {
+    "start": 1757284521857,
+    "end": 1757284521857
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prt_8d076b9c0001cA1S1lX3ZVi82J",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "list",
+  "callID": "call_84527200",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "degoogle-site"
+    },
+    "output": "/home/noah/degoogle-site/\n  .astro/\n    content-assets.mjs\n    content-modules.mjs\n    data-store.json\n    settings.json\n    types.d.ts\n  public/\n    favicon.svg\n  src/\n    components/\n      PorscheAlternativeCard.vue\n      PorscheFooter.vue\n      PorscheHeader.vue\n      PorscheHero.vue\n      PorscheServiceCard.vue\n    layouts/\n      Layout.astro\n    pages/\n      alternatives.astro\n      index.astro\n      tips.astro\n    styles/\n      global.css\n  .gitignore\n  README.md\n  astro.config.mjs\n  package.json\n  pnpm-lock.yaml\n  tsconfig.json\n",
+    "metadata": {
+      "count": 22,
+      "truncated": false
+    },
+    "title": "degoogle-site",
+    "time": {
+      "start": 1755844098498,
+      "end": 1755844098663
+    }
+  }
+}

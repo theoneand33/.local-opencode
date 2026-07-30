@@ -1,0 +1,1 @@
+{"id":"prt_8ac69887c002X37x8qfvodVwL3","messageID":"msg_7b59523c8001s6gXYDzDkCtYdf","sessionID":"ses_84a6adc84ffel7sKN8Cl2M6FHl","type":"text","text":"The issue is that `p7zip` is matching with `p7zip-rar`. The partial matching logic is too broad. Let me check what's actually in the database and fix the matching logic to be more precise:"}

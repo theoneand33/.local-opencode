@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d0534448001oD8MNkwjuqw5zC",
+  "messageID": "msg_8d0531e08001iNIAKWyNLk4lBf",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_71716053",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/layouts/Layout.astro",
+      "oldString": "  <body class=\"bg-gray-900 text-white min-h-screen\">\n    <header class=\"bg-gray-900 p-4 shadow-sm border-b border-gray-700\">\n      <div class=\"container mx-auto flex justify-between items-center\">\n        <h1 class=\"text-2xl font-bold text-blue-400\">DeGoogle Guide</h1>\n        <nav class=\"space-x-6\">\n          <a href=\"/\" class=\"text-gray-400 hover:text-white transition font-medium\">Home</a>\n          <a href=\"/alternatives\" class=\"text-gray-400 hover:text-white transition font-medium\">Alternatives</a>\n          <a href=\"/tips\" class=\"text-gray-400 hover:text-white transition font-medium\">Tips</a>\n          <a href=\"/porsche-demo\" class=\"text-blue-400 hover:text-blue-300 transition font-medium\">Porsche Demo</a>\n        </nav>\n      </div>\n    </header>\n    <main class=\"container mx-auto p-4\">\n      <slot />\n    </main>\n    <footer class=\"bg-gray-900 p-4 mt-8 border-t border-gray-700\">\n      <div class=\"container mx-auto text-center text-gray-400\">\n        <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n      </div>\n    </footer>\n    <Fragment set:html={getLoaderScript()} />\n  </body>",
+      "newString": "  <body class=\"bg-white text-gray-900 min-h-screen\">\n    <PorscheHeader client:load />\n    <main class=\"container mx-auto p-4\">\n      <slot />\n    </main>\n    <PorscheFooter client:load />\n    <Fragment set:html={getLoaderScript()} />\n  </body>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/degoogle-site/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/degoogle-site/src/layouts/Layout.astro\n+++ /home/noah/degoogle-site/src/layouts/Layout.astro\n@@ -26,27 +26,13 @@\n     <Fragment set:html={getComponentChunkLinks()} />\n     <Fragment set:html={getIconLinks()} />\n     <Fragment set:html={getMetaTagsAndIconLinks({ appTitle: 'DeGoogle Guide' })} />\n   </head>\n-  <body class=\"bg-gray-900 text-white min-h-screen\">\n-    <header class=\"bg-gray-900 p-4 shadow-sm border-b border-gray-700\">\n-      <div class=\"container mx-auto flex justify-between items-center\">\n-        <h1 class=\"text-2xl font-bold text-blue-400\">DeGoogle Guide</h1>\n-        <nav class=\"space-x-6\">\n-          <a href=\"/\" class=\"text-gray-400 hover:text-white transition font-medium\">Home</a>\n-          <a href=\"/alternatives\" class=\"text-gray-400 hover:text-white transition font-medium\">Alternatives</a>\n-          <a href=\"/tips\" class=\"text-gray-400 hover:text-white transition font-medium\">Tips</a>\n-          <a href=\"/porsche-demo\" class=\"text-blue-400 hover:text-blue-300 transition font-medium\">Porsche Demo</a>\n-        </nav>\n-      </div>\n-    </header>\n+  <body class=\"bg-white text-gray-900 min-h-screen\">\n+    <PorscheHeader client:load />\n     <main class=\"container mx-auto p-4\">\n       <slot />\n     </main>\n-    <footer class=\"bg-gray-900 p-4 mt-8 border-t border-gray-700\">\n-      <div class=\"container mx-auto text-center text-gray-400\">\n-        <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n-      </div>\n-    </footer>\n+    <PorscheFooter client:load />\n     <Fragment set:html={getLoaderScript()} />\n   </body>\n </html>\n\\ No newline at end of file\n"
+    },
+    "title": "degoogle-site/src/layouts/Layout.astro",
+    "time": {
+      "start": 1755841774666,
+      "end": 1755841774679
+    }
+  }
+}

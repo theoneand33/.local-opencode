@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23f2d27001B1U70xKi5mlWVJ",
+  "messageID": "msg_9a23f0126001YEV6DviiN4tLEi",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_1929ad05c2b546879b669264",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.card {\n\t\t@apply bg-white rounded-xl border border-secondary-200 hover:shadow-xl transition-all duration-300;\n\t}\n\t\n\t.dark .card {\n\t\t@apply bg-dark-surface border-dark-border;\n\t}",
+      "newString": "\t.card {\n\t\t@apply bg-white rounded-xl border border-secondary-200 hover:shadow-xl transition-all duration-300;\n\t}\n\t\n\t.dark .card {\n\t\t@apply bg-secondary-900 border-secondary-700;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -33,9 +33,9 @@\n   @apply bg-white rounded-xl border border-secondary-200 hover:shadow-xl transition-all duration-300;\n }\n \n .dark .card {\n-  @apply bg-dark-surface border-dark-border;\n+  @apply bg-secondary-900 border-secondary-700;\n }\n \n .card-hover {\n   @apply hover:border-primary-300 hover:shadow-xl transition-all duration-300;\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363673384,
+      "end": 1759363673660
+    }
+  }
+}

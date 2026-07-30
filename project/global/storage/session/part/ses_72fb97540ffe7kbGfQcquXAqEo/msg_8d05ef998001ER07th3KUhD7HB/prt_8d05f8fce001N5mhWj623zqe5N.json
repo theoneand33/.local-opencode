@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05f8fce001N5mhWj623zqe5N",
+  "messageID": "msg_8d05ef998001ER07th3KUhD7HB",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_69673912",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/alternatives.astro",
+      "oldString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center text-blue-400\">Google Service Alternatives</p-heading>",
+      "newString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Google Service Alternatives</p-heading>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/pages/alternatives.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/alternatives.astro\n+++ /home/noah/degoogle-site/src/pages/alternatives.astro\n@@ -5,9 +5,9 @@\n \n <Layout title=\"DeGoogle Alternatives - Privacy-Focused Services\">\n   <section class=\"py-12 bg-gray-900\">\n     <div class=\"container mx-auto\">\n-      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center text-blue-400\">Google Service Alternatives</p-heading>\n+      <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Google Service Alternatives</p-heading>\n       <div class=\"grid md:grid-cols-2 gap-6\">\n         <PorscheAlternativeCard\n           googleService=\"Gmail\"\n           alternatives={['ProtonMail', 'Tutanota', 'Fastmail']}\n"
+    },
+    "title": "degoogle-site/src/pages/alternatives.astro",
+    "time": {
+      "start": 1755842580431,
+      "end": 1755842580436
+    }
+  }
+}

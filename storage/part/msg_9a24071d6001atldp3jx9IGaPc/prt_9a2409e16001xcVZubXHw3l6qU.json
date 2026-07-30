@@ -1,0 +1,21 @@
+{
+  "id": "prt_9a2409e16001xcVZubXHw3l6qU",
+  "messageID": "msg_9a24071d6001atldp3jx9IGaPc",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_dd6d3b4d766f40d7830f5dd8",
+  "state": {
+    "status": "error",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "oldString": "\t\t\t\t\t\t\t<span class=\"text-xl font-bold text-secondary-900 dark:text-dark-text\">OpenAlt</span>",
+      "newString": "\t\t\t\t\t\t\t<span class=\"text-xl font-bold text-secondary-900 dark:text-secondary-100\">OpenAlt</span>"
+    },
+    "error": "Error: oldString found multiple times and requires more code context to uniquely identify the intended match",
+    "time": {
+      "start": 1759363767832,
+      "end": 1759363767855
+    }
+  }
+}

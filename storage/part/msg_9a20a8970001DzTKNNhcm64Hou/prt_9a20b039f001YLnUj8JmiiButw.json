@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a20b039f001YLnUj8JmiiButw",
+  "messageID": "msg_9a20a8970001DzTKNNhcm64Hou",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_d43378c8f36c48e08956acd3",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/categories/[category].astro",
+      "content": "---\nimport Layout from '../../layouts/Layout.astro';\nimport SoftwareCard from '../../components/SoftwareCard.astro';\nimport { categories, getSoftwareByCategory } from '../../data/software';\n\nconst { category } = Astro.params;\n\n// Find the category name from the slug\nconst categoryName = categories.find(cat => \n\tcat.toLowerCase().replace(' ', '-') === category\n);\n\nif (!categoryName) {\n\treturn Astro.redirect('/categories');\n}\n\nconst softwareList = getSoftwareByCategory(categoryName);\n---\n\n<Layout title={`${categoryName} Alternatives - Open Source Software`}>\n\t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16\">\n\t\t<!-- Breadcrumb -->\n\t\t<nav class=\"mb-8\">\n\t\t\t<ol class=\"flex items-center space-x-2 text-sm\">\n\t\t\t\t<li>\n\t\t\t\t\t<a href=\"/\" class=\"text-secondary-500 hover:text-primary-600 transition-colors\">Home</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"text-secondary-400\">/</li>\n\t\t\t\t<li>\n\t\t\t\t\t<a href=\"/categories\" class=\"text-secondary-500 hover:text-primary-600 transition-colors\">Categories</a>\n\t\t\t\t</li>\n\t\t\t\t<li class=\"text-secondary-400\">/</li>\n\t\t\t\t<li class=\"text-secondary-900 font-medium\">{categoryName}</li>\n\t\t\t</ol>\n\t\t</nav>\n\n\t\t<!-- Header -->\n\t\t<div class=\"text-center mb-12\">\n\t\t\t<h1 class=\"text-4xl lg:text-5xl font-bold text-secondary-900 mb-6\">\n\t\t\t\t{categoryName} Alternatives\n\t\t\t</h1>\n\t\t\t<p class=\"text-xl text-secondary-600 max-w-3xl mx-auto\">\n\t\t\t\tDiscover {softwareList.length} open source alternatives to popular {categoryName.toLowerCase()} software. \n\t\t\t\tFind tools that respect your freedom and privacy.\n\t\t\t</p>\n\t\t</div>\n\n\t\t{softwareList.length === 0 ? (\n\t\t\t<div class=\"text-center py-20\">\n\t\t\t\t<div class=\"w-20 h-20 bg-secondary-100 rounded-full flex items-center justify-center mx-auto mb-6\">\n\t\t\t\t\t<svg class=\"w-10 h-10 text-secondary-400\" fill=\"none\" stroke=\"currentColor\" viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t<path stroke-linecap=\"round\" stroke-linejoin=\"round\" stroke-width=\"2\" d=\"M9.172 16.172a4 4 0 015.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z\"/>\n\t\t\t\t\t</svg>\n\t\t\t\t</div>\n\t\t\t\t<h3 class=\"text-xl font-semibold text-secondary-900 mb-2\">No alternatives found</h3>\n\t\t\t\t<p class=\"text-secondary-600 mb-6\">\n\t\t\t\t\tWe haven't added any {categoryName.toLowerCase()} alternatives yet. Check back soon!\n\t\t\t\t</p>\n\t\t\t\t<a href=\"/categories\" class=\"inline-flex items-center px-4 py-2 text-sm font-medium text-primary-600 bg-primary-50 rounded-lg hover:bg-primary-100 transition-colors\">\n\t\t\t\t\tBrowse Other Categories\n\t\t\t\t</a>\n\t\t\t</div>\n\t\t) : (\n\t\t\t<>\n\t\t\t\t<!-- Software Grid -->\n\t\t\t\t<div class=\"grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-12\">\n\t\t\t\t\t{softwareList.map((software) => (\n\t\t\t\t\t\t<SoftwareCard \n\t\t\t\t\t\t\tname={software.name}\n\t\t\t\t\t\t\tdescription={software.description}\n\t\t\t\t\t\t\tcategory={software.category}\n\t\t\t\t\t\t\tlicense={software.license}\n\t\t\t\t\t\t\twebsite={software.website}\n\t\t\t\t\t\t\tgithub={software.github}\n\t\t\t\t\t\t\ttags={software.tags}\n\t\t\t\t\t\t\tfeatured={software.featured}\n\t\t\t\t\t\t/>\n\t\t\t\t\t))}\n\t\t\t\t</div>\n\n\t\t\t\t<!-- Related Categories -->\n\t\t\t\t<div class=\"bg-secondary-50 rounded-xl p-8 border border-secondary-200\">\n\t\t\t\t\t<h3 class=\"text-2xl font-bold text-secondary-900 mb-6\">Explore Related Categories</h3>\n\t\t\t\t\t<div class=\"grid grid-cols-2 md:grid-cols-4 gap-4\">\n\t\t\t\t\t\t{categories\n\t\t\t\t\t\t\t.filter(cat => cat !== categoryName)\n\t\t\t\t\t\t\t.slice(0, 8)\n\t\t\t\t\t\t\t.map((relatedCategory) => {\n\t\t\t\t\t\t\t\tconst slug = relatedCategory.toLowerCase().replace(' ', '-');\n\t\t\t\t\t\t\t\tconst count = getSoftwareByCategory(relatedCategory).length;\n\t\t\t\t\t\t\t\treturn (\n\t\t\t\t\t\t\t\t\t<a \n\t\t\t\t\t\t\t\t\t\thref={`/categories/${slug}`}\n\t\t\t\t\t\t\t\t\t\tclass=\"bg-white rounded-lg p-4 border border-secondary-200 hover:border-primary-300 hover:shadow-md transition-all duration-300\"\n\t\t\t\t\t\t\t\t\t>\n\t\t\t\t\t\t\t\t\t\t<h4 class=\"font-medium text-secondary-900 mb-1\">{relatedCategory}</h4>\n\t\t\t\t\t\t\t\t\t\t<p class=\"text-sm text-secondary-500\">{count} alternatives</p>\n\t\t\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t\t);\n\t\t\t\t\t\t\t})}\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</>\n\t\t)}\n\t</div>\n</Layout>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/open-source-alternatives/src/pages/categories/[category].astro",
+      "exists": false
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/categories/[category].astro",
+    "time": {
+      "start": 1759360254882,
+      "end": 1759360254884
+    }
+  }
+}

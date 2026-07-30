@@ -1,0 +1,24 @@
+{
+  "id": "prt_8d054b977001CP8BeTSLxZS8Cu",
+  "messageID": "msg_8d054afd7001uFOwr7mJjxtOAe",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "list",
+  "callID": "call_56861239",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "degoogle-site/src/components"
+    },
+    "output": "/home/noah/degoogle-site/src/components/\n  PorscheAlternativeCard.vue\n  PorscheFooter.vue\n  PorscheHeader.vue\n  PorscheHero.vue\n  PorscheServiceCard.vue\n",
+    "metadata": {
+      "count": 5,
+      "truncated": false
+    },
+    "title": "degoogle-site/src/components",
+    "time": {
+      "start": 1755841870203,
+      "end": 1755841870204
+    }
+  }
+}

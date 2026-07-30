@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a22523480011xGaB8bD75dJIk",
+  "messageID": "msg_9a2250f300012bUap4jx1il5cX",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_7eec65ebeaf94c4399123d6c",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "oldString": "---\n\n---\nimport Layout from '../layouts/Layout.astro';\nimport SoftwareCard from '../components/SoftwareCard.astro';\nimport { getFeaturedSoftware, softwareData } from '../data/software';\n\nconst featuredSoftware = getFeaturedSoftware();\nconst allSoftware = softwareData.slice(0, 6);\n---",
+      "newString": "---\nimport Layout from '../layouts/Layout.astro';\nimport SoftwareCard from '../components/SoftwareCard.astro';\nimport { getFeaturedSoftware, softwareData } from '../data/software';\n\nconst featuredSoftware = getFeaturedSoftware();\nconst allSoftware = softwareData.slice(0, 6);\n---"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/pages/index.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/pages/index.astro\n+++ /home/noah/open-source-alternatives/src/pages/index.astro\n@@ -1,7 +1,5 @@\n ---\n-\n----\n import Layout from '../layouts/Layout.astro';\n import SoftwareCard from '../components/SoftwareCard.astro';\n import { getFeaturedSoftware, softwareData } from '../data/software';\n \n"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759361966920,
+      "end": 1759361966937
+    }
+  }
+}

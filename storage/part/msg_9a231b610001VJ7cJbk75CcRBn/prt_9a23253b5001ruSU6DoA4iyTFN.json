@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23253b5001ruSU6DoA4iyTFN",
+  "messageID": "msg_9a231b610001VJ7cJbk75CcRBn",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_44cb99852e034d74ba15b701",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/components/ThemeToggle.astro",
+      "content": "---\n// Theme toggle component with dark/light mode switching\n---\n\n<button\n\tid=\"theme-toggle\"\n\ttype=\"button\"\n\tclass=\"relative inline-flex items-center justify-center p-2 rounded-lg text-secondary-600 hover:text-primary-600 hover:bg-secondary-100 dark:text-secondary-400 dark:hover:text-primary-400 dark:hover:bg-secondary-800 transition-colors focus-ring\"\n\taria-label=\"Toggle dark mode\"\n>\n\t<!-- Sun icon for light mode -->\n\t<svg \n\t\tid=\"sun-icon\" \n\t\tclass=\"w-5 h-5 hidden\" \n\t\tfill=\"currentColor\" \n\t\tviewBox=\"0 0 20 20\"\n\t>\n\t\t<path fill-rule=\"evenodd\" d=\"M10 2a1 1 0 011 1v1a1 1 0 11-2 0V3a1 1 0 011-1zm4 8a4 4 0 11-8 0 4 4 0 018 0zm-.464 4.95l.707.707a1 1 0 001.414-1.414l-.707-.707a1 1 0 00-1.414 1.414zm2.12-10.607a1 1 0 010 1.414l-.706.707a1 1 0 11-1.414-1.414l.707-.707a1 1 0 011.414 0zM17 11a1 1 0 100-2h-1a1 1 0 100 2h1zm-7 4a1 1 0 011 1v1a1 1 0 11-2 0v-1a1 1 0 011-1zM5.05 6.464A1 1 0 106.465 5.05l-.708-.707a1 1 0 00-1.414 1.414l.707.707zm1.414 8.486l-.707.707a1 1 0 01-1.414-1.414l.707-.707a1 1 0 011.414 1.414zM4 11a1 1 0 100-2H3a1 1 0 000 2h1z\" clip-rule=\"evenodd\"/>\n\t</svg>\n\t\n\t<!-- Moon icon for dark mode -->\n\t<svg \n\t\tid=\"moon-icon\" \n\t\tclass=\"w-5 h-5\" \n\t\tfill=\"currentColor\" \n\t\tviewBox=\"0 0 20 20\"\n\t>\n\t\t<path d=\"M17.293 13.293A8 8 0 016.707 2.707a8.001 8.001 0 1010.586 10.586z\"/>\n\t</svg>\n</button>\n\n<script>\n\t// Theme toggle functionality\n\tconst themeToggle = document.getElementById('theme-toggle');\n\tconst sunIcon = document.getElementById('sun-icon');\n\tconst moonIcon = document.getElementById('moon-icon');\n\tconst html = document.documentElement;\n\n\t// Check for saved theme preference or default to light mode\n\tconst currentTheme = localStorage.getItem('theme') || 'light';\n\t\n\tif (currentTheme === 'dark') {\n\t\thtml.classList.add('dark');\n\t\tsunIcon.classList.remove('hidden');\n\t\tmoonIcon.classList.add('hidden');\n\t} else {\n\t\thtml.classList.remove('dark');\n\t\tsunIcon.classList.add('hidden');\n\t\tmoonIcon.classList.remove('hidden');\n\t}\n\n\t// Toggle theme\n\tthemeToggle?.addEventListener('click', () => {\n\t\tif (html.classList.contains('dark')) {\n\t\t\thtml.classList.remove('dark');\n\t\t\tlocalStorage.setItem('theme', 'light');\n\t\t\tsunIcon.classList.add('hidden');\n\t\t\tmoonIcon.classList.remove('hidden');\n\t\t} else {\n\t\t\thtml.classList.add('dark');\n\t\t\tlocalStorage.setItem('theme', 'dark');\n\t\t\tsunIcon.classList.remove('hidden');\n\t\t\tmoonIcon.classList.add('hidden');\n\t\t}\n\t});\n\n\t// Listen for system theme changes\n\tconst mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');\n\tmediaQuery.addEventListener('change', (e) => {\n\t\tif (!localStorage.getItem('theme')) {\n\t\t\tif (e.matches) {\n\t\t\t\thtml.classList.add('dark');\n\t\t\t\tsunIcon.classList.remove('hidden');\n\t\t\t\tmoonIcon.classList.add('hidden');\n\t\t\t} else {\n\t\t\t\thtml.classList.remove('dark');\n\t\t\t\tsunIcon.classList.add('hidden');\n\t\t\t\tmoonIcon.classList.remove('hidden');\n\t\t\t}\n\t\t}\n\t});\n</script>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/open-source-alternatives/src/components/ThemeToggle.astro",
+      "exists": false
+    },
+    "title": "home/noah/open-source-alternatives/src/components/ThemeToggle.astro",
+    "time": {
+      "start": 1759362831291,
+      "end": 1759362831292
+    }
+  }
+}

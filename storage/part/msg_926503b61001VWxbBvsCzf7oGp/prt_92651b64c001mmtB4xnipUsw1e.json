@@ -1,0 +1,26 @@
+{
+  "id": "prt_92651b64c001mmtB4xnipUsw1e",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_da0be62e04894705b8550934",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "python3 /home/noah/proprietary-scanner.py --config config.json --verbose",
+      "description": "Test the tool with Flatpak support enabled"
+    },
+    "output": "Detected package manager: pacman\nScanning for proprietary software...\nFound 2 proprietary software items\nName     Version    License      Source          Path/Package Manager\n---------------------------------------------------------------------\nlicenses 20240728-1 proprietary  package_manager pacman\nsteam    1.0.0.82-2 proprietary  package_manager pacman\n",
+    "metadata": {
+      "output": "Detected package manager: pacman\nScanning for proprietary software...\nFound 2 proprietary software items\nName     Version    License      Source          Path/Package Manager\n---------------------------------------------------------------------\nlicenses 20240728-1 proprietary  package_manager pacman\nsteam    1.0.0.82-2 proprietary  package_manager pacman\n",
+      "exit": 0,
+      "description": "Test the tool with Flatpak support enabled"
+    },
+    "title": "python3 /home/noah/proprietary-scanner.py --config config.json --verbose",
+    "time": {
+      "start": 1757284513360,
+      "end": 1757284513561
+    }
+  }
+}

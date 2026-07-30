@@ -1,0 +1,1 @@
+{"id":"prt_8ac6988a4011zAUzFIClC15XUH","messageID":"msg_7b5609258001Qyk5Vyw0EgbqgI","sessionID":"ses_84ab1f227ffeB7ANHsPKN4G4BG","type":"text","text":"Perfect! The fix worked. The `__main__.py` file I created allows the package to be run with `python -m propscan`. Let's test it with a quick scan:"}

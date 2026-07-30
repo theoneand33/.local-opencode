@@ -1,0 +1,11 @@
+{
+  "id": "prt_9a22528bf002lU857D1j9OgZCF",
+  "messageID": "msg_9a22523a4001w2yA2Oi9HTi6PZ",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "text",
+  "text": "\n\nFixed! The issue was having two `---` frontmatter separators instead of one. The website should now work properly.",
+  "time": {
+    "start": 1759361969213,
+    "end": 1759361969213
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "prt_9a2048815001jXTktUl6t3m0T4",
+  "messageID": "msg_9a2048142001dcH7AfC36h76Fe",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "list",
+  "callID": "call_1051563d4fd346d3a3e1a92a",
+  "state": {
+    "status": "completed",
+    "input": {
+      "path": "/home/noah/open-source-alternatives"
+    },
+    "output": "/home/noah/open-source-alternatives/\n  public/\n    favicon.svg\n  src/\n    pages/\n      index.astro\n  .gitignore\n  README.md\n  astro.config.mjs\n  package.json\n  tsconfig.json\n",
+    "metadata": {
+      "count": 7,
+      "truncated": false
+    },
+    "title": "home/noah/open-source-alternatives",
+    "time": {
+      "start": 1759359830053,
+      "end": 1759359830064
+    }
+  }
+}

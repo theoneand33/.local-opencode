@@ -1,0 +1,26 @@
+{
+  "id": "prt_8accd371d001sQ4zJzceDIQW1U",
+  "messageID": "msg_8acccf6ac001PCUcuM9fJ1cffp",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_df56b87058b6491ebe56c560",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/speech-to-text-app/README.md",
+      "content": "# Speech to Text App for Linux\n\nA Linux speech-to-text application that activates with a keyboard shortcut and provides both online (Whisper API) and offline transcription capabilities.\n\n## Features\n\n- **Keyboard Shortcut Activation**: Customizable global keyboard shortcut (default: Ctrl+Shift+S)\n- **GUI Interface**: Simple GTK-based interface with recording indicator\n- **Dual Mode Support**: \n  - Online mode using OpenAI Whisper API\n  - Offline mode using local Whisper models\n- **Model Management**: Download and use different Whisper model sizes (tiny, base, small, medium, large)\n- **Text Output**: Editable text area for transcribed content\n- **Configuration Persistence**: Settings saved between sessions\n\n## Installation\n\n1. Install system dependencies:\n```bash\nsudo apt-get install python3-pip python3-gi python3-gi-cairo gir1.2-gtk-3.0 portaudio19-dev\n```\n\n2. Install Python dependencies:\n```bash\npip install -r requirements.txt\n```\n\n3. Set up environment variables (for API mode):\n```bash\ncp .env.example .env\n# Edit .env file with your OpenAI API key\n```\n\n## Usage\n\n1. Run the application:\n```bash\npython3 main.py\n```\n\n2. Use the GUI or press the keyboard shortcut (default: Ctrl+Shift+S) to start/stop recording\n\n3. Choose between API and offline modes in the settings\n\n4. For offline mode, select your preferred model size and click \"Download Models\" if needed\n\n## Configuration\n\n- **Shortcut**: Change the global keyboard shortcut in the settings\n- **Mode**: Toggle between Whisper API and offline transcription\n- **Model**: Select Whisper model size (tiny=fastest/least accurate, large=slowest/most accurate)\n\n## Requirements\n\n- Python 3.7+\n- GTK 3\n- PortAudio\n- Internet connection (for API mode and initial model downloads)\n\n## Notes\n\n- First time using offline mode will download the selected model (may take a while)\n- API mode requires an OpenAI API key with access to Whisper\n- The application saves configuration to `~/.speech-to-text-config.json`"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/speech-to-text-app/README.md",
+      "exists": false
+    },
+    "title": "speech-to-text-app/README.md",
+    "time": {
+      "start": 1755245786914,
+      "end": 1755245786915
+    }
+  }
+}

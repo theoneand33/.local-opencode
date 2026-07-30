@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a237a2b0001ys3Yn2gXjq136B",
+  "messageID": "msg_9a237481a001irkPkV08XY8ETp",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_b7b31d256ae84366a0c5fcfc",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/pages/index.astro",
+      "limit": 20,
+      "offset": 30
+    },
+    "output": "<file>\n00031| \t\t\t\t\t\tView Featured\n00032| \t\t\t\t\t</a>\n00033| \t\t\t\t</div>\n00034| \t\t\t</div>\n00035| \t\t</div>\n00036| \t</section>\n00037| \n00038| \t<!-- Stats Section -->\n00039| \t<section class=\"bg-white py-16 border-b border-secondary-200\">\n00040| \t\t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n00041| \t\t\t<div class=\"grid grid-cols-2 lg:grid-cols-4 gap-8\">\n00042| \t\t\t\t<div class=\"text-center\">\n00043| \t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">{softwareData.length}+</div>\n00044| \t\t\t\t\t<div class=\"text-secondary-600\">Software Alternatives</div>\n00045| \t\t\t\t</div>\n00046| \t\t\t\t<div class=\"text-center\">\n00047| \t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">13</div>\n00048| \t\t\t\t\t<div class=\"text-secondary-600\">Categories</div>\n00049| \t\t\t\t</div>\n00050| \t\t\t\t<div class=\"text-center\">\n\n(File has more lines. Use 'offset' parameter to read beyond line 50)\n</file>",
+    "metadata": {
+      "preview": "\t\t\t\t\t\tView Featured\n\t\t\t\t\t</a>\n\t\t\t\t</div>\n\t\t\t</div>\n\t\t</div>\n\t</section>\n\n\t<!-- Stats Section -->\n\t<section class=\"bg-white py-16 border-b border-secondary-200\">\n\t\t<div class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n\t\t\t<div class=\"grid grid-cols-2 lg:grid-cols-4 gap-8\">\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">{softwareData.length}+</div>\n\t\t\t\t\t<div class=\"text-secondary-600\">Software Alternatives</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">\n\t\t\t\t\t<div class=\"text-3xl font-bold text-primary-600 mb-2\">13</div>\n\t\t\t\t\t<div class=\"text-secondary-600\">Categories</div>\n\t\t\t\t</div>\n\t\t\t\t<div class=\"text-center\">"
+    },
+    "title": "home/noah/open-source-alternatives/src/pages/index.astro",
+    "time": {
+      "start": 1759363179189,
+      "end": 1759363179195
+    }
+  }
+}

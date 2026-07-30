@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d076f0ef001kglgNrTKiooeTp",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_88096470",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/CustomHeading.vue",
+      "content": "<template>\n  <component :is=\"tag\" :class=\"headingClass\" :style=\"headingStyle\">\n    <slot></slot>\n  </component>\n</template>\n\n<script setup lang=\"ts\">\ninterface Props {\n  tag?: 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6';\n  size?: 'small' | 'medium' | 'large' | 'xlarge';\n  color?: 'primary' | 'accent' | 'secondary';\n  weight?: 'normal' | 'medium' | 'semibold' | 'bold';\n  align?: 'left' | 'center' | 'right';\n}\n\nconst props = withDefaults(defineProps<Props>(), {\n  tag: 'h2',\n  size: 'medium',\n  color: 'accent',\n  weight: 'semibold',\n  align: 'left'\n});\n\nconst sizeClasses = {\n  small: 'text-lg',\n  medium: 'text-xl',\n  large: 'text-2xl',\n  xlarge: 'text-3xl'\n};\n\nconst colorClasses = {\n  primary: 'text-gray-300',\n  accent: 'text-blue-400',\n  secondary: 'text-gray-400'\n};\n\nconst weightClasses = {\n  normal: 'font-normal',\n  medium: 'font-medium',\n  semibold: 'font-semibold',\n  bold: 'font-bold'\n};\n\nconst alignClasses = {\n  left: 'text-left',\n  center: 'text-center',\n  right: 'text-right'\n};\n\nconst headingClass = computed(() => [\n  sizeClasses[props.size],\n  colorClasses[props.color],\n  weightClasses[props.weight],\n  alignClasses[props.align]\n]);\n\nconst headingStyle = computed(() => ({\n  color: getColorValue(props.color)\n}));\n\nfunction getColorValue(color: string) {\n  const colors = {\n    primary: 'rgb(209, 213, 219)', // gray-300\n    accent: 'rgb(96, 165, 250)', // blue-400\n    secondary: 'rgb(156, 163, 175)' // gray-400\n  };\n  return colors[color as keyof typeof colors] || colors.accent;\n}\n</script>\n\n<style scoped>\n/* Ensure the styles are applied */\nh1, h2, h3, h4, h5, h6 {\n  color: inherit !important;\n}\n</style>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "filepath": "/home/noah/degoogle-site/src/components/CustomHeading.vue",
+      "exists": false
+    },
+    "title": "degoogle-site/src/components/CustomHeading.vue",
+    "time": {
+      "start": 1755844112629,
+      "end": 1755844112633
+    }
+  }
+}

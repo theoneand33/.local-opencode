@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264a94b0001420tPwO2xMmoAy",
+  "messageID": "msg_9264a3d2a001m0Yk0FOL4RM3T3",
+  "sessionID": "ses_6d9b5c3c7ffe4ER4OW2DWxInbQ",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_72144010",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary_scanner.sh",
+      "content": "#!/bin/bash\n\necho \"Proprietary Software Scanner for Linux\"\necho \"======================================\"\necho \"Scanning installed packages for potentially proprietary software...\"\necho \"\"\n\n# Function to check if a package is from official repos\nis_official_repo() {\n    local repo=\"$1\"\n    case \"$repo\" in\n        core|extra|community|multilib)\n            return 0  # true\n            ;;\n        *)\n            return 1  # false\n            ;;\n    esac\n}\n\n# Get list of installed packages\npackages=$(pacman -Q | awk '{print $1}')\n\ntotal_packages=$(echo \"$packages\" | wc -l)\necho \"Total installed packages: $total_packages\"\necho \"\"\n\nproprietary_count=0\n\nfor pkg in $packages; do\n    # Get repository info\n    repo_info=$(pacman -Qi \"$pkg\" 2>/dev/null | grep \"Repository\" | awk '{print $3}')\n    \n    if [[ -z \"$repo_info\" ]]; then\n        repo_info=\"AUR/Unknown\"\n    fi\n    \n    if ! is_official_repo \"$repo_info\"; then\n        echo \"$pkg (Repository: $repo_info) - Potentially proprietary\"\n        ((proprietary_count++))\n    fi\ndone\n\necho \"\"\necho \"Scan complete.\"\necho \"Potentially proprietary packages found: $proprietary_count\"\necho \"\"\necho \"Note: This tool flags packages not from official Arch/CachyOS repositories.\"\necho \"Some AUR packages may still be free software. Check licenses manually for accuracy.\""
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/proprietary_scanner.sh",
+      "exists": false
+    },
+    "title": "home/noah/proprietary_scanner.sh",
+    "time": {
+      "start": 1757284046004,
+      "end": 1757284046008
+    }
+  }
+}

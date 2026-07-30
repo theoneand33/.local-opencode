@@ -1,0 +1,1 @@
+{"id":"prt_8ac698871001sGQYRs66CRBrJY","messageID":"msg_7ba646234001czjYsgHV97E2gF","sessionID":"ses_8459b9e38ffe80kSsDzdSyVs6x","type":"text","text":"Great! The scanner is working for Pacman but not detecting anything for Flatpak. Let me debug the Flatpak scanning specifically. Let me test the flatpak info command that the scanner uses:"}

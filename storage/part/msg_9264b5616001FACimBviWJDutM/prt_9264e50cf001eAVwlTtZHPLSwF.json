@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264e50cf001eAVwlTtZHPLSwF",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_beb2bbdfcb2348fa946a5e89",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/proprietary-scanner.py",
+      "oldString": "def scan_filesystem(self, scan_dirs: List[str] = None) -> List[SoftwareInfo]:\n        \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n        if scan_dirs is None:\n            scan_dirs = ['/usr/bin', '/usr/local/bin', '/opt', '/home']\n        \n        results = []\n        \n        for directory in scan_dirs:\n            if not os.path.exists(directory):\n                continue\n            \n            try:\n                for root, dirs, files in os.walk(directory):\n                    # Skip hidden directories and system directories\n                    dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ['proc', 'sys', 'dev']]\n                    \n                    for file in files:\n                        file_path = os.path.join(root, file)\n                        if self._is_executable(file_path):\n                            license_type = self._analyze_binary(file_path)\n                            if license_type == 'proprietary':\n                                results.append(SoftwareInfo(\n                                    name=file,\n                                    version='',\n                                    license_type=license_type,\n                                    source='file_system',\n                                    path=file_path\n                                ))\n            except PermissionError:\n                continue\n        \n        return results",
+      "newString": "def scan_filesystem(self, scan_dirs: List[str] = None) -> List[SoftwareInfo]:\n        \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n        if scan_dirs is None:\n            scan_dirs = self.config.get('scan_directories', ['/usr/bin', '/usr/local/bin', '/opt', '/home'])\n        \n        results = []\n        \n        for directory in scan_dirs:\n            if not os.path.exists(directory):\n                continue\n            \n            try:\n                for root, dirs, files in os.walk(directory):\n                    # Skip hidden directories and excluded directories\n                    dirs[:] = [d for d in dirs if not d.startswith('.') and d not in self.exclude_directories]\n                    \n                    for file in files:\n                        file_path = os.path.join(root, file)\n                        if self._is_executable(file_path):\n                            license_type = self._analyze_binary(file_path)\n                            if license_type == 'proprietary':\n                                results.append(SoftwareInfo(\n                                    name=file,\n                                    version='',\n                                    license_type=license_type,\n                                    source='file_system',\n                                    path=file_path\n                                ))\n            except PermissionError:\n                continue\n        \n        return results"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/proprietary-scanner.py\n===================================================================\n--- /home/noah/proprietary-scanner.py\n+++ /home/noah/proprietary-scanner.py\n@@ -328,9 +328,9 @@\n \n def scan_filesystem(self, scan_dirs: List[str] = None) -> List[SoftwareInfo]:\n     \"\"\"Scan filesystem for proprietary binaries.\"\"\"\n     if scan_dirs is None:\n-        scan_dirs = ['/usr/bin', '/usr/local/bin', '/opt', '/home']\n+        scan_dirs = self.config.get('scan_directories', ['/usr/bin', '/usr/local/bin', '/opt', '/home'])\n     \n     results = []\n     \n     for directory in scan_dirs:\n@@ -338,10 +338,10 @@\n             continue\n         \n         try:\n             for root, dirs, files in os.walk(directory):\n-                # Skip hidden directories and system directories\n-                dirs[:] = [d for d in dirs if not d.startswith('.') and d not in ['proc', 'sys', 'dev']]\n+                # Skip hidden directories and excluded directories\n+                dirs[:] = [d for d in dirs if not d.startswith('.') and d not in self.exclude_directories]\n                 \n                 for file in files:\n                     file_path = os.path.join(root, file)\n                     if self._is_executable(file_path):\n"
+    },
+    "title": "home/noah/proprietary-scanner.py",
+    "time": {
+      "start": 1757284290777,
+      "end": 1757284290794
+    }
+  }
+}

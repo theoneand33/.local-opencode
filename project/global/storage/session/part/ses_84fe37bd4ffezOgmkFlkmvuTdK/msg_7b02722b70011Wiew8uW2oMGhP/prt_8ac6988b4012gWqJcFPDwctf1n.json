@@ -1,0 +1,1 @@
+{"id":"prt_8ac6988b4012gWqJcFPDwctf1n","messageID":"msg_7b02722b70011Wiew8uW2oMGhP","sessionID":"ses_84fe37bd4ffezOgmkFlkmvuTdK","type":"text","text":"The system has an externally managed Python environment (common on newer Linux distributions). Let me create a version that uses a virtual environment or the `--break-system-packages` flag:"}

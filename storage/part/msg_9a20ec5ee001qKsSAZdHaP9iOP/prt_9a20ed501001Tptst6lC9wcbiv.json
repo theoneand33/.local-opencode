@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a20ed501001Tptst6lC9wcbiv",
+  "messageID": "msg_9a20ec5ee001qKsSAZdHaP9iOP",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_170c6b7fcb694d72af8c9257",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "oldString": "\t</head>\n\t<body class=\"bg-white text-secondary-900 font-sans antialiased\">",
+      "newString": "\t</head>\n\t<body class=\"bg-white text-secondary-900 font-sans antialiased\">\n\t\t<style>\n\t\t\t@import url('../global.css');\n\t\t</style>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/layouts/Layout.astro\n+++ /home/noah/open-source-alternatives/src/layouts/Layout.astro\n@@ -33,8 +33,11 @@\n \t<meta name=\"twitter:description\" content={description} />\n \t<meta name=\"twitter:image\" content={image} />\n </head>\n <body class=\"bg-white text-secondary-900 font-sans antialiased\">\n+\t<style>\n+\t\t@import url('../global.css');\n+\t</style>\n \t<header class=\"sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-secondary-200\">\n \t\t<nav class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n \t\t\t<div class=\"flex justify-between items-center h-16\">\n \t\t\t\t<div class=\"flex items-center\">\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759360505091,
+      "end": 1759360505114
+    }
+  }
+}

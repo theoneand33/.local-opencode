@@ -1,0 +1,26 @@
+{
+  "id": "prt_9264fb3e60019G3N8HV2X18lF5",
+  "messageID": "msg_9264b5616001FACimBviWJDutM",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "bash",
+  "callID": "call_f2351d30ddb844319edebb73",
+  "state": {
+    "status": "completed",
+    "input": {
+      "command": "python3 /home/noah/proprietary-scanner.py --config config.json",
+      "description": "Test the tool with the configuration file"
+    },
+    "output": "Name     Version    License      Source          Path/Package Manager\n---------------------------------------------------------------------\nlicenses 20240728-1 proprietary  package_manager pacman\nsteam    1.0.0.82-2 proprietary  package_manager pacman\n",
+    "metadata": {
+      "output": "Name     Version    License      Source          Path/Package Manager\n---------------------------------------------------------------------\nlicenses 20240728-1 proprietary  package_manager pacman\nsteam    1.0.0.82-2 proprietary  package_manager pacman\n",
+      "exit": 0,
+      "description": "Test the tool with the configuration file"
+    },
+    "title": "python3 /home/noah/proprietary-scanner.py --config config.json",
+    "time": {
+      "start": 1757284381675,
+      "end": 1757284381949
+    }
+  }
+}

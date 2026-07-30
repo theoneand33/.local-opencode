@@ -1,0 +1,26 @@
+{
+  "id": "prt_926518982001J8nXgEiJoTGjPf",
+  "messageID": "msg_926503b61001VWxbBvsCzf7oGp",
+  "sessionID": "ses_6d9b4aaecffet33kjFOiHfRk8H",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_c28648fff0a74d61a36b50dc",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/README.md",
+      "oldString": "### Adding New Proprietary Packages\n\nTo add new proprietary packages to the database, edit the `known_proprietary_packages` section in the configuration file:\n\n```json\n{\n  \"known_proprietary_packages\": {\n    \"existing-package\": \"proprietary\",\n    \"new-proprietary-package\": \"proprietary\"\n  }\n}\n```",
+      "newString": "### Adding New Proprietary Packages\n\nTo add new proprietary packages to the database, edit the `known_proprietary_packages` section in the configuration file:\n\n```json\n{\n  \"known_proprietary_packages\": {\n    \"existing-package\": \"proprietary\",\n    \"new-proprietary-package\": \"proprietary\",\n    \"com.example.NewApp\": \"proprietary\"\n  }\n}\n```\n\n**Note:** For Flatpak packages, use the full application ID (e.g., `com.google.Chrome` instead of just `chrome`)."
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/README.md\n===================================================================\n--- /home/noah/README.md\n+++ /home/noah/README.md\n@@ -316,13 +316,16 @@\n ```json\n {\n   \"known_proprietary_packages\": {\n     \"existing-package\": \"proprietary\",\n-    \"new-proprietary-package\": \"proprietary\"\n+    \"new-proprietary-package\": \"proprietary\",\n+    \"com.example.NewApp\": \"proprietary\"\n   }\n }\n ```\n \n+**Note:** For Flatpak packages, use the full application ID (e.g., `com.google.Chrome` instead of just `chrome`).\n+\n ### Adding New Proprietary Companies\n \n To add new companies to the detection list, edit the `proprietary_companies` section:\n \n"
+    },
+    "title": "home/noah/README.md",
+    "time": {
+      "start": 1757284501892,
+      "end": 1757284502205
+    }
+  }
+}

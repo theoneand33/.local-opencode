@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d05795d0001UMIlHGq8yht809",
+  "messageID": "msg_8d05759f1001VNBu3fKUQ39v6p",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_75700847",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/components/PorscheHero.vue",
+      "oldString": "<template>\n  <section class=\"bg-gradient-to-r from-blue-50 to-indigo-100 py-20\">\n    <div class=\"container mx-auto text-center\">\n      <p-heading tag=\"h1\" size=\"large\" class=\"mb-4\">De-Google Your Life</p-heading>\n      <p-text size=\"large\" class=\"mb-8 max-w-2xl mx-auto block\">\n        Take control of your digital privacy. Discover how to reduce your reliance on Google services\n        and embrace a more private, independent online experience.\n      </p-text>\n      <p-button href=\"/alternatives\" variant=\"primary\">Get Started</p-button>\n    </div>\n  </section>\n</template>",
+      "newString": "<template>\n  <section class=\"bg-gradient-to-r from-gray-800 to-gray-900 py-20\">\n    <div class=\"container mx-auto text-center\">\n      <p-heading tag=\"h1\" size=\"large\" class=\"mb-4\">De-Google Your Life</p-heading>\n      <p-text size=\"large\" class=\"mb-8 max-w-2xl mx-auto block text-gray-300\">\n        Take control of your digital privacy. Discover how to reduce your reliance on Google services\n        and embrace a more private, independent online experience.\n      </p-text>\n      <p-button href=\"/alternatives\" variant=\"primary\">Get Started</p-button>\n    </div>\n  </section>\n</template>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/components/PorscheHero.vue\n===================================================================\n--- /home/noah/degoogle-site/src/components/PorscheHero.vue\n+++ /home/noah/degoogle-site/src/components/PorscheHero.vue\n@@ -1,9 +1,9 @@\n <template>\n-  <section class=\"bg-gradient-to-r from-blue-50 to-indigo-100 py-20\">\n+  <section class=\"bg-gradient-to-r from-gray-800 to-gray-900 py-20\">\n     <div class=\"container mx-auto text-center\">\n       <p-heading tag=\"h1\" size=\"large\" class=\"mb-4\">De-Google Your Life</p-heading>\n-      <p-text size=\"large\" class=\"mb-8 max-w-2xl mx-auto block\">\n+      <p-text size=\"large\" class=\"mb-8 max-w-2xl mx-auto block text-gray-300\">\n         Take control of your digital privacy. Discover how to reduce your reliance on Google services\n         and embrace a more private, independent online experience.\n       </p-text>\n       <p-button href=\"/alternatives\" variant=\"primary\">Get Started</p-button>\n"
+    },
+    "title": "degoogle-site/src/components/PorscheHero.vue",
+    "time": {
+      "start": 1755842057683,
+      "end": 1755842057710
+    }
+  }
+}

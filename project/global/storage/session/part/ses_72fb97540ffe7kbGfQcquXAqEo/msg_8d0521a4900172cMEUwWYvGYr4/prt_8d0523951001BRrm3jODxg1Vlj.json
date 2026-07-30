@@ -1,0 +1,26 @@
+{
+  "id": "prt_8d0523951001BRrm3jODxg1Vlj",
+  "messageID": "msg_8d0521a4900172cMEUwWYvGYr4",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "write",
+  "callID": "call_82224696",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/porsche-demo.astro",
+      "content": "---\nimport PorscheHeader from '../components/PorscheHeader.vue';\nimport PorscheHero from '../components/PorscheHero.vue';\nimport PorscheServiceCard from '../components/PorscheServiceCard.vue';\nimport { getComponentChunkLinks, getFontFaceStyles, getFontLinks, getIconLinks, getInitialStyles, getLoaderScript, getMetaTagsAndIconLinks } from '@porsche-design-system/components-js/partials';\n---\n\n<!doctype html>\n<html lang=\"en\">\n  <head>\n    <meta charset=\"UTF-8\" />\n    <meta name=\"description\" content=\"Porsche Design System Demo - DeGoogle Guide\" />\n    <meta name=\"viewport\" content=\"width=device-width, initial-scale=1.0\" />\n    <meta name=\"generator\" content={Astro.generator} />\n    <title>Porsche Design System Demo - DeGoogle Guide</title>\n    <!-- Porsche Design System partials for optimal performance -->\n    <Fragment set:html={getInitialStyles()} />\n    <Fragment set:html={getFontFaceStyles()} />\n    <Fragment set:html={getFontLinks()} />\n    <Fragment set:html={getComponentChunkLinks()} />\n    <Fragment set:html={getIconLinks()} />\n    <Fragment set:html={getMetaTagsAndIconLinks({ appTitle: 'DeGoogle Guide' })} />\n  </head>\n  <body class=\"bg-white text-gray-900 min-h-screen\">\n    <PorscheHeader client:load />\n    <PorscheHero client:load />\n\n    <section class=\"py-12 bg-gray-50\">\n      <div class=\"container mx-auto\">\n        <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Why De-Google?</p-heading>\n        <div class=\"grid md:grid-cols-2 lg:grid-cols-3 gap-6\">\n          <PorscheServiceCard\n            title=\"Privacy Concerns\"\n            description=\"Google tracks your every move across services. De-Googling helps protect your personal data.\"\n            icon=\"🔒\"\n            client:load\n          />\n          <PorscheServiceCard\n            title=\"Data Ownership\"\n            description=\"Take control of your data instead of letting Google monetize it without your consent.\"\n            icon=\"📊\"\n            client:load\n          />\n          <PorscheServiceCard\n            title=\"Digital Freedom\"\n            description=\"Break free from vendor lock-in and choose services that align with your values.\"\n            icon=\"🕊️\"\n            client:load\n          />\n        </div>\n      </div>\n    </section>\n\n    <section class=\"py-12 bg-white\">\n      <div class=\"container mx-auto\">\n        <p-heading tag=\"h2\" size=\"large\" class=\"mb-8 text-center\">Porsche Design System Features</p-heading>\n        <div class=\"grid md:grid-cols-2 gap-8\">\n          <div class=\"bg-white p-6 rounded-lg shadow-sm border\">\n            <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Consistent Design</p-heading>\n            <p-text>\n              The Porsche Design System provides a comprehensive set of components that ensure\n              consistency across all digital touchpoints while maintaining the brand's premium aesthetic.\n            </p-text>\n          </div>\n          <div class=\"bg-white p-6 rounded-lg shadow-sm border\">\n            <p-heading tag=\"h3\" size=\"medium\" class=\"mb-4\">Performance Optimized</p-heading>\n            <p-text>\n              Built with performance in mind, the system includes optimized loading strategies,\n              font preloading, and component chunking for the best user experience.\n            </p-text>\n          </div>\n        </div>\n      </div>\n    </section>\n\n    <footer class=\"bg-gray-100 p-4 mt-8 border-t\">\n      <div class=\"container mx-auto text-center text-gray-600\">\n        <p>&copy; 2024 DeGoogle Guide. Take back your privacy.</p>\n        <p-link href=\"/\" variant=\"secondary\" class=\"mt-2\">← Back to Main Site</p-link>\n      </div>\n    </footer>\n    <Fragment set:html={getLoaderScript()} />\n  </body>\n</html>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "filepath": "/home/noah/degoogle-site/src/pages/porsche-demo.astro",
+      "exists": true
+    },
+    "title": "degoogle-site/src/pages/porsche-demo.astro",
+    "time": {
+      "start": 1755841706325,
+      "end": 1755841706328
+    }
+  }
+}

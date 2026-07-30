@@ -1,0 +1,28 @@
+{
+  "id": "prt_8d07719a30010mMVIjof8wW4tb",
+  "messageID": "msg_8d076822500167EzAtoHRdxboC",
+  "sessionID": "ses_72fb97540ffe7kbGfQcquXAqEo",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_57094574",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "degoogle-site/src/pages/index.astro",
+      "oldString": "      <p-heading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</p-heading>\n      <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n        This site is built with the Porsche Design System, delivering a premium, consistent user experience\n        with optimized performance and accessibility.\n      </p-text>",
+      "newString": "      <CustomHeading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</CustomHeading>\n      <CustomText size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n        This site is built with the Porsche Design System, delivering a premium, consistent user experience\n        with optimized performance and accessibility.\n      </CustomText>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {
+        "/home/noah/degoogle-site/astro.config.mjs": []
+      },
+      "diff": "Index: /home/noah/degoogle-site/src/pages/index.astro\n===================================================================\n--- /home/noah/degoogle-site/src/pages/index.astro\n+++ /home/noah/degoogle-site/src/pages/index.astro\n@@ -36,12 +36,12 @@\n   </section>\n \n   <section class=\"py-12 bg-gray-800\">\n     <div class=\"container mx-auto text-center\">\n-      <p-heading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</p-heading>\n-      <p-text size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n+      <CustomHeading tag=\"h2\" size=\"large\" class=\"mb-4\">Premium Design System</CustomHeading>\n+      <CustomText size=\"large\" class=\"mb-6 max-w-2xl mx-auto\">\n         This site is built with the Porsche Design System, delivering a premium, consistent user experience\n         with optimized performance and accessibility.\n-      </p-text>\n+      </CustomText>\n     </div>\n   </section>\n </Layout>\n"
+    },
+    "title": "degoogle-site/src/pages/index.astro",
+    "time": {
+      "start": 1755844123044,
+      "end": 1755844123050
+    }
+  }
+}

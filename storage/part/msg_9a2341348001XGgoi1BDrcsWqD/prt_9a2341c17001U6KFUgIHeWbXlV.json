@@ -1,0 +1,25 @@
+{
+  "id": "prt_9a2341c17001U6KFUgIHeWbXlV",
+  "messageID": "msg_9a2341348001XGgoi1BDrcsWqD",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "read",
+  "callID": "call_6b314d2e3a8e4fe18af420e7",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "limit": 30,
+      "offset": 30
+    },
+    "output": "<file>\n00031| \t\t<meta property=\"og:image\" content={image} />\n00032| \t\t<meta property=\"og:type\" content=\"website\" />\n00033| \t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n00034| \t\t<meta name=\"twitter:title\" content={title} />\n00035| \t\t<meta name=\"twitter:description\" content={description} />\n00036| \t\t<meta name=\"twitter:image\" content={image} />\n00037| \t</head>\n00038| \t<body class=\"bg-white text-secondary-900 font-sans antialiased\">\n00039| \t\t<style>\n00040| \t\t\t@import url('../global.css');\n00041| \t\t</style>\n00042| \t\t<header class=\"sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-secondary-200\">\n00043| \t\t\t<nav class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n00044| \t\t\t\t<div class=\"flex justify-between items-center h-16\">\n00045| \t\t\t\t\t<div class=\"flex items-center\">\n00046| \t\t\t\t\t\t<a href=\"/\" class=\"flex items-center space-x-2\">\n00047| \t\t\t\t\t\t\t<svg class=\"w-8 h-8 text-primary-600\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n00048| \t\t\t\t\t\t\t\t<path d=\"M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z\"/>\n00049| \t\t\t\t\t\t\t</svg>\n00050| \t\t\t\t\t\t\t<span class=\"text-xl font-bold text-secondary-900\">OpenAlt</span>\n00051| \t\t\t\t\t\t</a>\n00052| \t\t\t\t\t</div>\n00053| \t\t\t\t\t<div class=\"hidden md:flex items-center space-x-8\">\n00054| \t\t\t\t\t\t<a href=\"/\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Home</a>\n00055| \t\t\t\t\t\t<a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Categories</a>\n00056| \t\t\t\t\t\t<a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">About</a>\n00057| \t\t\t\t\t\t<a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 transition-colors\">Contribute</a>\n00058| \t\t\t\t\t</div>\n00059| \t\t\t\t\t<div class=\"md:hidden\">\n00060| \t\t\t\t\t\t<button class=\"text-secondary-600 hover:text-primary-600\">\n\n(File has more lines. Use 'offset' parameter to read beyond line 60)\n</file>",
+    "metadata": {
+      "preview": "\t\t<meta property=\"og:image\" content={image} />\n\t\t<meta property=\"og:type\" content=\"website\" />\n\t\t<meta name=\"twitter:card\" content=\"summary_large_image\" />\n\t\t<meta name=\"twitter:title\" content={title} />\n\t\t<meta name=\"twitter:description\" content={description} />\n\t\t<meta name=\"twitter:image\" content={image} />\n\t</head>\n\t<body class=\"bg-white text-secondary-900 font-sans antialiased\">\n\t\t<style>\n\t\t\t@import url('../global.css');\n\t\t</style>\n\t\t<header class=\"sticky top-0 z-50 bg-white/80 backdrop-blur-md border-b border-secondary-200\">\n\t\t\t<nav class=\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\">\n\t\t\t\t<div class=\"flex justify-between items-center h-16\">\n\t\t\t\t\t<div class=\"flex items-center\">\n\t\t\t\t\t\t<a href=\"/\" class=\"flex items-center space-x-2\">\n\t\t\t\t\t\t\t<svg class=\"w-8 h-8 text-primary-600\" fill=\"currentColor\" viewBox=\"0 0 24 24\">\n\t\t\t\t\t\t\t\t<path d=\"M12 2L2 7v10c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V7l-10-5z\"/>\n\t\t\t\t\t\t\t</svg>\n\t\t\t\t\t\t\t<span class=\"text-xl font-bold text-secondary-900\">OpenAlt</span>"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759362948119,
+      "end": 1759362948120
+    }
+  }
+}

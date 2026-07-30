@@ -1,0 +1,12 @@
+{
+  "id": "prt_8ac6c1082002P9RxCGXbgPcvF1",
+  "type": "text",
+  "text": "make a speech to text program for linux that activates when you press a keyboard shortcut that can be changed and shows a little gui and works offline or with an api for whisper and lets you\ndownload different offline speech to text models",
+  "synthetic": false,
+  "time": {
+    "start": 0,
+    "end": 0
+  },
+  "messageID": "msg_8ac6c1082001dNh84Jkn9s7tnX",
+  "sessionID": "ses_75393ef7fffeJAezY7GsaikrXB"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "prt_9a244688100281OezKUDGRhhni",
+  "messageID": "msg_9a2445e76001z71wjA7929s83d",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "text",
+  "text": "\n\nPerfect! I've fixed all the custom dark color class issues by replacing them with standard Tailwind CSS classes. Here's what I corrected:\n\n## 🔧 **Dark Theme Fixes Applied**\n\n### **Problem Resolved:**\n- **Custom `dark-*` classes** were causing build errors\n- **Non-existent color utilities** like `bg-dark-bg`, `text-dark-text`, etc.\n\n### **Solution Implemented:**\n- **Replaced custom colors** with standard Tailwind secondary palette\n- **Used semantic color mapping**:\n  - `dark-bg` → `secondary-900` (dark background)\n  - `dark-surface` → `secondary-900` (dark surfaces)\n  - `dark-text` → `secondary-100` (primary dark text)\n  - `dark-textSecondary` → `secondary-400` (secondary dark text)\n  - `dark-border` → `secondary-700` (dark borders)\n\n### **Files Updated:**\n1. **`global.css`** - Fixed all component classes\n2. **`Layout.astro`** - Updated navigation and footer\n3. **`SoftwareCard.astro`** - Fixed card component styling\n4. **`index.astro`** - Updated homepage elements\n\n### **Benefits:**\n- ✅ **Build errors resolved**\n- ✅ **Consistent dark theme** across all components\n- ✅ **Standard Tailwind utilities** for better maintainability\n- ✅ **Proper color contrast** for accessibility\n\nThe dark theme should now work perfectly without any CSS errors!",
+  "time": {
+    "start": 1759364030493,
+    "end": 1759364030493
+  }
+}

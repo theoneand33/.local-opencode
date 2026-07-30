@@ -1,0 +1,10 @@
+[
+  {
+    "file": "hello.js",
+    "before": "",
+    "after": "console.log('Hello from OpenCode!');",
+    "additions": 1,
+    "deletions": 0,
+    "status": "added"
+  }
+]

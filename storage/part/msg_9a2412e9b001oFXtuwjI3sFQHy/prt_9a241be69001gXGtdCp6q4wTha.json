@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a241be69001gXGtdCp6q4wTha",
+  "messageID": "msg_9a2412e9b001oFXtuwjI3sFQHy",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_aa5281e72c454d348a7034b7",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/layouts/Layout.astro",
+      "oldString": "\t\t\t\t\t\t<a href=\"/\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Home</a>\n\t\t\t\t\t\t<a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Categories</a>\n\t\t\t\t\t\t<a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">About</a>\n\t\t\t\t\t\t<a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Contribute</a>",
+      "newString": "\t\t\t\t\t\t<a href=\"/\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Home</a>\n\t\t\t\t\t\t<a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Categories</a>\n\t\t\t\t\t\t<a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">About</a>\n\t\t\t\t\t\t<a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Contribute</a>"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/layouts/Layout.astro\n===================================================================\n--- /home/noah/open-source-alternatives/src/layouts/Layout.astro\n+++ /home/noah/open-source-alternatives/src/layouts/Layout.astro\n@@ -50,12 +50,12 @@\n \t\t<span class=\"text-xl font-bold text-secondary-900 dark:text-secondary-100\">OpenAlt</span>\n \t</a>\n </div>\n <div class=\"hidden md:flex items-center space-x-8\">\n-\t<a href=\"/\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Home</a>\n-\t<a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Categories</a>\n-\t<a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">About</a>\n-\t<a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 dark:text-dark-textSecondary dark:hover:text-primary-400 transition-colors\">Contribute</a>\n+\t<a href=\"/\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Home</a>\n+\t<a href=\"/categories\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Categories</a>\n+\t<a href=\"/about\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">About</a>\n+\t<a href=\"/contribute\" class=\"text-secondary-600 hover:text-primary-600 dark:text-secondary-400 dark:hover:text-primary-400 transition-colors\">Contribute</a>\n \t<ThemeToggle />\n </div>\n <div class=\"md:hidden flex items-center space-x-2\">\n \t<ThemeToggle />\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/layouts/Layout.astro",
+    "time": {
+      "start": 1759363841642,
+      "end": 1759363841658
+    }
+  }
+}

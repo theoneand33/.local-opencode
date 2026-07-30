@@ -1,0 +1,26 @@
+{
+  "id": "prt_9a23f9c740017oQXR0STwdwEcS",
+  "messageID": "msg_9a23f2ef8001krUqNc3EcFJ66d",
+  "sessionID": "ses_65dfd390dffeuqtVa5SPwuc7Rk",
+  "type": "tool",
+  "tool": "edit",
+  "callID": "call_87411c47b1e14551ae7d07d4",
+  "state": {
+    "status": "completed",
+    "input": {
+      "filePath": "/home/noah/open-source-alternatives/src/global.css",
+      "oldString": "\t.nav-header {\n\t\t@apply bg-white/80 backdrop-blur-md border-b border-secondary-200;\n\t}\n\t\n\t.dark .nav-header {\n\t\t@apply bg-dark-surface/90 border-dark-border;\n\t}",
+      "newString": "\t.nav-header {\n\t\t@apply bg-white/80 backdrop-blur-md border-b border-secondary-200;\n\t}\n\t\n\t.dark .nav-header {\n\t\t@apply bg-secondary-900/90 border-secondary-700;\n\t}"
+    },
+    "output": "",
+    "metadata": {
+      "diagnostics": {},
+      "diff": "Index: /home/noah/open-source-alternatives/src/global.css\n===================================================================\n--- /home/noah/open-source-alternatives/src/global.css\n+++ /home/noah/open-source-alternatives/src/global.css\n@@ -49,9 +49,9 @@\n   @apply bg-white/80 backdrop-blur-md border-b border-secondary-200;\n }\n \n .dark .nav-header {\n-  @apply bg-dark-surface/90 border-dark-border;\n+  @apply bg-secondary-900/90 border-secondary-700;\n }\n \n .footer-section {\n   @apply bg-secondary-50 border-t border-secondary-200;\n"
+    },
+    "title": "home/noah/open-source-alternatives/src/global.css",
+    "time": {
+      "start": 1759363701879,
+      "end": 1759363702242
+    }
+  }
+}
