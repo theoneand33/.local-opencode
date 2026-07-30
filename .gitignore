@@ -1,0 +1,10 @@
+opencode.db
+opencode.db-shm
+opencode.db-wal
+*.log
+log/
+snapshot/
+tool-output/
+bin/
+account.json
+auth.json
